@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2014-08-31 22:00+0000\n"
-"PO-Revision-Date: 2017-09-02 23:06+0300\n"
+"PO-Revision-Date: 2017-11-17 01:07+0200\n"
 "Last-Translator: Sotirios Vrachas <sotirios@vrachas.net>\n"
 "Language-Team: el <debian-l10n-greek@lists.debian.org>\n"
 "Language: el\n"
@@ -553,7 +553,7 @@ msgstr "καμία"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:30001
 msgid "Ext2 file system"
-msgstr "σύστημα αρχείων ext2"
+msgstr "Εxt2 σύστημα αρχείων"
 
 #. Type: text
 #. Description
@@ -568,7 +568,7 @@ msgstr "ext2"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:32001
 msgid "FAT16 file system"
-msgstr "σύστημα αρχείων FAT16"
+msgstr "FAT16 σύστημα αρχείων"
 
 #. Type: text
 #. Description
@@ -583,7 +583,7 @@ msgstr "fat16"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:34001
 msgid "FAT32 file system"
-msgstr "σύστημα αρχείων FAT32"
+msgstr "FAT32 σύστημα αρχείων"
 
 #. Type: text
 #. Description
@@ -597,9 +597,8 @@ msgstr "fat32"
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:36001
-#, fuzzy
 msgid "NTFS journaling file system"
-msgstr "σύστημα αρχείων JFS με journal"
+msgstr "NTFS journaling σύστημα αρχείων"
 
 #. Type: text
 #. Description
