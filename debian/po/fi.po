@@ -25,8 +25,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2014-08-31 22:00+0000\n"
-"PO-Revision-Date: 2013-08-19 15:04+0300\n"
-"Last-Translator: Timo Jyrinki <timo.jyrinki@iki.fi>\n"
+"PO-Revision-Date: 2018-01-04 06:20+0000\n"
+"Last-Translator: Joonas Karkkainen <joonas.karkkainen@msn.com>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -797,15 +797,14 @@ msgstr "Palataanko valikkoon korjaamaan tämä ongelma?"
 #. Description
 #. :sl5:
 #: ../partman-basicfilesystems.templates:60001
-#, fuzzy
 msgid ""
 "Your boot partition has not been configured with the ext2 file system. This "
 "is needed by your machine in order to boot. Please go back and use the ext2 "
 "file system."
 msgstr ""
-"Käynnistysosion tiedostojärjestelmä ei ole ext2 tai ext3. Järjestelmää ei "
-"voida käynnistää, jos se ei ole toinen näistä. Palaa takaisin ja käytä ext2- "
-"tai ext3-tiedostojärjestelmää."
+"Käynnistysosion tiedostojärjestelmä ei ole ext2. Järjestelmää ei voida "
+"käynnistää, jos se ei ole tämä. Palaa takaisin ja käytä ext2 "
+"tiedostojärjestelmää käynnistysosiossa."
 
 #. Type: boolean
 #. Description
@@ -828,12 +827,11 @@ msgstr ""
 #. Description
 #. :sl5:
 #: ../partman-basicfilesystems.templates:61001
-#, fuzzy
 msgid ""
 "Your boot partition is not located on the first partition of your hard disk. "
 "This is needed by your machine in order to boot.  Please go back and use "
 "your first partition as a boot partition."
 msgstr ""
-"Käynnistysosio ei ole kiintolevyn ensimmäisellä ensisijaisella levyosiolla. "
-"Tämä tarvitaan koneellasi jotta käynnistys onnistuu. Palaa takaisin ja käytä "
-"ensimmäistä ensisijaista osiota käynnistysosiona. "
+"Käynnistysosio ei ole kiintolevyn ensimmäisellä levyosiolla. Tämä tarvitaan "
+"koneellasi jotta käynnistys onnistuu. Palaa takaisin ja käytä ensimmäistä "
+"levyosiota käynnistysosiona."
