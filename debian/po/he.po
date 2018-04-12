@@ -28,14 +28,14 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2014-08-31 22:00+0000\n"
-"PO-Revision-Date: 2018-02-06 08:37+0000\n"
+"PO-Revision-Date: 2018-03-19 21:38+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Type: text
 #. Description
@@ -771,7 +771,7 @@ msgstr "acls - תמיכה ברשימות בקרת גישה (Access Control List)
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:59001
 msgid "shortnames - only use the old MS-DOS 8.3 style filenames"
-msgstr "shortnames - השתמש בשמות קבצים בסגנון MS-DOS 8.3"
+msgstr "shortnames - שימוש בשמות קבצים בסגנון MS-DOS 8.3 בלבד"
 
 #. Type: boolean
 #. Description
