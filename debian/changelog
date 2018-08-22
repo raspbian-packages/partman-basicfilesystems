@@ -1,10 +1,26 @@
-partman-basicfilesystems (138+rpi1) buster-staging; urgency=medium
+partman-basicfilesystems (139+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 97+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Thu, 31 Jul 2014 21:59:02 +0000]
   * Remove fat-modules and ext2-modules dependencies as Raspbian
     kernels have the support built in.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 12 Apr 2018 02:21:23 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Wed, 22 Aug 2018 12:37:40 +0000
+
+partman-basicfilesystems (139) unstable; urgency=medium
+
+  * Team upload
+
+  [ Cyril Brulebois ]
+  * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
+
+  [ Updated translations ]
+  * German (de.po) by Holger Wansing
+  * Finnish (fi.po) by Juhani Numminen
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Norwegian Nynorsk (nn.po) by Alexander Jansen
+  * Tamil (ta.po) by Dr.T.Vasudevan
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 12 Aug 2018 11:56:26 +0200
 
 partman-basicfilesystems (138) unstable; urgency=medium
 

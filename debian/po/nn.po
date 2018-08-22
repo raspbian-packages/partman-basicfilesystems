@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2014-08-31 22:00+0000\n"
-"PO-Revision-Date: 2018-01-26 15:38+0000\n"
+"PO-Revision-Date: 2018-05-13 08:39+0000\n"
 "Last-Translator: Alexander Jansen <bornxlo@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
 "Language: nn\n"
@@ -776,8 +776,9 @@ msgstr ""
 #. Note to translators: Please keep your translations of this string below
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:59001
+#, fuzzy
 msgid "shortnames - only use the old MS-DOS 8.3 style filenames"
-msgstr ""
+msgstr "kortform - bruk berre den gamle MS-DOS 8.3-forma for filnamn"
 
 #. Type: boolean
 #. Description
