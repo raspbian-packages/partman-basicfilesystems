@@ -175,11 +175,11 @@ _Description: standard
 
 Template: partman-basicfilesystems/specify_usage
 Type: select
+Choices: ${CHOICES}
 # :sl2:
 # Translate "standard" the same way as in the
 # partman-basicfilesystems/text/typical_usage template.  Do not
 # translate "news", "largefile" and "largefile4".
-Choices: ${CHOICES}
 _Description: Typical usage of this partition:
  Please specify how the file system is going to be used, so that
  optimal file system parameters can be chosen for that use.
