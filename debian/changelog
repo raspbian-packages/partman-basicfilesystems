@@ -1,10 +1,26 @@
-partman-basicfilesystems (141+rpi1) buster-staging; urgency=medium
+partman-basicfilesystems (142+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 97+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Thu, 31 Jul 2014 21:59:02 +0000]
   * Remove fat-modules and ext2-modules dependencies as Raspbian
     kernels have the support built in.
 
- -- Raspbian forward porter <root@raspbian.org>  Mon, 22 Oct 2018 11:36:33 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Thu, 08 Nov 2018 03:30:28 +0000
+
+partman-basicfilesystems (142) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Japanese (ja.po) by Kenshi Muto
+  * Latvian (lv.po) by Tranzistors
+  * Arabic (ar.po)
+  * Kannada (kn.po)
+  * Malayalam (ml.po)
+  * Marathi (mr.po)
+  * Nepali (ne.po)
+  * Telugu (te.po)
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 31 Oct 2018 20:55:25 +0100
 
 partman-basicfilesystems (141) unstable; urgency=medium
 

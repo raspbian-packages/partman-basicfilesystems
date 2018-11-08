@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2014-09-09 00:31+0900\n"
+"PO-Revision-Date: 2018-10-17 18:49+0900\n"
 "Last-Translator:  Kenshi Muto <kmuto@debian.org>\n"
 "Language-Team: Debian L10n Japanese <debian-japanese@lists.debian.org>\n"
 "Language: ja\n"
@@ -410,8 +410,8 @@ msgstr "入力されたマウントポイントは無効です。"
 #: ../partman-basicfilesystems.templates:16001
 msgid "Mount points must start with \"/\". They cannot contain spaces."
 msgstr ""
-"マウントポイントは \"/\" ではじまらなければなりません。スペースも含めてはいけ"
-"ません。"
+"マウントポイントは \"/\" で始まらなければなりません。スペースも含めてはいけま"
+"せん。"
 
 #. Type: string
 #. Description
