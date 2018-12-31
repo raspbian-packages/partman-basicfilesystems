@@ -27,8 +27,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2018-08-04 18:37+0000\n"
-"Last-Translator: Arto Keiski <arto.keiski@iki.fi>\n"
+"PO-Revision-Date: 2018-12-19 23:08+0000\n"
+"Last-Translator: Juhani Numminen <juhaninumminen0@gmail.com>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -183,8 +183,8 @@ msgid ""
 "The ${TYPE} file system creation in partition #${PARTITION} of ${DEVICE} "
 "failed."
 msgstr ""
-"Tiedostojärjestelmän ${TYPE} luonti laitteelle ${DEVICE} osiolle n:ro"
-"${PARTITION} ei onnistunut. "
+"Tiedostojärjestelmän ${TYPE} luonti laitteelle ${DEVICE} osiolle n:ro "
+"${PARTITION} ei onnistunut."
 
 #. Type: error
 #. Description
@@ -711,7 +711,7 @@ msgstr "noexec - binääritiedostojen suoritusta ei sallita"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:50001
 msgid "ro - mount the file system read-only"
-msgstr "ro - liitä tiedostojärjestelmä kirjoitussuojattuna."
+msgstr "ro - liitä tiedostojärjestelmä kirjoitussuojattuna"
 
 #. Type: text
 #. Description

@@ -1,10 +1,21 @@
-partman-basicfilesystems (142+rpi1) buster-staging; urgency=medium
+partman-basicfilesystems (143+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 97+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Thu, 31 Jul 2014 21:59:02 +0000]
   * Remove fat-modules and ext2-modules dependencies as Raspbian
     kernels have the support built in.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 08 Nov 2018 03:30:28 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Mon, 31 Dec 2018 09:26:50 +0000
+
+partman-basicfilesystems (143) unstable; urgency=medium
+  * Team upload
+
+  * Remove trailing whitespaces from changelog file, to fix lintian tag.
+
+  [ Updated translations ]
+  * Finnish (fi.po) by Juhani Numminen
+  * Portuguese (Brazil) (pt_BR.po) by Adriano Rafael Gomes
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 25 Dec 2018 22:27:52 +0100
 
 partman-basicfilesystems (142) unstable; urgency=medium
 
@@ -913,7 +924,7 @@ partman-basicfilesystems (63) unstable; urgency=low
     * Tagalog (tl.po) by Eric Pareja
     * Vietnamese (vi.po) by Clytie Siddall
     * Simplified Chinese (zh_CN.po) by Deng Xiyue
-  
+
  -- Otavio Salvador <otavio@debian.org>  Fri, 12 Jun 2009 16:25:56 -0300
 
 partman-basicfilesystems (62) unstable; urgency=low
@@ -960,7 +971,7 @@ partman-basicfilesystems (61) unstable; urgency=low
   * Portuguese (Brazil) (pt_BR.po) by Felipe Augusto van de Wiel (faw)
   * Turkish (tr.po) by Mert Dirik
   * Simplified Chinese (zh_CN.po) by Kov Chai
-	
+
  -- Otavio Salvador <otavio@debian.org>  Tue, 05 Aug 2008 13:49:02 -0300
 
 partman-basicfilesystems (60) unstable; urgency=low
@@ -973,7 +984,7 @@ partman-basicfilesystems (60) unstable; urgency=low
   * Malayalam (ml.po) by Praveen|പ്രവീണ്‍ A|എ
   * Marathi (mr.po) by Sampada
   * Panjabi (pa.po) by Amanpreet Singh Alam
-  
+
  -- Otavio Salvador <otavio@debian.org>  Thu, 08 May 2008 13:33:49 -0300
 
 partman-basicfilesystems (59) unstable; urgency=low
@@ -1411,7 +1422,7 @@ partman-basicfilesystems (40) unstable; urgency=low
   * Colin Watson
     - Warn if no swap space is configured (Ubuntu bug #11327).
 
-  * Updated translations: 
+  * Updated translations:
     - Arabic (ar.po) by Ossama M. Khayat
     - Bulgarian (bg.po) by Ognyan Kulev
     - Catalan (ca.po) by Guillem Jover
@@ -1493,7 +1504,7 @@ partman-basicfilesystems (38) unstable; urgency=low
 
   * Note that this includes fixes for substitution bugs in translated
     templates.
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - Welsh (cy.po) by Dafydd Harries
     - German (de.po) by Dennis Stampfer
@@ -1510,7 +1521,7 @@ partman-basicfilesystems (38) unstable; urgency=low
 partman-basicfilesystems (37) unstable; urgency=low
 
   * Upload with a few translation updates, notably Dutch.
-  * Updated translations: 
+  * Updated translations:
     - Bosnian (bs.po) by Safir Šećerović
     - Czech (cs.po) by Miroslav Kure
     - Finnish (fi.po) by Tapio Lehtonen
@@ -1524,7 +1535,7 @@ partman-basicfilesystems (37) unstable; urgency=low
 
 partman-basicfilesystems (36) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - Greek, Modern (1453-) (el.po) by Greek Translation Team
     - French (fr.po) by French Team
@@ -1535,7 +1546,7 @@ partman-basicfilesystems (36) unstable; urgency=low
 
 partman-basicfilesystems (35) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - Catalan (ca.po) by Jordi Mallach
     - Czech (cs.po) by Miroslav Kure
@@ -1577,7 +1588,7 @@ partman-basicfilesystems (34) unstable; urgency=low
   * Joey Hess
     - Always format swap partitions. Closes: #238384
       (Also fixes the bug of checking mounted swap partitions.)
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - German (de.po) by Dennis Stampfer
     - Greek, Modern (1453-) (el.po) by Greek Translation Team
@@ -1599,7 +1610,7 @@ partman-basicfilesystems (33) unstable; urgency=low
     - Don't call restore_ifs in select_mountoptions, this is a standalone
       program so no need. Fixes crash to main partman menu UI glitch in
       reiserfs. Closes: #270138
-  * Updated translations: 
+  * Updated translations:
     - Catalan (ca.po) by Jordi Mallach
     - Czech (cs.po) by Miroslav Kure
     - Danish (da.po) by Claus Hindsgaul
@@ -1626,7 +1637,7 @@ partman-basicfilesystems (32) unstable; urgency=low
     - Move a few db_resets to after the question is first asked, to allow for
       preseeding.
     - Don't mess with the seen flag, that's not necessary and breaks preseeding.
-  * Updated translations: 
+  * Updated translations:
     - Arabic (ar.po) by Abdulaziz Al-Arfaj
     - Lithuanian (lt.po) by Kęstutis Biliūnas
 
@@ -1656,7 +1667,7 @@ partman-basicfilesystems (31) unstable; urgency=low
       percentage reserved blocks for super-user (the -m parameter of
       tune2fs).  The same change is made in partman-ext3.  Thanks to Tomas
       Davidek, closes: #242632.
-  * Updated translations: 
+  * Updated translations:
     - Arabic (ar.po) by Christian Perrier
     - Bulgarian (bg.po) by Ognyan Kulev
     - Bosnian (bs.po) by Safir Šećerović
@@ -1687,7 +1698,7 @@ partman-basicfilesystems (31) unstable; urgency=low
 
 partman-basicfilesystems (30) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Arabic (ar.po) by Abdulaziz Al-Arfaj
     - Catalan (ca.po) by Jordi Mallach
     - Welsh (cy.po) by Dafydd Harries
@@ -1711,7 +1722,7 @@ partman-basicfilesystems (29) unstable; urgency=low
 
   * Joey Hess
     - Now that swap is a method, it does not have a acting_filesystem. Fix
-      fstab.d/basic to write swap entries in this new situation. 
+      fstab.d/basic to write swap entries in this new situation.
       Closes: #260746
     - But this means that mount.d is once again called on swap partitions,
       which may be already mounted due to my other changes, so make
@@ -1723,7 +1734,7 @@ partman-basicfilesystems (28) unstable; urgency=low
 
   * Joey Hess
     - don't disable swap after formatting
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - Czech (cs.po) by Miroslav Kure
     - Danish (da.po) by Claus Hindsgaul
@@ -1749,12 +1760,12 @@ partman-basicfilesystems (27) unstable; urgency=low
       /tmp; thanks to Mika Bostrom, Stephen Touset and Ken Schweigert
       (closes: #249322, #255135, #258117)
     - update.d/swap: tell parted_server when the method of a partition is
-      `swap'.  Thanks to Andrew Pollock and Didier MISSON, 
+      `swap'.  Thanks to Andrew Pollock and Didier MISSON,
       closes: #243648, #253420
     - templates: remove partman-basicfilesystems/text/swap_method
     - choose_method/swap/choices: use partman/method_long/swap
       instead of partman-basicfilesystems/text/swap_method
-    - active_partition/basicfilesystems/*, commit.d/format_basicfilesystems: 
+    - active_partition/basicfilesystems/*, commit.d/format_basicfilesystems:
       support for labels of ext2 file system
   * Updated translations:
     - Albanian (sq.po) by Elian Myftiu
@@ -1768,12 +1779,12 @@ partman-basicfilesystems (27) unstable; urgency=low
     - Norwegian Nynorsk (nn.po) by Håvard Korsvoll
     - Polish (pl.po) by Bartosz Fenski
     - Turkish (tr.po) by Osman Yüksel
-  
+
  -- Anton Zinoviev <zinoviev@debian.org>  Tue, 20 Jul 2004 15:53:41 +0300
 
 partman-basicfilesystems (26) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Basque (eu.po) by Piarres Beobide Egaña
     - Finnish (fi.po) by Tapio Lehtonen
     - Japanese (ja.po) by Kenshi Muto
@@ -1797,18 +1808,18 @@ partman-basicfilesystems (25) unstable; urgency=low
       infinite loop - partman depends on partman-target, partman-target
       depends on partman-basicfilesystems
 
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - Spanish (Castilian) (es.po) by Javier Fernandez-Sanguino Peña
     - Norwegian Nynorsk (nn.po) by Håvard Korsvoll
     - Romanian (ro.po) by Eddy Petrisor
     - Swedish (sv.po) by André Dahlqvist
-  
+
  -- Anton Zinoviev <zinoviev@debian.org>  Sat, 15 May 2004 07:37:46 +0300
 
 partman-basicfilesystems (24) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Bokmal, Norwegian (nb.po) by Bjørn Steensrud
     - Norwegian Nynorsk (nn.po) by Håvard Korsvoll
 
@@ -1816,7 +1827,7 @@ partman-basicfilesystems (24) unstable; urgency=low
 
 partman-basicfilesystems (23) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Bosnian (bs.po) by Safir Šećerović
     - Catalan (ca.po) by Jordi Mallach
     - German (de.po) by Dennis Stampfer
@@ -1862,7 +1873,7 @@ partman-basicfilesystems (22) unstable; urgency=low
       partman-xfs.  Thanks to Martin Michlmayr (closes: #238385).
   * Joshua Kwan
     - switch to new debhelper udeb support
-  * Updated translations: 
+  * Updated translations:
     - Czech (cs.po) by Miroslav Kure
     - Danish (da.po) by Claus Hindsgaul
     - Greek, Modern (1453-) (el.po) by Konstantinos Margaritis
@@ -1886,12 +1897,12 @@ partman-basicfilesystems (22) unstable; urgency=low
     - Ukrainian (uk.po) by Eugeniy Meshcheryakov
     - Simplified Chinese (zh_CN.po) by Carlos Z.F. Liu
     - Traditional Chinese (zh_TW.po) by Tetralet
-  
+
  -- Joey Hess <joeyh@debian.org>  Sun, 11 Apr 2004 21:23:17 -0400
 
 partman-basicfilesystems (21) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Bosnian (bs.po) by Safir Šećerović
     - Spanish (Castilian) (es.po) by Javier Fernandez-Sanguino Peña
     - Hebrew (he.po) by Lior Kaplan
@@ -1911,7 +1922,7 @@ partman-basicfilesystems (21) unstable; urgency=low
 
 partman-basicfilesystems (20) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Russian (ru.po) by Nikolai Prokoschenko
     - Turkish (tr.po) by Osman Yüksel
 
@@ -1919,7 +1930,7 @@ partman-basicfilesystems (20) unstable; urgency=low
 
 partman-basicfilesystems (19) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - Italian (it.po) by Stefano Canepa
     - Portuguese (pt.po) by Nuno Sénica
@@ -1930,7 +1941,7 @@ partman-basicfilesystems (19) unstable; urgency=low
 
 partman-basicfilesystems (18) unstable; urgency=low
 
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - Danish (da.po) by Claus Hindsgaul
     - German (de.po) by Dennis Stampfer
@@ -1957,7 +1968,7 @@ partman-basicfilesystems (16) unstable; urgency=low
   * Anton Zinoviev
     - init.d/autouse_swap creates method file in the right directory.
     - new script commit.d/format_swap.  We want to be sure that the other
-      mkfs-scripts are able to use swap. 
+      mkfs-scripts are able to use swap.
     - commit.d/format_basicfilesystems: do not format swap.
     - commit.d/format_basicfilesystems: enable swap at start, disable it
       after the file systems are created.
@@ -1978,7 +1989,7 @@ partman-basicfilesystems (14) unstable; urgency=low
   * Joey Hess
     - Remove autogenerated postrm.
     - Swapon swap space in mount.d. Closes: #236921
-  * Updated translations: 
+  * Updated translations:
     - Bulgarian (bg.po) by Ognyan Kulev
     - Czech (cs.po) by Miroslav Kure
     - Danish (da.po) by Claus Hindsgaul
@@ -2019,7 +2030,7 @@ partman-basicfilesystems (13) unstable; urgency=low
       when formatting swap space.
     - Do not create empty files mountoptions in partition directories.
       Otherwise the setting "defaults"  disappears in active_partition
-      menu. 
+      menu.
     - Move the mount options definitions in the select list after option
       names.  Remove the long description screen.  Closes: #235370.
     - init.d/autouse_swap: the swap spaces are automatically selected for
@@ -2028,7 +2039,7 @@ partman-basicfilesystems (13) unstable; urgency=low
   * Christian Perrier
     - s/permitions/permissions in templates. Unfuzzy translations
 
-  * Updated translations: 
+  * Updated translations:
     - Czech (cs.po) by Miroslav Kure
     - Danish (da.po) by Claus Hindsgaul
     - Greek, Modern (1453-) (el.po) by Konstantinos Margaritis
@@ -2045,7 +2056,7 @@ partman-basicfilesystems (13) unstable; urgency=low
     - Albanian (sq.po) by Elian Myftiu
     - Turkish (tr.po) by Osman Yüksel
     - Ukrainian (uk.po) by Eugeniy Meshcheryakov
- 
+
  -- Joey Hess <joeyh@debian.org>  Thu,  4 Mar 2004 14:02:40 -0500
 
 partman-basicfilesystems (12) unstable; urgency=low
@@ -2093,7 +2104,7 @@ partman-basicfilesystems (11) unstable; urgency=low
     - Claus Hindsgaul
       - Updated Danish translation (da.po)
     - Bart Cornelis
-      - Updated Dutch translation (nl.po) 
+      - Updated Dutch translation (nl.po)
     - Javier Fernandez-Sanguino
       - Added Spanish translation (es.po)
     - Ming Hua
@@ -2186,7 +2197,7 @@ partman-basicfilesystems (8) unstable; urgency=low
 partman-basicfilesystems (7) unstable; urgency=low
 
   * Bartosz Fenski
-    - Updated Polish (pl) translation. Removed some inconsistencies. 
+    - Updated Polish (pl) translation. Removed some inconsistencies.
   * Christian Perrier
     - changelog corrections
     - added missing dot in danish translation for one string
@@ -2199,13 +2210,13 @@ partman-basicfilesystems (7) unstable; urgency=low
     - Update Slovak translation
   * Anton Zinoviev
     - changelog: new release 7.  Move some of the stuff from already
-      released and uploaded 6 to 7. 
+      released and uploaded 6 to 7.
     - templates: s/_Descriptions:/_Description:/
     - new templates: partman-basicfilesystems/options_help and
       partman-basicfilesystems/fatoptions_help.  We show the help only
       once as otherwise it can be boring.
     - templates: correct some punctuation signs.
-  
+
  -- Anton Zinoviev <zinoviev@debian.org>  Thu, 29 Jan 2004 11:22:23 +0200
 
 partman-basicfilesystems (6) unstable; urgency=low
