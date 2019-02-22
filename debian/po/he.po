@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2018-06-14 08:38+0000\n"
+"PO-Revision-Date: 2019-01-18 15:20+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -76,7 +76,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-basicfilesystems.templates:5001
 msgid "Formatting swap space in partition #${PARTITION} of ${DEVICE}..."
-msgstr "מפרמט שטח דפדוף במחיצה מספר ${PARTITION} בהתקן ${DEVICE}..."
+msgstr "שטח הדפדוף במחיצה מספר ${PARTITION} בהתקן ${DEVICE} מפורמט…"
 
 #. Type: boolean
 #. Description
@@ -401,7 +401,7 @@ msgstr "נקודת העגינה שהוכנסה אינה חוקית."
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Mount points must start with \"/\". They cannot contain spaces."
-msgstr "נקודות עגינה חייבות להתחיל בתו \"/\" ואסור שיכילו רווחים."
+msgstr "נקודות עגינה חייבות להתחיל בתו „/” ואינן יכולות להכיל רווחים."
 
 #. Type: string
 #. Description

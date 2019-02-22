@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: fa\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2018-01-13 19:58+0000\n"
+"PO-Revision-Date: 2019-01-01 17:49+0000\n"
 "Last-Translator: nima sahraneshin <unix.nima@gmail.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: fa\n"
@@ -552,7 +552,7 @@ msgstr "فایل سیستم Ext2"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:31001
 msgid "ext2"
-msgstr "ext2"
+msgstr "ای‌اکس‌تی۲"
 
 #. Type: text
 #. Description
@@ -567,7 +567,7 @@ msgstr "فایل سیستم FAT16"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:33001
 msgid "fat16"
-msgstr "fat16"
+msgstr "فت۱۶"
 
 #. Type: text
 #. Description
@@ -582,7 +582,7 @@ msgstr "فایل سیستم FAT32"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:35001
 msgid "fat32"
-msgstr "fat32"
+msgstr "فت۳۲"
 
 #. Type: text
 #. Description

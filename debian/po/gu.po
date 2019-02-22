@@ -27,7 +27,7 @@ msgstr ""
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
 "PO-Revision-Date: 2008-08-07 11:42+0530\n"
 "Last-Translator: Kartik Mistry <kartik.mistry@gmail.com>\n"
-"Language-Team: Gujarati <team@utkarsh.org>\n"
+"Language-Team: \n"
 "Language: gu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -594,7 +594,7 @@ msgstr "JFS જર્નલિંગ ફાઈલ સિસ્ટમ"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:37001
 msgid "ntfs"
-msgstr ""
+msgstr "ntfs"
 
 #. Type: text
 #. Description
