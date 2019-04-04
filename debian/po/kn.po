@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2018-04-02 06:37+0000\n"
-"Last-Translator: Yogesh <yogesh@kalike.org>\n"
+"PO-Revision-Date: 2019-02-13 15:09+0000\n"
+"Last-Translator: deepu2 <deepuhsdeepak@gmail.com>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
 "MIME-Version: 1.0\n"
@@ -835,15 +835,13 @@ msgstr "ಆಯ್ಕೆ ಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಿ ದೋ
 #. Description
 #. :sl5:
 #: ../partman-basicfilesystems.templates:60001
-#, fuzzy
 msgid ""
 "Your boot partition has not been configured with the ext2 file system. This "
 "is needed by your machine in order to boot. Please go back and use the ext2 "
 "file system."
 msgstr ""
-"ನಿಮ್ಮ ಬೂಟ್ ವಿಭಜನೆಯನ್ನು ext2 ಅಥವಾ ext3 ಕಡತ ವ್ಯವಸ್ಥೆಯೊಂದಿಗೆ ಸಂಯೋಜಿಸಲಾಗಿಲ್ಲ. ನಿಮ್ಮ "
-"ಯಂತ್ರವನ್ನು ಚಾಲನೆ ಮಾಡುವಲ್ಲಿ ಇದು ಅವಶ್ಯಕ. ದಯಮಾಡಿ ಮತ್ತೆ ಹಿಂದಕ್ಕೆ ಹೋಗಿ ext2 ಅಥವಾ ext3 "
-"ಕಡತ ವ್ಯವಸ್ಥೆಯನ್ನು ಬಳಸಿ."
+"ನಿಮ್ಮ ಬೂಟ್ ವಿಭಜನೆಯನ್ನು ext2 ಕಡತ ವ್ಯವಸ್ಥೆಯೊಂದಿಗೆ ಸಂಯೋಜಿಸಲಾಗಿಲ್ಲ. ನಿಮ್ಮ ಯಂತ್ರವನ್ನು "
+"ಚಾಲನೆ ಮಾಡುವಲ್ಲಿ ಇದು ಅವಶ್ಯಕ. ದಯಮಾಡಿ ಮತ್ತೆ ಹಿಂದಕ್ಕೆ ಹೋಗಿ ext2 ಕಡತ ವ್ಯವಸ್ಥೆಯನ್ನು ಬಳಸಿ."
 
 #. Type: boolean
 #. Description
