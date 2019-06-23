@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2019-02-28 22:08+0000\n"
+"PO-Revision-Date: 2019-04-20 07:33+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -160,15 +160,15 @@ msgid ""
 "If you do not go back to the partitioning menu and assign a swap partition, "
 "the installation will continue without swap space."
 msgstr ""
-"אם לא תחזור לתפריט חלוקת המחיצות ותקצה מחיצה לשטח החלפה, ההתקנה תמשיך ללא "
-"שטח החלפה."
+"סירוב מצדך לחזור לתפריט החלוקה למחיצות ולהקצות שטח להחלפה תגרום לכך שתכנית "
+"ההתקנה תמשיך ללא שטח החלפה."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:9001
 msgid "Failed to create a file system"
-msgstr "כישלון ביצירת מערכת קבצים"
+msgstr "יצירת מערכת קבצים נכשלה"
 
 #. Type: error
 #. Description
@@ -215,15 +215,15 @@ msgid ""
 "If you do not go back to the partitioning menu and assign a mount point from "
 "there, this partition will not be used at all."
 msgstr ""
-"אם לא תחזור לתפריט חלוקת המחיצות ותייעד נקודת עיגון משם, המחיצה לא תהיה "
-"בשימוש."
+"סירוב מצדך לחזור לתפריט החלוקה למחיצות והקצאת נקודת עיגון משם תוביל לכך "
+"שהמחיצה לא תהיה בשימוש כלל."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:12001
 msgid "Invalid file system for this mount point"
-msgstr "מערכת קבצים לא תקינה בשביל נקודת העגינה הזאת"
+msgstr "מערכת קבצים שגויה לנקודת עגינה זו"
 
 #. Type: error
 #. Description
@@ -234,8 +234,9 @@ msgid ""
 "because it is not a fully-functional Unix file system. Please choose a "
 "different file system, such as ${EXT2}."
 msgstr ""
-"מערכת קבצים מסוג ${FILESYSTEM} לא ניתנת לעגינה על ${MOUNTPOINT} מאחר והיא לא "
-"מערכת קבצים מתפקדת של Unix. בחר מערכת קבצים אחרת, ${EXT2} לדוגמה."
+"מערכת קבצים מסוג ${FILESYSTEM} אינה ניתנת לעגינה על ${MOUNTPOINT} מאחר שאינה "
+"מערכת קבצים לשימוש מלא במערכות Unix. נא לבחור במערכת קבצים אחרת, ${EXT2} "
+"לדוגמה."
 
 #. Type: select
 #. Choices
@@ -255,7 +256,7 @@ msgstr "/ - שורש מערכת הקבצים"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/boot - static files of the boot loader"
-msgstr "‏‎/boot - קבצים סטטיים של מנהל האתחול"
+msgstr "‏‎/boot - קבצים סטטיים של מנהל הטעינה"
 
 #. Type: select
 #. Choices
@@ -305,7 +306,7 @@ msgstr "‏‎/var - מידע משתנה"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/srv - data for services provided by this system"
-msgstr "‏‎/srv - מידע בשביל שירותים המסופקים על ידי מערכת זו"
+msgstr "‏‎/srv - מידע עבור שירותים שמערכת זו מספקת"
 
 #. Type: select
 #. Choices
@@ -315,7 +316,7 @@ msgstr "‏‎/srv - מידע בשביל שירותים המסופקים על י
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/opt - add-on application software packages"
-msgstr "‏‎/opt - תוספות של חבילות תוכנה"
+msgstr "‏‎/opt - תוספות של חבילות תכנה"
 
 #. Type: select
 #. Choices
@@ -339,7 +340,7 @@ msgstr "‏‎/usr/local - היררכיה מקומית"
 #: ../partman-basicfilesystems.templates:13001
 #: ../partman-basicfilesystems.templates:14001
 msgid "Enter manually"
-msgstr "הזנה באופן ידני"
+msgstr "הקלדה באופן ידני"
 
 #. Type: select
 #. Choices
@@ -373,28 +374,28 @@ msgstr "נקודת עגינה למחיצה:"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:14001
 msgid "/dos"
-msgstr "/dos"
+msgstr "‎/dos"
 
 #. Type: select
 #. Choices
 #. :sl2:
 #: ../partman-basicfilesystems.templates:14001
 msgid "/windows"
-msgstr "/windows"
+msgstr "‎/windows"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Invalid mount point"
-msgstr "נקודת עגינה לא חוקית"
+msgstr "נקודת עגינה שגויה"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "The mount point you entered is invalid."
-msgstr "נקודת העגינה שהוכנסה אינה חוקית."
+msgstr "נקודת העגינה שהוקלדה שגויה."
 
 #. Type: error
 #. Description
@@ -465,7 +466,7 @@ msgstr "בלוקים שמורים:"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:24001
 msgid "Percentage of the file system blocks reserved for the super-user:"
-msgstr "אחוז הבלוקים השמורים בשביל משתמש העל:"
+msgstr "אחוז הבלוקים השמורים לטובת משתמש העל:"
 
 #. Type: text
 #. Description
@@ -519,7 +520,7 @@ msgid ""
 "one inode per megabyte, largefile4 = one inode per 4 megabytes."
 msgstr ""
 "תקניים = משתנים תקניים, news = הקצאת inode אחד לכל בלוק של 4 קילו בתים, "
-"largefile =  הקצאת inode אחד לכל מגה בית, largefile4 = הקצאת inode אחד לכל 4 "
+"largefile = הקצאת inode אחד לכל מגה בית, largefile4 = הקצאת inode אחד לכל 4 "
 "מגה בתים."
 
 #. Type: text
@@ -546,7 +547,7 @@ msgstr "ללא"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:30001
 msgid "Ext2 file system"
-msgstr "מערכת קבצים מסוג ext2"
+msgstr "מערכת קבצים ext2"
 
 #. Type: text
 #. Description
@@ -639,7 +640,7 @@ msgstr "אפשרויות עגינה:"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:43001
 msgid "Mount options can tune the behavior of the file system."
-msgstr "אפשרויות עגינה מאפשרות הכוונה של התנהגותה של מערכת הקבצים."
+msgstr "אפשרויות עגינה מאפשרות לכוון את התנהגותה של מערכת הקבצים."
 
 #. Type: text
 #. Description
@@ -648,7 +649,7 @@ msgstr "אפשרויות עגינה מאפשרות הכוונה של התנהג�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:44001
 msgid "noatime - do not update inode access times at each access"
-msgstr "noatime - אל תעדכן את זמני הגישה ל-inode בכל גישה"
+msgstr "noatime - לא לעדכן את זמני הגישה ל־inode בכל גישה"
 
 #. Type: text
 #. Description
@@ -657,7 +658,7 @@ msgstr "noatime - אל תעדכן את זמני הגישה ל-inode בכל גי�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:45001
 msgid "nodiratime - do not update directory inode access times"
-msgstr "nodiratime - אל תעדכן את זמני הגישה ל-directory inode"
+msgstr "nodiratime - לא לעדכן את זמני הגישה ל־inode של תיקיות"
 
 #. Type: text
 #. Description
@@ -666,7 +667,7 @@ msgstr "nodiratime - אל תעדכן את זמני הגישה ל-directory inode
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:46001
 msgid "relatime - update inode access times relative to modify time"
-msgstr "relatime - עדכון זמני גישה ל-inode באופן יחסי לזמן השינוי"
+msgstr "relatime - עדכון זמני גישה ל־inode באופן יחסי למועד השינוי"
 
 #. Type: text
 #. Description
@@ -675,7 +676,7 @@ msgstr "relatime - עדכון זמני גישה ל-inode באופן יחסי ל�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:47001
 msgid "nodev - do not support character or block special devices"
-msgstr "nodev - אל תתמוך בהתקנים מיוחדים מסוג character או block"
+msgstr "nodev - לא לתמוך בהתקנים מיוחדים מסוג character או block"
 
 #. Type: text
 #. Description
@@ -684,7 +685,7 @@ msgstr "nodev - אל תתמוך בהתקנים מיוחדים מסוג character
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:48001
 msgid "nosuid - ignore set-user-identifier or set-group-identifier bits"
-msgstr "nosuid - התעלם מביט set-user-identifier או set-group-identifier"
+msgstr "nosuid - התעלמות מהסיביות set-user-identifier או set-group-identifier"
 
 #. Type: text
 #. Description
@@ -693,7 +694,7 @@ msgstr "nosuid - התעלם מביט set-user-identifier או set-group-identifi
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:49001
 msgid "noexec - do not allow execution of any binaries"
-msgstr "noexec - אל תרשה הרצת קבצים בינארים"
+msgstr "noexec - לא להרשות הרצת קבצים בינרים"
 
 #. Type: text
 #. Description
@@ -711,7 +712,7 @@ msgstr "ro - עגינת מערכת הקבצים לקריאה בלבד"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:51001
 msgid "sync - all input/output activities occur synchronously"
-msgstr "sync - המתן לסיום כל פעולות הקלט/פלט לפני המשך עבודה"
+msgstr "sync - כל פעולות הקלט/פלט מתרחשות באופן סינכרוני"
 
 #. Type: text
 #. Description
@@ -756,7 +757,7 @@ msgstr "quiet - שינוי בעלות והרשאות לא יחזירו שגיא�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:56001
 msgid "notail - disable packing of files into the file system tree"
-msgstr "notail - בטל אריזת קבצים לתוך עץ מערכת הקבצים"
+msgstr "notail - ביטול אריזת קבצים לתוך עץ מערכת הקבצים"
 
 #. Type: text
 #. Description
@@ -821,8 +822,8 @@ msgid ""
 "partition will be used as is. This means that you may not be able to boot "
 "from your hard disk."
 msgstr ""
-"אם לא תחזור לתפריט הגדרת המחיצות ותתקן שגיאה זו, המחיצה תהיה בשימוש כמות "
-"שהיא. כלומר שייתכן שלא תוכל לאתחל מהדיסק הקשיח שלך."
+"בחירה שלא לחזור לתפריט החלוקה למחיצות ולתקן את השגיאה הזאת תוביל לשימוש "
+"במחיצה כמו שהיא. כלומר שלא תהיה לך אפשרות לאתחל מהכונן הקשיח שלך."
 
 #. Type: boolean
 #. Description

@@ -1,12 +1,36 @@
-partman-basicfilesystems (146+rpi1) buster-staging; urgency=medium
+partman-basicfilesystems (148+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 97+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Thu, 31 Jul 2014 21:59:02 +0000]
   * Remove fat-modules and ext2-modules dependencies as Raspbian
     kernels have the support built in.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 04 Apr 2019 04:08:52 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sun, 23 Jun 2019 14:51:55 +0000
+
+partman-basicfilesystems (148) unstable; urgency=medium
+
+  * Team upload
+
+  [ Cyril Brulebois ]
+  * Remove Christian Perrier from Uploaders, with many thanks for all
+    his contributions over the years! (Closes: #927487)
+
+  [ Updated translations ]
+  * Hebrew (he.po) by Yaron Shahrabani
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 21 Apr 2019 22:51:26 +0200
+
+partman-basicfilesystems (147) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Arabic (ar.po) by Yaron Shahrabani
+  * Hebrew (he.po) by Yaron Shahrabani
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 16 Apr 2019 23:26:01 +0200
 
 partman-basicfilesystems (146) unstable; urgency=medium
+
   * Team upload
 
   [ Updated translations ]
@@ -15,6 +39,7 @@ partman-basicfilesystems (146) unstable; urgency=medium
  -- Holger Wansing <hwansing@mailbox.org>  Wed, 27 Mar 2019 22:33:03 +0100
 
 partman-basicfilesystems (145) unstable; urgency=medium
+
   * Team upload
 
   [ Updated translations ]
@@ -26,6 +51,7 @@ partman-basicfilesystems (145) unstable; urgency=medium
  -- Holger Wansing <hwansing@mailbox.org>  Sun, 03 Mar 2019 10:45:58 +0100
 
 partman-basicfilesystems (144) unstable; urgency=medium
+
   * Team upload
 
   * Remove trailing whitespace from control file, to fix lintian tag.
@@ -39,6 +65,7 @@ partman-basicfilesystems (144) unstable; urgency=medium
  -- Holger Wansing <hwansing@mailbox.org>  Sat, 09 Feb 2019 09:25:00 +0100
 
 partman-basicfilesystems (143) unstable; urgency=medium
+
   * Team upload
 
   * Remove trailing whitespaces from changelog file, to fix lintian tag.
