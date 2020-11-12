@@ -3,37 +3,23 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Persian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-# Nima Sahraneshin <unix.nima@gmail.com>, 2018.
-# Seyed Hany Hosseini <hany1894@gmail.com>, 2020.
-# <soheilkhanalipur@tutanota.com>, 2020.
-#
-# Translations from iso-codes:
-#   Alastair McKinstry - further translations from ICU-3.0
-#   Alastair McKinstry <mckinstry@computer.org>, 2001,2004.
-#   Free Software Foundation, Inc., 2001,2003,2004
-#   Roozbeh Pournader <roozbeh@farsiweb.info>, 2004,2005.
-#   Sharif FarsiWeb, Inc., 2004
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#     Translations taken from ICU SVN on 2007-09-09
-#   Translations from kde:
-#   - FarsiKDE Team <info@farsikde.org>
+# Kabyle translation for debian-installer
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the debian-installer package.
+# Slimane Selyan Amiri <selyan.kab@gmail.com>, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: fa\n"
+"Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2020-10-22 09:29+0000\n"
-"Last-Translator: Seyed Hany Hosseini <hany1894@gmail.com>\n"
-"Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
-"Language: fa\n"
+"PO-Revision-Date: 2020-10-24 15:08+0100\n"
+"Last-Translator: Slimane Selyan Amiri <selyan.kab@gmail.com>\n"
+"Language-Team: Kabyle <kab@li.org>\n"
+"Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 #. Type: text
 #. Description
@@ -42,22 +28,21 @@ msgstr ""
 msgid ""
 "Checking the ${TYPE} file system in partition #${PARTITION} of ${DEVICE}..."
 msgstr ""
-"در حال آزمون فایل سیستم ${TYPE} در پارتیشن #${PARTITION} از دیسک ${DEVICE}..."
+"Asenqed n unagraw n yifuyla ${TYPE} deg uḥric #${PARTITION} n ${DEVICE}..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-basicfilesystems.templates:2001
 msgid "Checking the swap space in partition #${PARTITION} of ${DEVICE}..."
-msgstr "در حال آزمون فضای swap در پارتیشن #${PARTITION} از ${DEVICE}..."
+msgstr "Asenqed n tallunt n swap deg uḥric #${PARTITION} n ${DEVICE}..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-basicfilesystems.templates:3001
 msgid "Creating ${TYPE} file system in partition #${PARTITION} of ${DEVICE}..."
-msgstr ""
-"در حال ایجاد فایل سیستم ${TYPE} در پارتیشن #${PARTITION} از ${DEVICE}..."
+msgstr "Timerna n unagraw n yifuyla deg uḥric #${PARTITION} n ${DEVICE}..."
 
 #. Type: text
 #. Description
@@ -67,16 +52,15 @@ msgid ""
 "Creating ${TYPE} file system for ${MOUNT_POINT} in partition #${PARTITION} "
 "of ${DEVICE}..."
 msgstr ""
-"در حال ایجاد فایل سیستم ${TYPE} برای ${MOUNT_POINT} بر روی پارتیشن #"
-"${PARTITION} از ${DEVICE}..."
+"Timerna n unagraw n yifuyla ${TYPE} i ${MOUNT_POINT} deg uḥric #${PARTITION} "
+"n ${DEVICE}..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-basicfilesystems.templates:5001
 msgid "Formatting swap space in partition #${PARTITION} of ${DEVICE}..."
-msgstr ""
-"در حال قالب‌بندی فضای swap  بر روی پارتیشن #${PARTITION} از ${DEVICE}..."
+msgstr "Amsal n tallunt n swap deg uḥric #${PARTITION} n ${DEVICE}..."
 
 #. Type: boolean
 #. Description
@@ -87,7 +71,7 @@ msgstr ""
 #: ../partman-basicfilesystems.templates:6001
 #: ../partman-basicfilesystems.templates:7001
 msgid "Go back to the menu and correct errors?"
-msgstr "بازگشت به ... و تصحیح خطاها؟"
+msgstr "Uɣal ɣer wumuɣ syen seɣti tuccḍa?"
 
 #. Type: boolean
 #. Description
@@ -97,8 +81,8 @@ msgid ""
 "The test of the file system with type ${TYPE} in partition #${PARTITION} of "
 "${DEVICE} found uncorrected errors."
 msgstr ""
-"آزمون فایل‌سیستم با نوع ${TYPE} در پارتیشن #${PARTITION} از ${DEVICE} خطاهایی "
-"تصحیح‌نشده یافت."
+"Asekyed n unagraw n yifuyla s wanaw ${TYPE} deg uḥric #${PARTITION} n "
+"${DEVICE} yemlal-d d tuccḍiwin ur nettuseɣti ara."
 
 #. Type: boolean
 #. Description
@@ -112,8 +96,8 @@ msgid ""
 "If you do not go back to the partitioning menu and correct these errors, the "
 "partition will be used as is."
 msgstr ""
-"اگر شما به منوی پارتیشن‌بندی بازنگشته و خطاها را اصلاح نکنید، پارتیشن "
-"همانگونه که هست استفاده خواهد شد."
+"Ma yella ur tuɣaleḍ ara ɣer wumuɣ n beṭṭu i wakken ad tseɣtiḍ tuccḍiwin-a, "
+"aḥric ad yettuseqdec akka i yella."
 
 #. Type: boolean
 #. Description
@@ -123,8 +107,8 @@ msgid ""
 "The test of the swap space in partition #${PARTITION} of ${DEVICE} found "
 "uncorrected errors."
 msgstr ""
-"آزمون swap در پارتیشن #${PARTITION} از ${DEVICE} خطاهای اصلاح نشده ای پیدا "
-"کرد."
+"Asekyed n tallunt n swapdeg uḥric #${PARTITION} n ${DEVICE} yemlal-d d "
+"tuccḍiwin ur nettuseɣti ara."
 
 #. Type: boolean
 #. Description
@@ -135,7 +119,7 @@ msgstr ""
 #: ../partman-basicfilesystems.templates:8001
 #: ../partman-basicfilesystems.templates:11001
 msgid "Do you want to return to the partitioning menu?"
-msgstr "آیا می‌خواهید به منوی پارتیشن‌بندی بازگردید؟"
+msgstr "Tebɣiḍ ad tuɣaleḍ ɣer wumuɣ n beṭṭu?"
 
 #. Type: boolean
 #. Description
@@ -148,10 +132,11 @@ msgid ""
 "scarce. You may experience installation problems if you do not have enough "
 "physical memory."
 msgstr ""
-"شما هیچ پارتیشن‌ای برای استفاده به عنوان فضای swap انتخاب نکرده‌اید. فعال "
-"نمودن فضای swap توصیه می‌شود برای اینکه سیستم بتواند از فضای فیزیکی حافظه "
-"بهتر استفاده کند، و بنابراین وقتی حافظهٔ فیزیکی کم است بهتر رفتار نماید. اگر "
-"حافظهٔ فیزیکی کافی نداشته باشید ممکن است به مشکلات نصب برخورد کنید."
+"Ur tefrineḍ ara ula d yiwen uḥric ara yettusqedcen d tallunt n swap. Armad n "
+"tallunt n swap yettuwelleh i wakken anagraw ad yizmir ugar ad iseqdec "
+"takatut taɣarant, rnu i wakken ad yeddu akken ilaq mi ara txaṣ tkatut "
+"taɣarant. Yezmer ad d-temlileḍ uguren ma yella ur tesɛiḍ ara aṭas n tkatut "
+"taɣarant."
 
 #. Type: boolean
 #. Description
@@ -161,15 +146,15 @@ msgid ""
 "If you do not go back to the partitioning menu and assign a swap partition, "
 "the installation will continue without swap space."
 msgstr ""
-"اگر به منوی پارتیشن‌بندی برنگردید و پارتیشن swap برنگزینید، نصب بدون فضای "
-"swap ادامه خواهد یافت."
+"Ma yella ur tuɣaleḍ ara ɣer wumuɣ n beṭṭu rnu tmuddeḍ aḥric n swap, asebded "
+"ad ikemmel s war tallunt n swap."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:9001
 msgid "Failed to create a file system"
-msgstr "ساخت فایل سیستم با شکست مواجه شد."
+msgstr "Timerna n unagraw n yifuyla ur yeddi ara"
 
 #. Type: error
 #. Description
@@ -179,14 +164,15 @@ msgid ""
 "The ${TYPE} file system creation in partition #${PARTITION} of ${DEVICE} "
 "failed."
 msgstr ""
-"ایجاد فایل سیستم ${TYPE} در پارتیشن  #${PARTITION} از ${DEVICE} شکست خورد."
+"Timerna n unagraw n yifuyla ${TYPE} deg uḥric #${PARTITION} n ${DEVICE} ur "
+"teddi ara."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:10001
 msgid "Failed to create a swap space"
-msgstr "ایجاد فضای swap شکست خورد"
+msgstr "Timerna n tallunt n swap ur teddi ara"
 
 #. Type: error
 #. Description
@@ -194,7 +180,8 @@ msgstr "ایجاد فضای swap شکست خورد"
 #: ../partman-basicfilesystems.templates:10001
 msgid ""
 "The creation of swap space in partition #${PARTITION} of ${DEVICE} failed."
-msgstr "ساخت فضای swap از پارتیشن #${PARTITION} از ${DEVICE} شکست خورد."
+msgstr ""
+"Timerna n tallunt n swap deg uḥric #${PARTITION} n ${DEVICE} ur teddi ara."
 
 #. Type: boolean
 #. Description
@@ -204,8 +191,8 @@ msgid ""
 "No mount point is assigned for the ${FILESYSTEM} file system in partition #"
 "${PARTITION} of ${DEVICE}."
 msgstr ""
-"هیچ نقطهٔ اتصالی برای فایل سیستم ${FILESYSTEM} در پارتیشن #${PARTITION} از  "
-"${DEVICE} منسوب نگشته است."
+"Ulac ired n userkeb yettunefken i unagraw n yifuyla ${FILESYSTEM} deg uḥric "
+"n #${PARTITION} n ${DEVICE}."
 
 #. Type: boolean
 #. Description
@@ -215,15 +202,15 @@ msgid ""
 "If you do not go back to the partitioning menu and assign a mount point from "
 "there, this partition will not be used at all."
 msgstr ""
-"اگر شما به منوی پارتیشن‌بندی بازنگشته و نقطه اتصالی در آنجا مشخص نکنید، "
-"پارتیشن استفاده نخواهد شد."
+"Ma yella ur tuɣaleḍ ara ɣer wumuɣ n beṭṭu rnu tmuddeḍ agaz n userkeb syin, "
+"aḥric-a ur tettuseqdacay ara akk."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:12001
 msgid "Invalid file system for this mount point"
-msgstr "فایل سیستم برای این نقطه اتصال نا معتبر است"
+msgstr "Anagraw n yifuyla d arameɣtu i ugaz-a n usali"
 
 #. Type: error
 #. Description
@@ -234,9 +221,9 @@ msgid ""
 "because it is not a fully-functional Unix file system. Please choose a "
 "different file system, such as ${EXT2}."
 msgstr ""
-"نوع سیستم‌فایل ${FILESYSTEM} نمی‌تواند روی ${MOUNTPOINT} ماونت شود، چون "
-"فایل‌سیستم کاملاً سازگار یونیکس نیست. لطفاً فایل‌سیستم دیگری انتخاب کنید، مانند "
-"${EXT2}."
+"Anaw n unagraw n yifuyla ${FILESYSTEM} ulamek yettuserkeb ɣef ${MOUNTPOINT}, "
+"acku mačči d anagraw n yifuyla n Unix amesɣan ummid. Ttxil-k·m fren anagraw "
+"n yifuyla yemgaraden, am ${EXT2}."
 
 #. Type: select
 #. Choices
@@ -246,7 +233,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/ - the root file system"
-msgstr "/ - فایل سیستم ریشه"
+msgstr "/ - aẓar n unagraw n yifuyla"
 
 #. Type: select
 #. Choices
@@ -256,7 +243,7 @@ msgstr "/ - فایل سیستم ریشه"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/boot - static files of the boot loader"
-msgstr "/boot - فایل‌های ثابت بارگذار بوت"
+msgstr "/boot - ifuyla usbiḍen n umsalay n usenker"
 
 #. Type: select
 #. Choices
@@ -266,7 +253,7 @@ msgstr "/boot - فایل‌های ثابت بارگذار بوت"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/home - user home directories"
-msgstr "/home - شاخه‌های خانگی کاربر"
+msgstr "/home - ikaramen n tnarit n useqdac"
 
 #. Type: select
 #. Choices
@@ -276,7 +263,7 @@ msgstr "/home - شاخه‌های خانگی کاربر"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/tmp - temporary files"
-msgstr "/tmp - فایل‌های موقتی"
+msgstr "/tmp - ifuyla iskudanen"
 
 #. Type: select
 #. Choices
@@ -286,7 +273,7 @@ msgstr "/tmp - فایل‌های موقتی"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/usr - static data"
-msgstr "/usr - داده‌های ثابت"
+msgstr "/usr - isefka usbiḍen"
 
 #. Type: select
 #. Choices
@@ -296,7 +283,7 @@ msgstr "/usr - داده‌های ثابت"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/var - variable data"
-msgstr "/var -داده‌های متغیر"
+msgstr "/var - isefka yettbeddilen"
 
 #. Type: select
 #. Choices
@@ -306,7 +293,7 @@ msgstr "/var -داده‌های متغیر"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/srv - data for services provided by this system"
-msgstr "/srv - داده برای سرویس‌های مهیا شده توسط این سیستم"
+msgstr "/srv - isefka i yimeẓla i d-yefka unagraw"
 
 #. Type: select
 #. Choices
@@ -316,7 +303,7 @@ msgstr "/srv - داده برای سرویس‌های مهیا شده توسط ا
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/opt - add-on application software packages"
-msgstr "/opt - بسته‌های نرم‌افزارهای کاربردی اضافی"
+msgstr "/opt - ikemmusen n useɣzan n usanas n yizegrar"
 
 #. Type: select
 #. Choices
@@ -326,7 +313,7 @@ msgstr "/opt - بسته‌های نرم‌افزارهای کاربردی اضا
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/usr/local - local hierarchy"
-msgstr "/usr/local - سلسله‌مراتب محلی"
+msgstr "/usr/local - amyellel adigan"
 
 #. Type: select
 #. Choices
@@ -340,7 +327,7 @@ msgstr "/usr/local - سلسله‌مراتب محلی"
 #: ../partman-basicfilesystems.templates:13001
 #: ../partman-basicfilesystems.templates:14001
 msgid "Enter manually"
-msgstr "ورود دستی"
+msgstr "Sekcem s ufus"
 
 #. Type: select
 #. Choices
@@ -354,7 +341,7 @@ msgstr "ورود دستی"
 #: ../partman-basicfilesystems.templates:13001
 #: ../partman-basicfilesystems.templates:14001
 msgid "Do not mount it"
-msgstr "متصل نکن"
+msgstr "Ur t-ssalay ara"
 
 #. Type: select
 #. Description
@@ -367,7 +354,7 @@ msgstr "متصل نکن"
 #: ../partman-basicfilesystems.templates:14002
 #: ../partman-basicfilesystems.templates:15001
 msgid "Mount point for this partition:"
-msgstr "نقطهٔ اتصال برای این پارتیشن:"
+msgstr "Agaz n usali i uḥric-a:"
 
 #. Type: select
 #. Choices
@@ -388,35 +375,35 @@ msgstr "/windows"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Invalid mount point"
-msgstr "نقطه اتصال نا معتبر است"
+msgstr "Agaz n usali d arameɣtu"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "The mount point you entered is invalid."
-msgstr "نقطه اتصالی که وارد کرده اید نامعتبر است."
+msgstr "Agaz n usali i teskecmeḍ d arameɣtu."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Mount points must start with \"/\". They cannot contain spaces."
-msgstr "نقاط ماونت باید با «/» شروع شوند. نمی‌توانند حاوی فاصله باشند."
+msgstr "Agazen n userkeb ilaq ad bdun s \"/\". Ur ilaq ara ad sɛun tallunin."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:17001
 msgid "Label for the file system in this partition:"
-msgstr "برچسب برای فایل سیستم در این پارتیشن:"
+msgstr "Tabzimt i unagraw n yifuyla deg uḥric-a:"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:18001
 msgid "Format the swap area:"
-msgstr "فرمت کردن swap:"
+msgstr "Msel taɣzut n swap:"
 
 #. Type: text
 #. Description
@@ -424,7 +411,7 @@ msgstr "فرمت کردن swap:"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:19001
 msgid "yes"
-msgstr "بله"
+msgstr "ih"
 
 #. Type: text
 #. Description
@@ -432,7 +419,7 @@ msgstr "بله"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:20001
 msgid "no"
-msgstr "خیر"
+msgstr "ala"
 
 #. Type: text
 #. Description
@@ -440,7 +427,7 @@ msgstr "خیر"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:21001
 msgid "Label:"
-msgstr "برچسب:"
+msgstr "Tabzimt:"
 
 #. Type: text
 #. Description
@@ -451,7 +438,9 @@ msgid ""
 "none[ Do not translate what's inside the brackets and just put the "
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" relates to \"Label:\" ]"
-msgstr "هیچکدام"
+msgstr ""
+"none[ Ur ssuqul ara ayen yellan gar yikrucciyen, err kan tasuqilt n wawal "
+"\"none\" deg tutlayt-inek·inem war ikrucciyen. \"none\" yeɛna \"Tibzimin:\" ]"
 
 #. Type: text
 #. Description
@@ -459,14 +448,14 @@ msgstr "هیچکدام"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:23001
 msgid "Reserved blocks:"
-msgstr "بلاک‌های رزو شده:"
+msgstr "Iḥedren yettuḥeṛṛen:"
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:24001
 msgid "Percentage of the file system blocks reserved for the super-user:"
-msgstr "درصد بلوک‌های سیستم‌فایل اختصاص‌داده شده به super-user."
+msgstr "Afmiḍi n yiḥedren n unagraw n yifuyla yettuḥarren i useqdac yufraren:"
 
 #. Type: text
 #. Description
@@ -474,7 +463,7 @@ msgstr "درصد بلوک‌های سیستم‌فایل اختصاص‌داده
 #. Up to 25 character positions
 #: ../partman-basicfilesystems.templates:25001
 msgid "Typical usage:"
-msgstr "کاربرد معمول:"
+msgstr "Aseqdec amudem:"
 
 #. Type: text
 #. Description
@@ -482,7 +471,7 @@ msgstr "کاربرد معمول:"
 #. In the following context: "Typical usage: standard"
 #: ../partman-basicfilesystems.templates:26001
 msgid "standard"
-msgstr "استاندارد"
+msgstr "tizeɣt"
 
 #. Type: select
 #. Description
@@ -492,7 +481,7 @@ msgstr "استاندارد"
 #. translate "news", "largefile" and "largefile4".
 #: ../partman-basicfilesystems.templates:27001
 msgid "Typical usage of this partition:"
-msgstr "استفاده معمول از این پارتیشن:"
+msgstr "Aseqdec amudem n uḥric-a:"
 
 #. Type: select
 #. Description
@@ -505,8 +494,8 @@ msgid ""
 "Please specify how the file system is going to be used, so that optimal file "
 "system parameters can be chosen for that use."
 msgstr ""
-"لطفا مورد کاربرد این پارتیش را انتخاب کنید تا پارامترهای لازم برای حداکثر "
-"کردن کارایی پارتیشن برای آن منظور خاص انتخاب گردد."
+"Ttxil-k·m fren amek ara yettusqedcen unagraw n yifuyla i wakken iɣewwaren n "
+"unagraw n yifuyla ifazen zemren ad ttwafernen i useqdec."
 
 #. Type: select
 #. Description
@@ -519,8 +508,9 @@ msgid ""
 "standard = standard parameters, news = one inode per 4KB block, largefile = "
 "one inode per megabyte, largefile4 = one inode per 4 megabytes."
 msgstr ""
-"standard = standard parameters, news = one inode per 4KB block, largefile = "
-"one inode per megabyte, largefile4 = one inode per 4 megabytes."
+"alugan = iɣewwaren isluganen, isallen = yiwen yinud i yiḥder 4KAṬ, afaylu "
+"ameqqran = yiwen inode i yal amigaṭamḍan, 4 yifuyla meqqren = yiwen inode i "
+"yal 4 yimigaṭamḍanen."
 
 #. Type: text
 #. Description
@@ -528,7 +518,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:28001
 msgid "Mount point:"
-msgstr "نقطه اتصال:"
+msgstr "Agaz n usali:"
 
 #. Type: text
 #. Description
@@ -539,14 +529,17 @@ msgid ""
 "none[ Do not translate what's inside the brackets and just put the "
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" relates to \"Mount point:\" ]"
-msgstr "هیچکدام"
+msgstr ""
+"none[ Ur ssuqul ara ayen yellan gar yikrucciyen, err kan tasuqilt n wawal "
+"\"none\" deg tutlayt-inek·inem war ikrucciyen. \"none\" yeɛna \"Agaz n "
+"userkeb:\" ]"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:30001
 msgid "Ext2 file system"
-msgstr "فایل سیستم Ext2"
+msgstr "Anagraw n yifuyla Ext2"
 
 #. Type: text
 #. Description
@@ -554,14 +547,14 @@ msgstr "فایل سیستم Ext2"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:31001
 msgid "ext2"
-msgstr "ای‌اکس‌تی۲"
+msgstr "ext2"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:32001
 msgid "FAT16 file system"
-msgstr "فایل سیستم FAT16"
+msgstr "Anagraw n yifuyla FAT16"
 
 #. Type: text
 #. Description
@@ -569,14 +562,14 @@ msgstr "فایل سیستم FAT16"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:33001
 msgid "fat16"
-msgstr "فت۱۶"
+msgstr "fat16"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:34001
 msgid "FAT32 file system"
-msgstr "فایل سیستم FAT32"
+msgstr "Anagraw n ufaylu FAT32"
 
 #. Type: text
 #. Description
@@ -584,14 +577,14 @@ msgstr "فایل سیستم FAT32"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:35001
 msgid "fat32"
-msgstr "فت۳۲"
+msgstr "fat32"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:36001
 msgid "NTFS journaling file system"
-msgstr "فایل سیستم ژورنالی NTFS"
+msgstr "Anagraw n yifuyla n uɣmis NTFS"
 
 #. Type: text
 #. Description
@@ -599,7 +592,7 @@ msgstr "فایل سیستم ژورنالی NTFS"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:37001
 msgid "ntfs"
-msgstr "ان‌تی‌اف‌اس"
+msgstr "ntfs"
 
 #. Type: text
 #. Description
@@ -609,7 +602,7 @@ msgstr "ان‌تی‌اف‌اس"
 #: ../partman-basicfilesystems.templates:38001
 #: ../partman-basicfilesystems.templates:40001
 msgid "swap area"
-msgstr "فضای swap"
+msgstr "taɣzut n usemmeskel"
 
 #. Type: text
 #. Description
@@ -632,14 +625,14 @@ msgstr "swap"
 #: ../partman-basicfilesystems.templates:42001
 #: ../partman-basicfilesystems.templates:43001
 msgid "Mount options:"
-msgstr "انتخاب‌های ماونت:"
+msgstr "Tixtiṛiyin n userkeb:"
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:43001
 msgid "Mount options can tune the behavior of the file system."
-msgstr "ترجیحات ماونت می‌توانند رفتار فایل‌سیستم را تنظیم کنند."
+msgstr "Tixtiṛiyin n userkeb zemrent ad qeɛdent tikli n unagraw n yifuyla."
 
 #. Type: text
 #. Description
@@ -648,7 +641,7 @@ msgstr "ترجیحات ماونت می‌توانند رفتار فایل‌سی
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:44001
 msgid "noatime - do not update inode access times at each access"
-msgstr "noatime - دفعات دسترسی‌های inode را برای هر دسترسی به روز نکن"
+msgstr "noatime - ur ttleqqim ara akuden n unekcum n inode deg yal anekcum"
 
 #. Type: text
 #. Description
@@ -657,7 +650,7 @@ msgstr "noatime - دفعات دسترسی‌های inode را برای هر دس
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:45001
 msgid "nodiratime - do not update directory inode access times"
-msgstr "nodiratime - زمان‌های دسترسی‌ برای inode دایرکتوری را روز نکن"
+msgstr "nodiratime - ur ttleqqim ara akaram n wakuden n unekcum n inode"
 
 #. Type: text
 #. Description
@@ -666,7 +659,8 @@ msgstr "nodiratime - زمان‌های دسترسی‌ برای inode دایرک
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:46001
 msgid "relatime - update inode access times relative to modify time"
-msgstr "realtime - دفعات دسترسی inode را به نسبت زمان تغییر به روز کن"
+msgstr ""
+"relatime - leqqem akuden n unekcum n inode i icudden ɣer ubeddel n wakud"
 
 #. Type: text
 #. Description
@@ -675,7 +669,7 @@ msgstr "realtime - دفعات دسترسی inode را به نسبت زمان ت�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:47001
 msgid "nodev - do not support character or block special devices"
-msgstr "nodev - ابزارهای مخصوص بلوک یا کاراکتر را پشتیبانی نکن"
+msgstr "nodev - ur isefrak ara issekkilen neɣ issewḥal ibenkan usligen"
 
 #. Type: text
 #. Description
@@ -684,8 +678,7 @@ msgstr "nodev - ابزارهای مخصوص بلوک یا کاراکتر را پ
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:48001
 msgid "nosuid - ignore set-user-identifier or set-group-identifier bits"
-msgstr ""
-"nosuid - بیت‌های set-user-identifier یا set-group-identifier را در نظر نگیر"
+msgstr "nosuid - zgel ibiten n set-user-identifier neɣ set-group-identifier"
 
 #. Type: text
 #. Description
@@ -694,7 +687,7 @@ msgstr ""
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:49001
 msgid "noexec - do not allow execution of any binaries"
-msgstr "noexec - اجازهٔ اجرا هرگونه باینری را نده"
+msgstr "noexec - ur issirig ara aselkem n yal imisin"
 
 #. Type: text
 #. Description
@@ -703,7 +696,7 @@ msgstr "noexec - اجازهٔ اجرا هرگونه باینری را نده"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:50001
 msgid "ro - mount the file system read-only"
-msgstr "ro - فایل‌سیستم را فقط‌خواندنی ماونت کنید"
+msgstr "ro - serkeb anagraw n yifuyla n tɣuri kan"
 
 #. Type: text
 #. Description
@@ -712,7 +705,7 @@ msgstr "ro - فایل‌سیستم را فقط‌خواندنی ماونت کن�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:51001
 msgid "sync - all input/output activities occur synchronously"
-msgstr "sync - همهٔ فعالیت‌های ورودی/خروجی همزمان باشند"
+msgstr "mtawi - meṛṛa tigawin n unekcum/tuffɣa ḍrrunt s wudem amtawan"
 
 #. Type: text
 #. Description
@@ -721,7 +714,7 @@ msgstr "sync - همهٔ فعالیت‌های ورودی/خروجی همزمان
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:52001
 msgid "usrquota - user disk quota accounting enabled"
-msgstr "usrquota - حسابرسی سهم دیسک کاربر فعال شود"
+msgstr "usrquota - tasiḍent n umur n uḍebsi n useqdac termed"
 
 #. Type: text
 #. Description
@@ -730,7 +723,7 @@ msgstr "usrquota - حسابرسی سهم دیسک کاربر فعال شود"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:53001
 msgid "grpquota - group disk quota accounting enabled"
-msgstr "grpquota - حسابرسی سهم دیسک گروه فعال شود"
+msgstr "grpquota - tasiḍent n umur n uḍebsi n ugraw termed"
 
 #. Type: text
 #. Description
@@ -739,7 +732,7 @@ msgstr "grpquota - حسابرسی سهم دیسک گروه فعال شود"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:54001
 msgid "user_xattr - support user extended attributes"
-msgstr "user_xattr - مشخصه‌های توسعه‌یافتهٔ کاربر پشتیبانی شود"
+msgstr "user_xattr - sefrek imyerren uftiɣ n useqdac"
 
 #. Type: text
 #. Description
@@ -748,7 +741,7 @@ msgstr "user_xattr - مشخصه‌های توسعه‌یافتهٔ کاربر پ
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:55001
 msgid "quiet - changing owner and permissions does not return errors"
-msgstr "quiet - تغییر مالک و مجوزها خطاهایی برنگرداند"
+msgstr "quiet - asenfel n bab d tsirag ur d-yettarra ara tuccḍiwin"
 
 #. Type: text
 #. Description
@@ -757,7 +750,7 @@ msgstr "quiet - تغییر مالک و مجوزها خطاهایی برنگرد�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:56001
 msgid "notail - disable packing of files into the file system tree"
-msgstr "notail - بسته‌بندی پرونده‌ها در درون درخت سیستم‌فایل غرفعال شود"
+msgstr "notail - sens amḥurčeč n yifuyla deg useklu n unagraw n yifuyla"
 
 #. Type: text
 #. Description
@@ -767,6 +760,7 @@ msgstr "notail - بسته‌بندی پرونده‌ها در درون درخت 
 #: ../partman-basicfilesystems.templates:57001
 msgid "discard - trim freed blocks from underlying block device"
 msgstr ""
+"discard - anegzum n yiḥedran i d-yettuserrḥen seg yibenk n yiḥder uqrib"
 
 #. Type: text
 #. Description
@@ -775,7 +769,7 @@ msgstr ""
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:58001
 msgid "acls - support POSIX.1e Access Control List"
-msgstr "acls - پشتیبانی از استاندارد کنترل دسترسی POSIX.1e"
+msgstr "acls - isefrak tabdart n usenqed n unekcum POSIX.1e"
 
 #. Type: text
 #. Description
@@ -784,7 +778,8 @@ msgstr "acls - پشتیبانی از استاندارد کنترل دسترسی 
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:59001
 msgid "shortnames - only use the old MS-DOS 8.3 style filenames"
-msgstr "نام کوتاه - تنها برای مدل نام گذاری قدیمی MS-DOS 8.3 استفاده می شود."
+msgstr ""
+"ismawen wezzilen - seqdec kan ismawen iqburen n yifuyla n uɣanib MS-DOS 8.3"
 
 #. Type: boolean
 #. Description
@@ -795,7 +790,7 @@ msgstr "نام کوتاه - تنها برای مدل نام گذاری قدیم�
 #: ../partman-basicfilesystems.templates:60001
 #: ../partman-basicfilesystems.templates:61001
 msgid "Go back to the menu and correct this problem?"
-msgstr "بازگشت به منو و تصحیح این مشکل؟"
+msgstr "Uɣal ɣer wumuɣ syen seɣti tuccḍa-a?"
 
 #. Type: boolean
 #. Description
@@ -806,8 +801,9 @@ msgid ""
 "is needed by your machine in order to boot. Please go back and use the ext2 "
 "file system."
 msgstr ""
-"پارتیشن بوت شما با سیستم‌فایل ext2 پیکربندی نشده است. اینکار برای بالا آمدن "
-"سیستم شما لازم است. لطفاً برگردید و ext2 را انتخاب کنید."
+"Aḥric-inek·inem n usenker ur yettuswel ara s unagraw n yifuyla ext2. Ayagi "
+"yettusra sɣur aselkim-ik·im i wakken ad yekker. Ttxil-k·m uɣal ɣer deffir "
+"syen seqdec anagraw n yifuyla ext2."
 
 #. Type: boolean
 #. Description
@@ -822,9 +818,9 @@ msgid ""
 "partition will be used as is. This means that you may not be able to boot "
 "from your hard disk."
 msgstr ""
-"اگر شما به منوی پارتیشن‌بندی بازنگشته و این خطا را اصلاح نکنید، پارتیشن "
-"همانگونه که هست استفاده خواهد شد. این بدین معنی است که ممکن است نتوانید از "
-"دیسک‌سخت بالا بیایید."
+"Ma yella ur tuɣaleḍ ara ɣer wumuɣ n beṭṭu i wakken ad tseɣtiḍ tuccḍa-a, "
+"aḥric ad yettuseqdec akka i yella. Anamek n waya ur tettizmireḍ ara ad "
+"tesnekred seg uḍebsi-inek·inem aqquran."
 
 #. Type: boolean
 #. Description
@@ -835,6 +831,6 @@ msgid ""
 "This is needed by your machine in order to boot.  Please go back and use "
 "your first partition as a boot partition."
 msgstr ""
-"پارتیشن بوت شما در اولین پارتیشن دیسک سخت قرار ندارد. اینکار برای بالا آمدن "
-"سیسام شما لازم است. لطفاً برگردید و اولین پارتیشن خود را به عنوان پارتیشن بوت "
-"برگزینید."
+"Aḥric-ik·im n usenker ulac-it ɣef uḥric amezwaru n uḍebsi-inek·inem aqquran. "
+"Ayagi yettusra sɣur uselkim-ik·im i wakken ad yekker.  Ttxil-k·m uɣal ɣer "
+"deffir syen seqdec aḥric-ik·im amezwaru am uḥric n usker."
