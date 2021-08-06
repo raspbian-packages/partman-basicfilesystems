@@ -1,10 +1,20 @@
-partman-basicfilesystems (155+rpi1) bullseye-staging; urgency=medium
+partman-basicfilesystems (156+rpi1) bullseye-staging; urgency=medium
 
   [changes brought forward from 97+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Thu, 31 Jul 2014 21:59:02 +0000]
   * Remove fat-modules and ext2-modules dependencies as Raspbian
     kernels have the support built in.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 10 Jun 2021 19:51:34 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Fri, 06 Aug 2021 23:38:12 +0000
+
+partman-basicfilesystems (156) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Finnish (fi.po) by Kimmo Kujansuu
+  * Kabyle (kab.po)
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 23 Jul 2021 19:12:30 +0200
 
 partman-basicfilesystems (155) unstable; urgency=medium
 
