@@ -11,6 +11,7 @@
 # Eirik U. Birkeland <eirbir@gmail.com>, 2010.
 # Allan Nordhøy <epost@anotheragency.no>, 2017.
 # Alexander Jansen <bornxlo@gmail.com>, 2018.
+# aujawindar <eivind.odegard@sogn.no>, 2022.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
@@ -26,8 +27,8 @@ msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2018-05-13 08:39+0000\n"
-"Last-Translator: Alexander Jansen <bornxlo@gmail.com>\n"
+"PO-Revision-Date: 2022-04-17 17:12+0000\n"
+"Last-Translator: aujawindar <eivind.odegard@sogn.no>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
 "Language: nn\n"
 "MIME-Version: 1.0\n"
@@ -216,7 +217,7 @@ msgid ""
 "there, this partition will not be used at all."
 msgstr ""
 "Viss du ikkje går tilbake til partisjonsmenyen og oppgjev eit "
-"monteringspunkt der, vil denne partisjonen ikkje bli brukt i det heile"
+"monteringspunkt der, vil denne partisjonen ikkje bli brukt i det heile."
 
 #. Type: error
 #. Description
@@ -590,9 +591,8 @@ msgstr "fat32"
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:36001
-#, fuzzy
 msgid "NTFS journaling file system"
-msgstr "JFS, journalførande filsystem"
+msgstr "NTFS journalførande filsystem"
 
 #. Type: text
 #. Description
@@ -600,7 +600,7 @@ msgstr "JFS, journalførande filsystem"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:37001
 msgid "ntfs"
-msgstr ""
+msgstr "ntfs"
 
 #. Type: text
 #. Description
@@ -657,9 +657,8 @@ msgstr "noatime - ikkje oppdater inode tilgangstid ved kvar tilgang"
 #. Note to translators: Please keep your translations of this string below
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:45001
-#, fuzzy
 msgid "nodiratime - do not update directory inode access times"
-msgstr "noatime - ikkje oppdater inode tilgangstid ved kvar tilgang"
+msgstr "nodiratime - ikkje oppdater mappeinodetilgangstidene"
 
 #. Type: text
 #. Description
@@ -726,7 +725,7 @@ msgstr "sync - alle inn- og utdata vert handsama synkront"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:52001
 msgid "usrquota - user disk quota accounting enabled"
-msgstr "usrquota - slår på diskkvote for brukarar."
+msgstr "usrquota - slår på diskkvote for brukarar"
 
 #. Type: text
 #. Description

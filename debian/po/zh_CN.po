@@ -28,15 +28,19 @@
 #   Mai Hao Hui <mhh@126.com>, 2001 (translations from galeon)
 # YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012, 2013.
 # Yangfl <mmyangfl@gmail.com>, 2017.
+# Boyuan Yang <073plan@gmail.com>, 2018, 2019, 2020.
+# 玉堂白鹤 <yjwork@qq.com>, 2020.
+# TTT DEAL <ikmn2jlt@linshiyouxiang.net>, 2021.
+# Wenbin Lv <wenbin816@gmail.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2017-06-11 18:20+0800\n"
-"Last-Translator: Yangfl <mmyangfl@gmail.com>\n"
-"Language-Team:  <debian-l10n-chinese@lists.debian.org>\n"
+"PO-Revision-Date: 2022-04-17 17:12+0000\n"
+"Last-Translator: Wenbin Lv <wenbin816@gmail.com>\n"
+"Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -116,7 +120,7 @@ msgstr ""
 msgid ""
 "If you do not go back to the partitioning menu and correct these errors, the "
 "partition will be used as is."
-msgstr "如果您不返回分区菜单并更正这些错误，将以现状使用此分区。"
+msgstr "如果您不返回分区菜单并更正这些错误，此分区将会以目前的状态被使用。"
 
 #. Type: boolean
 #. Description
@@ -151,9 +155,9 @@ msgid ""
 "scarce. You may experience installation problems if you do not have enough "
 "physical memory."
 msgstr ""
-"您尚未选择任何分区用作交换空间。我们推荐您启用交换空间，以使系统能更好的利用"
-"现有物理内存，这样当物理内存不够用时它还可以改善系统的运行效能。如果没有足够"
-"的物理内存，您可以会遇到安装问题。"
+"您尚未选择任何分区用作交换空间。我们推荐您启用交换空间，以使系统能更好地利用"
+"可用的物理内存，并在物理内存不足时改善系统的性能。如果没有足够的物理内存，您"
+"在安装过程中可能会遇到问题。"
 
 #. Type: boolean
 #. Description
@@ -163,8 +167,7 @@ msgid ""
 "If you do not go back to the partitioning menu and assign a swap partition, "
 "the installation will continue without swap space."
 msgstr ""
-"如果您不返回分区菜单并分配一个交换空间，安装将在不使用无交换空间的情况下继"
-"续。"
+"如果您不返回分区菜单并分配一个交换空间，安装将在不使用交换空间的情况下继续。"
 
 #. Type: error
 #. Description
@@ -195,7 +198,7 @@ msgstr "创建交换空间失败"
 #: ../partman-basicfilesystems.templates:10001
 msgid ""
 "The creation of swap space in partition #${PARTITION} of ${DEVICE} failed."
-msgstr "在 ${DEVICE} 设备上第 ${PARTITION} 分区创建交换空间失败。"
+msgstr "在 ${DEVICE} 设备的第 ${PARTITION} 分区上创建交换空间失败。"
 
 #. Type: boolean
 #. Description
@@ -205,7 +208,7 @@ msgid ""
 "No mount point is assigned for the ${FILESYSTEM} file system in partition #"
 "${PARTITION} of ${DEVICE}."
 msgstr ""
-"您没有为 ${DEVICE} 设备上的 #${PARTITION} 分区的 ${FILESYSTEM} 文件系统设定挂"
+"您没有为 ${DEVICE} 设备的第 ${PARTITION} 分区的 ${FILESYSTEM} 文件系统设定挂"
 "载点。"
 
 #. Type: boolean
@@ -215,14 +218,14 @@ msgstr ""
 msgid ""
 "If you do not go back to the partitioning menu and assign a mount point from "
 "there, this partition will not be used at all."
-msgstr "如果您不返回分区菜单并分配一个挂载点，就不会使用此分区。"
+msgstr "如果您不返回分区菜单并分配一个挂载点，将不会使用此分区。"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:12001
 msgid "Invalid file system for this mount point"
-msgstr "不适用于此挂载点的文件系统"
+msgstr "文件系统不适用于此挂载点"
 
 #. Type: error
 #. Description
@@ -400,14 +403,14 @@ msgstr "您所输入的挂载点是无效的。"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Mount points must start with \"/\". They cannot contain spaces."
-msgstr "挂载点必须以“/”开头，并且不能包含空格。"
+msgstr "挂载点必须以 \"/\" 开头，并且不能包含空格。"
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:17001
 msgid "Label for the file system in this partition:"
-msgstr "此分区文件系统的标识："
+msgstr "此分区上的文件系统的标签："
 
 #. Type: text
 #. Description
@@ -438,7 +441,7 @@ msgstr "否"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:21001
 msgid "Label:"
-msgstr "标识："
+msgstr "标签："
 
 #. Type: text
 #. Description
@@ -464,7 +467,7 @@ msgstr "保留块："
 #. :sl2:
 #: ../partman-basicfilesystems.templates:24001
 msgid "Percentage of the file system blocks reserved for the super-user:"
-msgstr "文件系统被保留给超级用户的百分比："
+msgstr "保留给超级用户的文件系统块所占的百分比："
 
 #. Type: text
 #. Description
@@ -490,7 +493,7 @@ msgstr "标准"
 #. translate "news", "largefile" and "largefile4".
 #: ../partman-basicfilesystems.templates:27001
 msgid "Typical usage of this partition:"
-msgstr "此分区的一般用途："
+msgstr "此分区的典型用途："
 
 #. Type: select
 #. Description
@@ -502,8 +505,7 @@ msgstr "此分区的一般用途："
 msgid ""
 "Please specify how the file system is going to be used, so that optimal file "
 "system parameters can be chosen for that use."
-msgstr ""
-"请指定文件系统将作何使用，安装程序可为相应的用途指定优化的文件系统参数。"
+msgstr "请指定文件系统将如何使用，安装程序可为相应的用途优化文件系统的参数。"
 
 #. Type: select
 #. Description
@@ -516,8 +518,8 @@ msgid ""
 "standard = standard parameters, news = one inode per 4KB block, largefile = "
 "one inode per megabyte, largefile4 = one inode per 4 megabytes."
 msgstr ""
-"standard = 标准参数，news = 每 4KB 区块分配一个 inode，largefile = 每 1M 分配"
-"一个 inode，largefile4 = 每 4M 分配一个 inode。"
+"standard = 标准参数，news = 每 4KB 块分配一个 inode，largefile = 每 1M 分配一"
+"个 inode，largefile4 = 每 4M 分配一个 inode。"
 
 #. Type: text
 #. Description
@@ -645,7 +647,7 @@ msgstr "挂载选项可以调节文件系统的行为。"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:44001
 msgid "noatime - do not update inode access times at each access"
-msgstr "noatime - 在每次对数据进行访问时不更新 inode 的访问时间"
+msgstr "noatime - 访问时不要更新 inode 的访问时间"
 
 #. Type: text
 #. Description
@@ -654,7 +656,7 @@ msgstr "noatime - 在每次对数据进行访问时不更新 inode 的访问时�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:45001
 msgid "nodiratime - do not update directory inode access times"
-msgstr "nodiratime - 不要更新目录 inode 访问时间"
+msgstr "nodiratime - 不要更新目录 inode 的访问时间"
 
 #. Type: text
 #. Description
@@ -663,7 +665,7 @@ msgstr "nodiratime - 不要更新目录 inode 访问时间"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:46001
 msgid "relatime - update inode access times relative to modify time"
-msgstr "relatime - 只在更新 inode 修改时间时更新访问时间"
+msgstr "relatime - 相对于修改时间更新 inode 的访问时间"
 
 #. Type: text
 #. Description
@@ -762,7 +764,7 @@ msgstr "notail - 禁止将文件归置到文件系统树"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:57001
 msgid "discard - trim freed blocks from underlying block device"
-msgstr "discard - 在底层块设备上擦除释放的块"
+msgstr "discard - 在底层块设备上擦除被释放的块"
 
 #. Type: text
 #. Description
@@ -802,8 +804,8 @@ msgid ""
 "is needed by your machine in order to boot. Please go back and use the ext2 "
 "file system."
 msgstr ""
-"您的启动分区并未设置为使用 ext2 文件系统。为了启动您的计算机必须如此。请返回"
-"并使用 ext2 文件系统。"
+"您的启动分区并未设置为使用 ext2 文件系统。为了启动您的计算机，这是必需的。请"
+"返回并使用 ext2 文件系统。"
 
 #. Type: boolean
 #. Description
@@ -830,5 +832,5 @@ msgid ""
 "This is needed by your machine in order to boot.  Please go back and use "
 "your first partition as a boot partition."
 msgstr ""
-"您的启动分区并非位于硬盘的第一分区上。为了启动您的计算机必须如此。请返回并使"
-"用第一主分区作为启动分区。"
+"您的启动分区并非位于硬盘的第一分区上。为了启动您的计算机，这是必需的。请返回"
+"并使用第一个主分区作为启动分区。"

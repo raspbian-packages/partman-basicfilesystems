@@ -1,10 +1,31 @@
-partman-basicfilesystems (156+rpi1) bullseye-staging; urgency=medium
+partman-basicfilesystems (157+rpi1) bookworm-staging; urgency=medium
 
   [changes brought forward from 97+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Thu, 31 Jul 2014 21:59:02 +0000]
   * Remove fat-modules and ext2-modules dependencies as Raspbian
     kernels have the support built in.
 
- -- Raspbian forward porter <root@raspbian.org>  Fri, 06 Aug 2021 23:38:12 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sun, 12 Jun 2022 11:55:03 +0000
+
+partman-basicfilesystems (157) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+  * Malayalam (ml.po) by anomymous
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Norwegian Nynorsk (nn.po) by aujawindar
+  * Simplified Chinese (zh_CN.po) by Wenbin Lv
+
+  [ Samuel Thibault ]
+  * Make gbp produce the right tag format.
+
+  [ Debian Janitor ]
+  * Build-Depends: Drop versioned constraint on po-debconf.
+  * Bump debhelper from deprecated 9 to 13.
+  * Set debhelper-compat version in Build-Depends.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 28 May 2022 17:18:22 +0200
 
 partman-basicfilesystems (156) unstable; urgency=medium
 
