@@ -12,14 +12,14 @@
 # Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2010
 # Hai-Nam Nguyen <hainam@jcisio.com>, 2012
-# Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2019-02-27 14:34+0700\n"
+"PO-Revision-Date: 2022-07-16 14:23+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
@@ -263,7 +263,7 @@ msgstr "/boot — các tập tin cố định của bộ tải khởi động"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/home - user home directories"
-msgstr "/home — thư mục cá nhân của người dùng"
+msgstr "/home — các thư mục cá nhân của người dùng"
 
 #. Type: select
 #. Choices
@@ -519,7 +519,7 @@ msgstr ""
 "standard\t\ttham số _chuẩn_\n"
 "news\t\tmột nút thông tin trong mỗi khối 4KB (_mới_)\n"
 "largefile\t\tmột nút thông tin trong mỗi MB (_tập tin lớn_)\n"
-"largefile4\t\tmột nút thông tin trong mỗi 4MB"
+"largefile4\t\tmột nút thông tin trong mỗi 4MB."
 
 #. Type: text
 #. Description
@@ -721,7 +721,7 @@ msgstr "sync — mọi hành động nhập/xuất xảy ra đồng bộ"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:52001
 msgid "usrquota - user disk quota accounting enabled"
-msgstr "usrquota — tính toán hạn ngạch đĩa cho người dùng đã bật"
+msgstr "usrquota — bật tính toán hạn ngạch đĩa cho người dùng"
 
 #. Type: text
 #. Description
@@ -730,7 +730,7 @@ msgstr "usrquota — tính toán hạn ngạch đĩa cho người dùng đã b�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:53001
 msgid "grpquota - group disk quota accounting enabled"
-msgstr "grpquota — tính toán hạn ngạch đĩa cho nhóm đã bật"
+msgstr "grpquota — bật tính toán hạn ngạch đĩa cho nhóm"
 
 #. Type: text
 #. Description
@@ -796,7 +796,7 @@ msgstr "shortnames — chỉ sử dụng tên tập tin ngắn kiểu MS-DOS 8.3
 #: ../partman-basicfilesystems.templates:60001
 #: ../partman-basicfilesystems.templates:61001
 msgid "Go back to the menu and correct this problem?"
-msgstr "Trở về trình đơn để sửa chữa lỗi này chứ ?"
+msgstr "Trở về trình đơn để sửa chữa lỗi này chứ?"
 
 #. Type: boolean
 #. Description
@@ -837,5 +837,5 @@ msgid ""
 "your first partition as a boot partition."
 msgstr ""
 "Phân vùng khởi động của bạn không nằm trên phân vùng chính thứ nhất của đĩa "
-"cứng. Việc này là cần thiết để khởi động máy. Hãy trở về và sử dụng phân "
-"vùng chính thứ nhất như là phân vùng khởi động."
+"cứng. Việc này là cần thiết để khởi động máy. Hãy quay trở lại và sử dụng "
+"phân vùng chính thứ nhất như là phân vùng khởi động."
