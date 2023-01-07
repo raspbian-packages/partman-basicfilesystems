@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2018-10-02 21:21+0000\n"
-"Last-Translator: Xuacu Saturio <xuacusk8@gmail.com>\n"
+"PO-Revision-Date: 2022-12-11 11:40+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Softastur\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
@@ -37,14 +37,14 @@ msgid ""
 "Checking the ${TYPE} file system in partition #${PARTITION} of ${DEVICE}..."
 msgstr ""
 "Comprobando'l ${TYPE} sistema de ficheros na partición #${PARTITION} del "
-"${DEVICE}..."
+"${DEVICE}…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-basicfilesystems.templates:2001
 msgid "Checking the swap space in partition #${PARTITION} of ${DEVICE}..."
-msgstr "Comprobando l'espaciu swap na partición #${PARTITION} de ${DEVICE}..."
+msgstr "Comprobando l'espaciu swap na partición #${PARTITION} de ${DEVICE}…"
 
 #. Type: text
 #. Description
@@ -52,7 +52,7 @@ msgstr "Comprobando l'espaciu swap na partición #${PARTITION} de ${DEVICE}..."
 #: ../partman-basicfilesystems.templates:3001
 msgid "Creating ${TYPE} file system in partition #${PARTITION} of ${DEVICE}..."
 msgstr ""
-"Creando ${TYPE} sistema ficheros na partición #${PARTITION} de ${DEVICE}..."
+"Creando ${TYPE} sistema ficheros na partición #${PARTITION} de ${DEVICE}…"
 
 #. Type: text
 #. Description
@@ -63,14 +63,14 @@ msgid ""
 "of ${DEVICE}..."
 msgstr ""
 "Creando ${TYPE} sistema de ficheros pa ${MOUNT_POINT} na partición #"
-"${PARTITION} de ${DEVICE}..."
+"${PARTITION} de ${DEVICE}…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-basicfilesystems.templates:5001
 msgid "Formatting swap space in partition #${PARTITION} of ${DEVICE}..."
-msgstr "Formatiando espaciu swap na partición #${PARTITION} de ${DEVICE}..."
+msgstr "Formatiando espaciu swap na partición #${PARTITION} de ${DEVICE}…"
 
 #. Type: boolean
 #. Description

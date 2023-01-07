@@ -18,6 +18,7 @@
 # Ayesha Akhtar <ayesha@ankur.org.bd>, 2010.
 # Israt Jahan <israt@ankur.org.bd>, 2010.
 # Zenat Rahnuma <zenat@ankur.org.bd>, 2011.
+# Indrani Roy <indrani@scriptek.co.in>, 2021.
 #
 # Translations from iso-codes:
 #   Debian Foundation, 2005.
@@ -32,9 +33,9 @@ msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2012-03-13 19:06+0600\n"
-"Last-Translator: Robin Mehdee (রবিন মেহদী) <robin@ankur.org.bd>\n"
-"Language-Team: Bengali \n"
+"PO-Revision-Date: 2022-12-11 11:40+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
+"Language-Team: Bengali\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,14 +49,14 @@ msgstr ""
 msgid ""
 "Checking the ${TYPE} file system in partition #${PARTITION} of ${DEVICE}..."
 msgstr ""
-"${DEVICE} এর #${PARTITION} নং পার্টিশনে ${TYPE}ফাইল সিস্টেম পরীক্ষা করা হচ্ছে..."
+"${DEVICE} এর #${PARTITION} নং পার্টিশনে ${TYPE}ফাইল সিস্টেম পরীক্ষা করা হচ্ছে…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-basicfilesystems.templates:2001
 msgid "Checking the swap space in partition #${PARTITION} of ${DEVICE}..."
-msgstr "${DEVICE}এর #${PARTITION} নং পার্টিশনে সোয়াপ স্থান পরীক্ষা করা হচ্ছে..."
+msgstr "${DEVICE}এর #${PARTITION} নং পার্টিশনে সোয়াপ স্থান পরীক্ষা করা হচ্ছে…"
 
 #. Type: text
 #. Description
@@ -63,7 +64,7 @@ msgstr "${DEVICE}এর #${PARTITION} নং পার্টিশনে সো�
 #: ../partman-basicfilesystems.templates:3001
 msgid "Creating ${TYPE} file system in partition #${PARTITION} of ${DEVICE}..."
 msgstr ""
-"${DEVICE} এর #${PARTITION} নং পার্টিশনে ${TYPE}ফাইল সিস্টেম তৈরি করা হচ্ছে..."
+"${DEVICE} এর #${PARTITION} নং পার্টিশনে ${TYPE}ফাইল সিস্টেম তৈরি করা হচ্ছে…"
 
 #. Type: text
 #. Description
@@ -74,14 +75,14 @@ msgid ""
 "of ${DEVICE}..."
 msgstr ""
 "${DEVICE} এর #${PARTITION} নং পার্টিশনে ${MOUNT_POINT} -এর জন্য ${TYPE}ফাইল "
-"সিস্টেম তৈরি করা হচ্ছে..."
+"সিস্টেম তৈরি করা হচ্ছে…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-basicfilesystems.templates:5001
 msgid "Formatting swap space in partition #${PARTITION} of ${DEVICE}..."
-msgstr "${DEVICE} এর #${PARTITION} নং পার্টিশনে সোয়াপ স্থান ফরম্যাট করা হচ্ছে..."
+msgstr "${DEVICE} এর #${PARTITION} নং পার্টিশনে সোয়াপ স্থান ফরম্যাট করা হচ্ছে…"
 
 #. Type: boolean
 #. Description
