@@ -1,10 +1,18 @@
-partman-basicfilesystems (159+rpi1) bookworm-staging; urgency=medium
+partman-basicfilesystems (160+rpi1) bookworm-staging; urgency=medium
 
   [changes brought forward from 97+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Thu, 31 Jul 2014 21:59:02 +0000]
   * Remove fat-modules and ext2-modules dependencies as Raspbian
     kernels have the support built in.
 
- -- Raspbian forward porter <root@raspbian.org>  Sat, 07 Jan 2023 13:22:04 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Fri, 17 Feb 2023 12:55:38 +0000
+
+partman-basicfilesystems (160) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Arabic (ar.po) by Khaled Mahmoud
+  * Spanish (es.po) by gallegonovato
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 15 Feb 2023 17:36:55 +0100
 
 partman-basicfilesystems (159) unstable; urgency=medium
 
