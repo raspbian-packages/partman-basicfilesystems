@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2012-02-28 10:16+0530\n"
-"Last-Translator: Danishka Navin <danishka@gmail.com>\n"
+"PO-Revision-Date: 2023-03-01 15:39+0000\n"
+"Last-Translator: HelaBasa Group <weblate-helabasa@yalu.lk>\n"
 "Language-Team: Sinhala <info@hanthana.org>\n"
 "Language: si\n"
 "MIME-Version: 1.0\n"
@@ -582,7 +582,7 @@ msgstr "JFS ජර්නල ගොනු පද්ධතිය"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:37001
 msgid "ntfs"
-msgstr ""
+msgstr "ntfs"
 
 #. Type: text
 #. Description
