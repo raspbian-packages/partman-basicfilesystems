@@ -1,10 +1,25 @@
-partman-basicfilesystems (162+rpi1) bookworm-staging; urgency=medium
+partman-basicfilesystems (164+rpi1) bookworm-staging; urgency=medium
 
   [changes brought forward from 97+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Thu, 31 Jul 2014 21:59:02 +0000]
   * Remove fat-modules and ext2-modules dependencies as Raspbian
     kernels have the support built in.
 
- -- Raspbian forward porter <root@raspbian.org>  Sun, 14 May 2023 15:35:56 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Thu, 01 Jun 2023 21:15:10 +0000
+
+partman-basicfilesystems (164) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Norwegian Nynorsk (nn.po) by Yngve Spjeld-Landro
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 23 May 2023 19:58:47 +0200
+
+partman-basicfilesystems (163) unstable; urgency=medium
+
+  * Install dosfstools if we have a FAT ESP.
+
+ -- Steve McIntyre <93sam@debian.org>  Mon, 15 May 2023 22:58:56 +0100
 
 partman-basicfilesystems (162) unstable; urgency=medium
 

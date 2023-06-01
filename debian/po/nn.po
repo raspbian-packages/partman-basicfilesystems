@@ -27,8 +27,8 @@ msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2022-09-25 15:22+0000\n"
-"Last-Translator: anonymous\n"
+"PO-Revision-Date: 2023-05-17 23:53+0000\n"
+"Last-Translator: Yngve Spjeld-Landro <l10n@landro.net>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
 "Language: nn\n"
 "MIME-Version: 1.0\n"
@@ -161,7 +161,7 @@ msgid ""
 "the installation will continue without swap space."
 msgstr ""
 "Viss du ikkje går tilbake til partisjonsmenyen og tilordnar ein "
-"vekselpartisjon vil installasjonen halde fram utan vekselpartisjon."
+"vekselpartisjon, vil installasjonen halde fram utan vekselpartisjon."
 
 #. Type: error
 #. Description
@@ -186,7 +186,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:10001
 msgid "Failed to create a swap space"
-msgstr "Klarte ikkje å lage eit vekselminne"
+msgstr "Klarte ikkje å oppretta vekselminneområde"
 
 #. Type: error
 #. Description
@@ -403,7 +403,7 @@ msgstr "Monteringspunktet du skreiv inn er ugyldig."
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Mount points must start with \"/\". They cannot contain spaces."
-msgstr "Monteringspunkt må starte med «/». Dei kan ikkje innehalda mellomrom."
+msgstr "Monteringspunkt må starta med «/». Dei kan ikkje innehalda mellomrom."
 
 #. Type: string
 #. Description
@@ -520,7 +520,7 @@ msgid ""
 "standard = standard parameters, news = one inode per 4KB block, largefile = "
 "one inode per megabyte, largefile4 = one inode per 4 megabytes."
 msgstr ""
-"standard = standardparameter, news = ein inode per 4 KB-blokk, largefile = "
+"standard = standardparameter, news = ein inode per 4 kB-blokk, largefile = "
 "ein inode per megabyte, largefile4 = ein inode per 4 megabyte."
 
 #. Type: text
@@ -540,7 +540,7 @@ msgid ""
 "none[ Do not translate what's inside the brackets and just put the "
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" relates to \"Mount point:\" ]"
-msgstr "Ingen"
+msgstr "ingen"
 
 #. Type: text
 #. Description
@@ -649,7 +649,7 @@ msgstr "Monteringval kan stilla inn oppførselen til filsystemet."
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:44001
 msgid "noatime - do not update inode access times at each access"
-msgstr "noatime - ikkje oppdater inode tilgangstid ved kvar tilgang"
+msgstr "noatime - ikkje oppdater inode-tilgangstid ved kvar tilgang"
 
 #. Type: text
 #. Description
@@ -678,7 +678,7 @@ msgstr ""
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:47001
 msgid "nodev - do not support character or block special devices"
-msgstr "nodev - ikkje støtt teikn eller blokk spesialeining"
+msgstr "nodev - ikkje støtt teikn- eller blokkspesialeiningar"
 
 #. Type: text
 #. Description
@@ -688,8 +688,8 @@ msgstr "nodev - ikkje støtt teikn eller blokk spesialeining"
 #: ../partman-basicfilesystems.templates:48001
 msgid "nosuid - ignore set-user-identifier or set-group-identifier bits"
 msgstr ""
-"nosuid - ignorer set-brukar-identifikasjon eller set-gruppe-identifikasjon "
-"bit"
+"nosuid - ignorer set-brukar-identifikasjon- eller set-gruppe-"
+"identifikasjonbitar"
 
 #. Type: text
 #. Description
@@ -698,7 +698,7 @@ msgstr ""
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:49001
 msgid "noexec - do not allow execution of any binaries"
-msgstr "noexec - tillet inga køyring av køyrbare filer"
+msgstr "noexec - tillet ikkje køyring av køyrbare filer"
 
 #. Type: text
 #. Description
@@ -811,8 +811,8 @@ msgid ""
 "file system."
 msgstr ""
 "Oppstartspartisjonen din er ikkje sett opp med eit ext2-filsystem. Dette er "
-"naudsynt for at maskina di skal kunne starte opp. Gå tilbake og bruk anten "
-"ext2-filsystemet."
+"naudsynt for at maskina di skal kunne starte opp. Gå tilbake og bruk ext2-"
+"filsystemet."
 
 #. Type: boolean
 #. Description
@@ -828,7 +828,7 @@ msgid ""
 "from your hard disk."
 msgstr ""
 "Viss du ikkje går tilbake til partisjoneringsmenyen og rettar opp desse "
-"feila, vil partisjonen bli brukt som han er. Dette tyder at det kan vere du "
+"feila, vil partisjonen bli brukt som han er. Dette betyr at det kan vere du "
 "ikkje kan starte opp maskina frå harddisken."
 
 #. Type: boolean
@@ -841,5 +841,5 @@ msgid ""
 "your first partition as a boot partition."
 msgstr ""
 "Oppstartspartisjonen er ikkje plassert på den første partisjonen på "
-"harddisken. Dette er naudsynt for at maskina di skal kunne starte opp. Gå "
+"platelageret. Dette er naudsynt for at maskina di skal kunne starte opp. Gå "
 "tilbake og bruk den første partisjonen som oppstartspartisjon."
