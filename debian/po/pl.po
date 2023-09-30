@@ -29,14 +29,16 @@
 # Marcin Owsiany <porridge@debian.org>, 2011.
 # Michał Kułach <michal.kulach@gmail.com>, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
 # Bartosz Feński <fenio@debian.org>, 2020.
+# Matthaiks <kitynska@gmail.com>, 2021, 2022.
+# Łukasz Dulny <BartekChom@poczta.onet.pl>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2020-09-11 20:10+0000\n"
-"Last-Translator: Bartosz Feński <fenio@debian.org>\n"
+"PO-Revision-Date: 2023-08-03 08:07+0000\n"
+"Last-Translator: Matthaiks <kitynska@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -567,7 +569,7 @@ msgstr "brak"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:30001
 msgid "Ext2 file system"
-msgstr "System plików ext2"
+msgstr "ext2 – system plików"
 
 #. Type: text
 #. Description
@@ -582,7 +584,7 @@ msgstr "ext2"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:32001
 msgid "FAT16 file system"
-msgstr "system plików FAT16"
+msgstr "FAT16 – system plików"
 
 #. Type: text
 #. Description
@@ -597,7 +599,7 @@ msgstr "fat16"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:34001
 msgid "FAT32 file system"
-msgstr "system plików FAT32"
+msgstr "FAT32 – system plików"
 
 #. Type: text
 #. Description
@@ -612,7 +614,7 @@ msgstr "fat32"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:36001
 msgid "NTFS journaling file system"
-msgstr "system plików NTFS z księgowaniem"
+msgstr "NTFS – system plików z księgowaniem"
 
 #. Type: text
 #. Description
