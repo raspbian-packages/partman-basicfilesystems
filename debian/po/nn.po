@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
-"POT-Creation-Date: 2018-09-28 22:43+0200\n"
+"POT-Creation-Date: 2024-05-28 20:02+0000\n"
 "PO-Revision-Date: 2023-05-17 23:53+0000\n"
 "Last-Translator: Yngve Spjeld-Landro <l10n@landro.net>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
@@ -276,7 +276,9 @@ msgstr "/home - brukaren si heimemappe"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-msgid "/tmp - temporary files"
+#, fuzzy
+#| msgid "/tmp - temporary files"
+msgid "/tmp - temporary files (default: tmpfs)"
 msgstr "/tmp - mellombelse filer"
 
 #. Type: select

@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
-"POT-Creation-Date: 2018-09-28 22:43+0200\n"
+"POT-Creation-Date: 2024-05-28 20:02+0000\n"
 "PO-Revision-Date: 2020-11-29 17:29+0000\n"
 "Last-Translator: george k <norhorn@gmail.com>\n"
 "Language-Team: Greek <debian-l10n-greek@lists.debian.org>\n"
@@ -294,7 +294,9 @@ msgstr "/home - προσωπικοί κατάλογοι χρηστών"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-msgid "/tmp - temporary files"
+#, fuzzy
+#| msgid "/tmp - temporary files"
+msgid "/tmp - temporary files (default: tmpfs)"
 msgstr "/tmp - προσωρινά αρχεία"
 
 #. Type: select

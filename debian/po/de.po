@@ -17,7 +17,9 @@
 # #
 # Translations from iso-codes:
 # Translations taken from ICU SVN on 2007-09-09
-# Holger Wansing <linux@wansing-online.de>, 2008 - 2017, 2018.
+#
+# Holger Wansing <hwansing@mailbox.org>, 2019, 2020, 2021, 2022.
+# Holger Wansing <linux@wansing-online.de>, 2008 - 2018, 2023, 2024.
 # Jens Seidel <jensseidel@users.sf.net>, 2005, 2006, 2007, 2008.
 # Dennis Stampfer <seppy@debian.org>, 2003, 2004, 2005.
 # Alwin Meschede <ameschede@gmx.de>, 2003, 2004.
@@ -34,13 +36,14 @@
 # Stefan Siegel <siegel@mandrakesoft.com>, 2001.
 # Tobias Quathamer <toddy@debian.org>, 2006, 2007, 2008, 2009, 2010.
 # Wolfgang Rohdewald <wolfgang@rohdewald.de>, 2005.
+# Helge Kreutzmann <debian@helgefjell.de>, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
-"POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2018-07-02 20:08+0100\n"
-"Last-Translator: Holger Wansing <linux@wansing-online.de>\n"
+"POT-Creation-Date: 2024-05-28 20:02+0000\n"
+"PO-Revision-Date: 2024-05-30 16:53+0200\n"
+"Last-Translator: Holger Wansing <hwansing@mailbox.org>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -214,8 +217,6 @@ msgstr ""
 "Der Swap-Speicher in Partition ${PARTITION} auf ${DEVICE} konnte nicht "
 "erzeugt werden."
 
-# FIXME: Das selbe wie: ../partman-ext3.templates:22?
-# "No mount point is assigned for the ext3 file system in partition #"
 # "${PARTITION} of ${DEVICE}."
 #. Type: boolean
 #. Description
@@ -296,8 +297,8 @@ msgstr "/home - Home-Verzeichnisse der Benutzer"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-msgid "/tmp - temporary files"
-msgstr "/tmp - Temporäre Dateien"
+msgid "/tmp - temporary files (default: tmpfs)"
+msgstr "/tmp - Temporäre Dateien (Standard: tmpfs)"
 
 #. Type: select
 #. Choices

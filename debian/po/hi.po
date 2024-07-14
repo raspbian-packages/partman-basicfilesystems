@@ -27,7 +27,7 @@
 # Kumar Appaiah <kumar.appaiah@gmail.com>, 2008, 2011, 2012.
 # Sruthi Chandran <srud@openmailbox.org>, 2018.
 # Himanshu Awasthi <johim9493@gmail.com>, 2018.
-# KushagraKarira <kushagrakarira@gmail.com>, 2020, 2021.
+# KushagraKarira <kushagrakarira@gmail.com>, 2020, 2021, 2022.
 # षिखर् <dnitesigm@gmail.com>, 2020.
 # Indrani Roy <indrani@scriptek.co.in>, 2021.
 #
@@ -35,9 +35,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_hi\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
-"POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2021-02-09 19:14+0000\n"
-"Last-Translator: KushagraKarira <kushagrakarira@gmail.com>\n"
+"POT-Creation-Date: 2024-05-28 20:02+0000\n"
+"PO-Revision-Date: 2024-02-29 13:02+0000\n"
+"Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: \n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -290,7 +290,9 @@ msgstr "/home - उपयोक्ता का घर डिरेक्ट्�
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-msgid "/tmp - temporary files"
+#, fuzzy
+#| msgid "/tmp - temporary files"
+msgid "/tmp - temporary files (default: tmpfs)"
 msgstr "/tmp - अस्थायी फ़ाइलें"
 
 #. Type: select
@@ -820,7 +822,7 @@ msgid ""
 "is needed by your machine in order to boot. Please go back and use the ext2 "
 "file system."
 msgstr ""
-"आपका बूट विभाजन ext2 फाइल सिस्टम से कॉन्फ़िगर नहीं किया गया है। बूट करने के लिए यह "
+"आपका बूट पार्टीशन ext2 फाइल सिस्टम से कॉन्फ़िगर नहीं किया गया है। बूट करने के लिए यह "
 "आपकी मशीन द्वारा आवश्यक है। कृपया वापस जाएं और ext2 फ़ाइल सिस्टम का उपयोग करें।"
 
 #. Type: boolean

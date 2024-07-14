@@ -9,6 +9,7 @@
 #
 # Georgi Stanojevski, <glisha@gmail.com>, 2004, 2005, 2006.
 # Georgi Stanojevski <georgis@unet.com.mk>, 2005, 2006.
+# Kristijan Fremen Velkovski <me@krisfremen.com>, 2023.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@computer.org>, 2002
@@ -23,8 +24,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_mk\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
-"POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2022-12-14 18:48+0000\n"
+"POT-Creation-Date: 2024-05-28 20:02+0000\n"
+"PO-Revision-Date: 2024-03-06 06:01+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <>\n"
 "Language: mk\n"
@@ -279,7 +280,9 @@ msgstr "/home - сопствените директориуми на корис�
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-msgid "/tmp - temporary files"
+#, fuzzy
+#| msgid "/tmp - temporary files"
+msgid "/tmp - temporary files (default: tmpfs)"
 msgstr "/tmp - привремени датотеки"
 
 #. Type: select
@@ -777,7 +780,7 @@ msgstr "notail - исклучи го пакувањето на датотеки 
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:57001
 msgid "discard - trim freed blocks from underlying block device"
-msgstr ""
+msgstr "discard - ослобедете ги блокови под основниот блок уред"
 
 #. Type: text
 #. Description
@@ -812,15 +815,14 @@ msgstr "Врати се во менито и поправи го проблем�
 #. Description
 #. :sl5:
 #: ../partman-basicfilesystems.templates:60001
-#, fuzzy
 msgid ""
 "Your boot partition has not been configured with the ext2 file system. This "
 "is needed by your machine in order to boot. Please go back and use the ext2 "
 "file system."
 msgstr ""
-"Вашата партицијата за подигнување не е конфигурирана со ext2 или ext3 "
-"датотечен систем. Ова е потребно за да може да се подигнува машината. Ве "
-"молам вратете се назад и изберете го ext2 или ext3 датотечен систем."
+"Вашата партицијата за подигнување не е конфигурирана со ext2 фајл систем. "
+"Ова е потребно за да може да се бутира машината. Ве молам вратете се назад и "
+"користете го ext2 фајл системот."
 
 #. Type: boolean
 #. Description
@@ -843,12 +845,11 @@ msgstr ""
 #. Description
 #. :sl5:
 #: ../partman-basicfilesystems.templates:61001
-#, fuzzy
 msgid ""
 "Your boot partition is not located on the first partition of your hard disk. "
 "This is needed by your machine in order to boot.  Please go back and use "
 "your first partition as a boot partition."
 msgstr ""
-"Твојата бут партиција не е лоцирана на првата примарна партиција од тврдиот "
-"диск. Ова е потребно за да може да се бутира твојата машина. Те молам врати "
-"се и искористи ја твојата прва примарна партиција како бут партиција."
+"Твојата бут партиција не е лоцирана на првата партиција од тврдиот диск. Ова "
+"е потребно за да може да се бутира твојата машина. Те молам врати се и "
+"искористи ја твојата прва партиција како бут партиција."

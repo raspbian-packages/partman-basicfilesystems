@@ -21,14 +21,14 @@
 # Meni Livne <livne@kde.org>, 2000.
 # Meital Bourvine <meitalbourvine@gmail.com>, 2007.
 # Lior Kaplan <kaplan@debian.org>, 2004-2007, 2008, 2010, 2011, 2015, 2017.
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2018, 2019.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2018, 2019, 2020, 2021, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
-"POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2019-04-20 07:33+0000\n"
+"POT-Creation-Date: 2024-05-28 20:02+0000\n"
+"PO-Revision-Date: 2024-06-09 10:22+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -275,8 +275,8 @@ msgstr "‏‎/‎home - ספריות הבית של המשתמשים"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-msgid "/tmp - temporary files"
-msgstr "‏‎‎‏‎‎‏‎/tmp - קבצים זמניים"
+msgid "/tmp - temporary files (default: tmpfs)"
+msgstr "‏‎‎‏‎‎‏‎/tmp - קבצים זמניים (ברירת מחדל: tmpfs)"
 
 #. Type: select
 #. Choices

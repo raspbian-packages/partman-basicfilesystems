@@ -14,19 +14,20 @@
 # Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2010.
 # localuser <sampadanakhare@gmail.com>, 2015.
 # Nayan Nakhare <nayannakhare@rediffmail.com>, 2018.
+# Prachi Joshi <josprachi@yahoo.com>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
-"POT-Creation-Date: 2018-09-28 22:43+0200\n"
-"PO-Revision-Date: 2018-10-07 18:30+0000\n"
-"Last-Translator: Nayan Nakhare <nayannakhare@rediffmail.com>\n"
+"POT-Creation-Date: 2024-05-28 20:02+0000\n"
+"PO-Revision-Date: 2023-12-10 18:08+0000\n"
+"Last-Translator: omwani <omwani03+gitlab@gmail.com>\n"
 "Language-Team: CDAC_DI\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: text
 #. Description
@@ -270,7 +271,9 @@ msgstr "/home - वापरदाराच्या घर निर्दे�
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-msgid "/tmp - temporary files"
+#, fuzzy
+#| msgid "/tmp - temporary files"
+msgid "/tmp - temporary files (default: tmpfs)"
 msgstr "/tmp - तात्पुरत्या फायली"
 
 #. Type: select
@@ -398,7 +401,7 @@ msgstr "आपण दिलेला आरोह बिंदू अवैध �
 #: ../partman-basicfilesystems.templates:16001
 msgid "Mount points must start with \"/\". They cannot contain spaces."
 msgstr ""
-"आरोह बिंदू  \"/\" पासूनच सुरू झाला पाहिजे. त्यांच्यात रिक्त जागा अंतर्भूत करता येत नाहीत."
+"आरोह बिंदू \"/\" पासूनच सुरू झाला पाहिजे. त्यांच्यात रिक्त जागा अंतर्भूत करता येत नाहीत."
 
 #. Type: string
 #. Description
@@ -511,13 +514,12 @@ msgstr ""
 #. partman-basicfilesystems/text/typical_usage template.  Do not
 #. translate "news", "largefile" and "largefile4".
 #: ../partman-basicfilesystems.templates:27001
-#, fuzzy
 msgid ""
 "standard = standard parameters, news = one inode per 4KB block, largefile = "
 "one inode per megabyte, largefile4 = one inode per 4 megabytes."
 msgstr ""
-"प्रमाणित = प्रमाणित घटक, बातमी = प्रत्येक ४केबी ब्लॉककरिता एक आयनोड, मोठीफाइल = "
-"प्रत्येक एमबी करिता एक आयनोड, मोठीफाइल४ = प्रत्येक ४ एमबी करिता एक आयनोड."
+"मानक = मानक पॅरामीटर्स, news = एक इनोड प्रति 4KB ब्लॉक, largefile = एक इनोड प्रति "
+"मेगाबाइट, largefile4 = एक इनोड प्रति 4 मेगाबाइट्स."
 
 #. Type: text
 #. Description

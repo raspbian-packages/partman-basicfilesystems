@@ -1,10 +1,36 @@
-partman-basicfilesystems (165+rpi1) trixie-staging; urgency=medium
+partman-basicfilesystems (166+rpi1) trixie-staging; urgency=medium
 
   [changes brought forward from 97+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Thu, 31 Jul 2014 21:59:02 +0000]
   * Remove fat-modules and ext2-modules dependencies as Raspbian
     kernels have the support built in.
 
- -- Raspbian forward porter <root@raspbian.org>  Sat, 30 Sep 2023 05:53:08 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sun, 14 Jul 2024 05:50:29 +0000
+
+partman-basicfilesystems (166) unstable; urgency=medium
+
+  * Team upload
+
+  [ Luca Boccassi ]
+  * Note that /tmp is a tmpfs by default in partition choice.
+
+  [ Updated translations ]
+  * Catalan (ca.po) by d
+  * German (de.po) by Holger Wansing
+  * Spanish (es.po) by gallegonovato
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Hindi (hi.po) by Scrambled777
+  * Georgian (ka.po) by Temuri Doghonadze
+  * Macedonian (mk.po) by Kristijan Fremen Velkovski
+  * Marathi (mr.po) by omwani
+  * Norwegian Bokmal (nb.po) by Petter Reinholdtsen
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Punjabi (Gurmukhi) (pa.po) by Aman Alam
+  * Polish (pl.po) by Matthaiks
+  * Portuguese (Brazil) (pt_BR.po) by Adriano Rafael Gomes
+  * Swedish (sv.po) by bittin1ddc447d824349b2
+  * Ukrainian (uk.po) by Hotripak
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 07 Jul 2024 21:40:26 +0200
 
 partman-basicfilesystems (165) unstable; urgency=medium
 
