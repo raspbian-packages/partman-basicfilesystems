@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: debian-installer.2006071\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2024-06-08 15:09+0000\n"
+"PO-Revision-Date: 2024-09-21 07:40+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian\n"
 "Language: ka\n"
@@ -69,7 +69,7 @@ msgid ""
 "Creating ${TYPE} file system for ${MOUNT_POINT} in partition #${PARTITION} "
 "of ${DEVICE}..."
 msgstr ""
-"იქმნება ${TYPE} ტიპის ფაილური სისტემა, მონტაჟის წერტილი - ${MOUNT_POINT}, "
+"იქმნება ${TYPE} ტიპის ფაილური სისტემა, მიმაგრების წერტილი - ${MOUNT_POINT}, "
 "დანაყოფი #${PARTITION}, მოწყობილობა ${DEVICE}..."
 
 #. Type: text
@@ -89,7 +89,7 @@ msgstr ""
 #: ../partman-basicfilesystems.templates:6001
 #: ../partman-basicfilesystems.templates:7001
 msgid "Go back to the menu and correct errors?"
-msgstr "დავბრუნდეთ მენუში და გავასწოროთ შეცდომები?"
+msgstr "დაბრუნდებით მენუში და გაასწორებთ შეცდომებს?"
 
 #. Type: boolean
 #. Description
@@ -114,8 +114,8 @@ msgid ""
 "If you do not go back to the partitioning menu and correct these errors, the "
 "partition will be used as is."
 msgstr ""
-"თუკი თქვენ არ დაბრუნდებით დაყოფის მენუში და არ გაასწორებთ ამ შეცდომებს, "
-"დანაყოფი იქნება გამოყენებული არსებული სახით."
+"თუ არ დაბრუნდებით დაყოფის მენუში და არ გაასწორებთ ამ შეცდომებს, დანაყოფი "
+"იქნება გამოყენებული არსებული სახით."
 
 #. Type: boolean
 #. Description
@@ -137,7 +137,7 @@ msgstr ""
 #: ../partman-basicfilesystems.templates:8001
 #: ../partman-basicfilesystems.templates:11001
 msgid "Do you want to return to the partitioning menu?"
-msgstr "დავბრუნდეთ დაყოფის მენიუში?"
+msgstr "დაბრუნდებით დაყოფის მენიუში?"
 
 #. Type: boolean
 #. Description
@@ -153,7 +153,7 @@ msgstr ""
 "თქვენ არ მიგითითებიათ დანაყოფი swap-სივრცისათვის. ეს რეკომენდებულია, რათა "
 "სისტემამ შეძლოს ფიზიკური მეხსიერების უფრო ოპტიმალურად გამოყენება, "
 "განსაკუთრებით მაშინ, როცა ფიზიკური მეხსიერება არ არის საკმარისი, რამაც "
-"ინსტალაციის პროცესშივე შეიძლება შეგიქმნათ პრობლემები."
+"დაყენების პროცესშივე შეიძლება, პრობლემები შეგიქმნათ."
 
 #. Type: boolean
 #. Description
@@ -163,8 +163,8 @@ msgid ""
 "If you do not go back to the partitioning menu and assign a swap partition, "
 "the installation will continue without swap space."
 msgstr ""
-"თუკი თქვენ არ დაბრუნდებით დაყოფის მენუში და არ მიუთითებთ swap-სივრცეს, "
-"ინსტალაცია გაგრძელდება მის გარეშე."
+"თუ თქვენ არ დაბრუნდებით დაყოფის მენუში და არ მიუთითებთ swap-სივრცეს, "
+"დაყენება გაგრძელდება მის გარეშე."
 
 #. Type: error
 #. Description
@@ -209,8 +209,8 @@ msgid ""
 "No mount point is assigned for the ${FILESYSTEM} file system in partition #"
 "${PARTITION} of ${DEVICE}."
 msgstr ""
-"არ არის მითითებული მონტაჟის პუნქტი ${FILESYSTEM} ფაილური სისტემისათვის, #"
-"${DEVICE} მოწყობიობის ${PARTITION} დანაყოფზე."
+"არ არის მითითებული მიმაგრების წერტილი ${FILESYSTEM} ფაილური სისტემისათვის, #"
+"${DEVICE} მოწყობილობის ${PARTITION} დანაყოფზე."
 
 #. Type: boolean
 #. Description
@@ -220,15 +220,15 @@ msgid ""
 "If you do not go back to the partitioning menu and assign a mount point from "
 "there, this partition will not be used at all."
 msgstr ""
-"თუ თქვენ არ დაბრუნდებით დაყოფის მენიუში და არ მიუთითებთ მონტაჟის პუნქტს, ამ "
-"დანაყოფის გამოყენება შეუძლებელი იქნება."
+"თუ თქვენ არ დაბრუნდებით დაყოფის მენიუში და არ მიუთითებთ მიმაგრების წერტილს, "
+"ამ დანაყოფის გამოყენება შეუძლებელი იქნება."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:12001
 msgid "Invalid file system for this mount point"
-msgstr "დაუშვებელი ფაილური სისტემა ამ მონტაჟის პუნქტისათვის"
+msgstr "დაუშვებელი ფაილური სისტემა ამ მიმაგრების წერტილისთვის"
 
 #. Type: error
 #. Description
@@ -271,7 +271,7 @@ msgstr "/boot - სისტემური ჩამტვირთველი
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/home - user home directories"
-msgstr "/home - მომხმარებელთა სათაო კატალოგები"
+msgstr "/home - მომხმარებელთა საწყისი საქაღალდეები"
 
 #. Type: select
 #. Choices
@@ -280,9 +280,8 @@ msgstr "/home - მომხმარებელთა სათაო კა�
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - დროებითი ფაილები"
+msgstr "/tmp - დროებითი ფაილები (ნაგულისხმევი: tmpfs)"
 
 #. Type: select
 #. Choices
@@ -302,7 +301,7 @@ msgstr "/usr - სტატიკური ინფორმაცია"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/var - variable data"
-msgstr "/var - ცვალებადი ინფორმაცია"
+msgstr "/var - ცვალებადი მონაცემები"
 
 #. Type: select
 #. Choices
@@ -332,7 +331,7 @@ msgstr "/opt - პროგრამული უზრუნველყოფ�
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/usr/local - local hierarchy"
-msgstr "/usr/local - ლოკალური იერარქიული სტრუქტურა"
+msgstr "/usr/local - ლოკალური იერარქია"
 
 #. Type: select
 #. Choices
@@ -360,7 +359,7 @@ msgstr "ხელით შეყვანა"
 #: ../partman-basicfilesystems.templates:13001
 #: ../partman-basicfilesystems.templates:14001
 msgid "Do not mount it"
-msgstr "არ დავამონტაჟოთ დანაყოფი"
+msgstr "არ მიამაგრო"
 
 #. Type: select
 #. Description
@@ -373,7 +372,7 @@ msgstr "არ დავამონტაჟოთ დანაყოფი"
 #: ../partman-basicfilesystems.templates:14002
 #: ../partman-basicfilesystems.templates:15001
 msgid "Mount point for this partition:"
-msgstr "ამ დანაყოფის მონტაჟის პუნქტი:"
+msgstr "მიმაგრების წერტილი ამ დანაყოფისთვის:"
 
 #. Type: select
 #. Choices
@@ -394,28 +393,30 @@ msgstr "/windows"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Invalid mount point"
-msgstr "არასწორი მონტაჟის პუნქტი"
+msgstr "არასწორი მიმაგრების წერტილი"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "The mount point you entered is invalid."
-msgstr "მითითებული მონტაჟის პუნქტის დასახელება არასწორია."
+msgstr "შეყვანილი მიმაგრების წერტილი არასწორია."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Mount points must start with \"/\". They cannot contain spaces."
-msgstr "მონტაჟის პუნქტი \"/\"-ით იწყება. შორისის გამოყენება დაუშვებელია."
+msgstr ""
+"მიმაგრების წერტილი \"/\"-ით უნდა იწყებოდეს. ისინი, არ შეიძლება, გამოტოვებებს "
+"შეიცავდეს."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:17001
 msgid "Label for the file system in this partition:"
-msgstr "ფაილური სისტემის ჭდე ამ დანაყოფში:"
+msgstr "ჭდე ფაილური სისტემისთვის ამ დანაყოფში:"
 
 #. Type: text
 #. Description
@@ -465,7 +466,7 @@ msgstr "არაფერი"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:23001
 msgid "Reserved blocks:"
-msgstr "დარეზერვებული ბლოკები:"
+msgstr "დაცული ბლოკები:"
 
 #. Type: string
 #. Description
@@ -535,7 +536,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:28001
 msgid "Mount point:"
-msgstr "მონტაჟის პუნქტი:"
+msgstr "მიმაგრების წერტილი:"
 
 #. Type: text
 #. Description
@@ -673,7 +674,8 @@ msgstr "nodiratime - საქაღალდის inode-ის წვდომ
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:46001
 msgid "relatime - update inode access times relative to modify time"
-msgstr "relatime - update inode access times relative to modify time"
+msgstr ""
+"relatime - inode-სთან წვდომის დროის განახლება ცვლილების დროსთან შედარებით"
 
 #. Type: text
 #. Description
@@ -691,7 +693,7 @@ msgstr "nodev - სიმბოლური და ბლოკური მო�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:48001
 msgid "nosuid - ignore set-user-identifier or set-group-identifier bits"
-msgstr "nosuid - SUID და SGID ბიტების იგნორირება"
+msgstr "nosuid - SUID და SGID ბიტების გამოტოვება"
 
 #. Type: text
 #. Description
@@ -709,7 +711,7 @@ msgstr "noexec - პროგრამების გაშვების ა�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:50001
 msgid "ro - mount the file system read-only"
-msgstr "ro - ფაილური სისტემის მონტაჟი \"მხოლოდ კითხვის\" რეჟიმში"
+msgstr "ro - ფაილური სისტემის მიმაგრება \"მხოლოდ კითხვის\" რეჟიმში"
 
 #. Type: text
 #. Description
@@ -729,7 +731,7 @@ msgstr ""
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:52001
 msgid "usrquota - user disk quota accounting enabled"
-msgstr "usrquota - მომხმარებელთა დისკური ქვოთების მეთვალყურეობა"
+msgstr "usrquota - მომხმარებლის დისკური კვოტები ჩართულია"
 
 #. Type: text
 #. Description
@@ -738,7 +740,7 @@ msgstr "usrquota - მომხმარებელთა დისკური
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:53001
 msgid "grpquota - group disk quota accounting enabled"
-msgstr "grpquota - ჯგუფთა დისკური ქვოთების მეთვალყურეობა"
+msgstr "grpquota - ჯგუფთა დისკური კვოტები ჩართულია"
 
 #. Type: text
 #. Description
@@ -747,7 +749,7 @@ msgstr "grpquota - ჯგუფთა დისკური ქვოთებ�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:54001
 msgid "user_xattr - support user extended attributes"
-msgstr "user_xattr - დამატებითი სამომხმარებლო ატრიბუტების მხარდაჭერა"
+msgstr "user_xattr - დამატებითი მომხმარებლის ატრიბუტების მხარდაჭერა"
 
 #. Type: text
 #. Description
@@ -775,6 +777,7 @@ msgstr "notail - ფაილური სისტემის ხეში ფ
 #: ../partman-basicfilesystems.templates:57001
 msgid "discard - trim freed blocks from underlying block device"
 msgstr ""
+"discard - გასუფთავებული ბლოკების წაკვეთა ქვემო ბლოკური მოწყობილობიდან (SSD)"
 
 #. Type: text
 #. Description
@@ -803,7 +806,7 @@ msgstr "shortnames - MS-DOS 8.3 ძველი სტილის ფაილ�
 #: ../partman-basicfilesystems.templates:60001
 #: ../partman-basicfilesystems.templates:61001
 msgid "Go back to the menu and correct this problem?"
-msgstr "დავბრუნდეთ მენუში და გავასწოროთ შეცდომები?"
+msgstr "დაბრუნდებით მენუში და გაასწორებთ შეცდომებს?"
 
 #. Type: boolean
 #. Description
@@ -831,9 +834,9 @@ msgid ""
 "partition will be used as is. This means that you may not be able to boot "
 "from your hard disk."
 msgstr ""
-"თუკი თქვენ არ დაბრუნდებით დაყოფის მენუში და არ გაასწორებთ ამ შეცდომებს, "
-"დანაყოფი იქნება გამოყენებული არსებული სახით. ეს კი ნიშნავს, რომ შესაძლოა "
-"მყარი დისკიდან ჩატვირთვა ვერ მოხერხდეს."
+"თუ არ დაბრუნდებით დაყოფის მენუში და არ გაასწორებთ ამ შეცდომებს, დანაყოფი "
+"იქნება გამოყენებული არსებული სახით. ეს კი ნიშნავს, რომ შესაძლოა, მყარი "
+"დისკიდან ჩატვირთვა ვერ მოხერხდეს."
 
 #. Type: boolean
 #. Description
@@ -844,6 +847,6 @@ msgid ""
 "This is needed by your machine in order to boot.  Please go back and use "
 "your first partition as a boot partition."
 msgstr ""
-"თქვენი ჩასატვირთი პარტიცია არ არის პირველადი თქვენ მყარ დისკზე. თქვენ "
-"სისტემას სჭირდება ჩასატვირთად რომ იყოს ასეთნაირად. გთხოვთ დაბრუნდით უკან და "
-"აირჩიეთ პირველი პარტიცია როგორც ჩასატვირთი პარტიცია."
+"თქვენი ჩატვირთვადი დანაყოფი თქვენი მყარი დისკის პირველ დანაყოფზე არაა. ეს "
+"საჭიროა, რომ თქვენი მანქანა ჩაიტვირთოს.     დაბრუნდით და გამოიყენეთ პირველი "
+"დანაყოფი, როგორც ჩასატვირთი."

@@ -7,7 +7,7 @@
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # Console-setup strings translations:
 # (identified by "./console-setup.templates")
-# Copyright (C) 2003-2019 Miguel Figueiredo <elmig@debianpt.org>
+# Copyright (C) 2003-2024 Miguel Figueiredo <elmig@debianpt.org>
 # This file is distributed under the same license as debian-installer.
 #
 #
@@ -17,14 +17,16 @@
 #   Free Software Foundation, Inc., 2001,2004
 #   Filipe Maia <fmaia@gmx.net>, 2001.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Miguel Figueiredo <elmig@debianpt.org>, 2005-2018
+#   Miguel Figueiredo <elmig@debianpt.org>, 2005-2020
+#   Rui Branco - DebianPT <ruipb@debianpt.org>, 2017.
+#
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2019-09-23 20:36+0100\n"
+"PO-Revision-Date: 2024-09-14 20:55+0100\n"
 "Last-Translator:  Miguel Figueiredo <elmig@debianpt.org>\n"
 "Language-Team:  Portuguese <traduz@debianpt.org>\n"
 "Language: pt\n"
@@ -278,10 +280,8 @@ msgstr "/home - directórios do utilizador"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - ficheiros temporários"
+msgstr "/tmp - ficheiros temporários (predefinido: tmpfs)"
 
 #. Type: select
 #. Choices

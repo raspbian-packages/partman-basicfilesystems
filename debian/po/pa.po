@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2023-12-31 05:07+0000\n"
+"PO-Revision-Date: 2024-07-16 14:54+0000\n"
 "Last-Translator: Aman Alam <aalam@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
@@ -272,10 +272,8 @@ msgstr "/home - ਵਰਤੋਂਕਾਰ ਘਰ ਡਾਇਰੈਕਟਰੀਆ�
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - ਆਰਜੀ ਫਾਇਲਾਂ"
+msgstr "/tmp - ਆਰਜੀ ਫਾਇਲਾਂ (ਮੂਲ: tmpfs)"
 
 #. Type: select
 #. Choices
