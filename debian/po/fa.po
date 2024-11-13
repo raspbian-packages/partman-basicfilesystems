@@ -23,11 +23,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: fa\n"
+"Project-Id-Version: fa sublevel1\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2020-10-22 09:29+0000\n"
-"Last-Translator: Seyed Hany Hosseini <hany1894@gmail.com>\n"
+"PO-Revision-Date: 2024-11-04 17:34+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -169,7 +169,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:9001
 msgid "Failed to create a file system"
-msgstr "ساخت فایل سیستم با شکست مواجه شد."
+msgstr "شکست در ایجاد سامانه پرونده"
 
 #. Type: error
 #. Description
@@ -179,7 +179,7 @@ msgid ""
 "The ${TYPE} file system creation in partition #${PARTITION} of ${DEVICE} "
 "failed."
 msgstr ""
-"ایجاد فایل سیستم ${TYPE} در پارتیشن  #${PARTITION} از ${DEVICE} شکست خورد."
+"ایجاد سامانه پروندهٔ ${TYPE} در افراز #${PARTITION} از ${DEVICE} شکست خورد."
 
 #. Type: error
 #. Description
@@ -204,8 +204,8 @@ msgid ""
 "No mount point is assigned for the ${FILESYSTEM} file system in partition #"
 "${PARTITION} of ${DEVICE}."
 msgstr ""
-"هیچ نقطهٔ اتصالی برای فایل سیستم ${FILESYSTEM} در پارتیشن #${PARTITION} از  "
-"${DEVICE} منسوب نگشته است."
+"هیچ نقطهٔ اتصالی برای سامانه پروندهٔ ${FILESYSTEM} در افراز #${PARTITION} از "
+"${DEVICE} تخصیص داده نشده."
 
 #. Type: boolean
 #. Description
@@ -246,7 +246,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/ - the root file system"
-msgstr "/ - فایل سیستم ریشه"
+msgstr "/ - سامانه پروندهٔ ریشه"
 
 #. Type: select
 #. Choices
@@ -256,7 +256,7 @@ msgstr "/ - فایل سیستم ریشه"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/boot - static files of the boot loader"
-msgstr "/boot - فایل‌های ثابت بارگذار بوت"
+msgstr "‪/boot‬ - پرونده‌های ثابت بارکنندهٔ راه‌اندازی"
 
 #. Type: select
 #. Choices
@@ -266,7 +266,7 @@ msgstr "/boot - فایل‌های ثابت بارگذار بوت"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/home - user home directories"
-msgstr "/home - شاخه‌های خانگی کاربر"
+msgstr "‪/home‬ - شاخه‌های خانگی کاربر"
 
 #. Type: select
 #. Choices
@@ -275,10 +275,8 @@ msgstr "/home - شاخه‌های خانگی کاربر"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - فایل‌های موقتی"
+msgstr "‪/tmp‬ - پرونده‌های موقّتی (پیش‌گزیده: tmpfs)"
 
 #. Type: select
 #. Choices
@@ -288,7 +286,7 @@ msgstr "/tmp - فایل‌های موقتی"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/usr - static data"
-msgstr "/usr - داده‌های ثابت"
+msgstr "‪/usr‬ - داده‌های ثابت"
 
 #. Type: select
 #. Choices
@@ -298,7 +296,7 @@ msgstr "/usr - داده‌های ثابت"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/var - variable data"
-msgstr "/var -داده‌های متغیر"
+msgstr "‪/var‬ -داده‌های متغیّر"
 
 #. Type: select
 #. Choices
@@ -308,7 +306,7 @@ msgstr "/var -داده‌های متغیر"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/srv - data for services provided by this system"
-msgstr "/srv - داده برای سرویس‌های مهیا شده توسط این سیستم"
+msgstr "‪/srv‬ - داده برای خدمت‌های فراهم  شده به دست این سامانه"
 
 #. Type: select
 #. Choices
@@ -318,7 +316,7 @@ msgstr "/srv - داده برای سرویس‌های مهیا شده توسط ا
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/opt - add-on application software packages"
-msgstr "/opt - بسته‌های نرم‌افزارهای کاربردی اضافی"
+msgstr "‪/opt‬ - بسته‌های نرم‌افزارهای برنامه‌های افزودنی"
 
 #. Type: select
 #. Choices
@@ -328,7 +326,7 @@ msgstr "/opt - بسته‌های نرم‌افزارهای کاربردی اضا
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/usr/local - local hierarchy"
-msgstr "/usr/local - سلسله‌مراتب محلی"
+msgstr "‪/usr/local‬ - سلسله‌مراتب محلی"
 
 #. Type: select
 #. Choices
@@ -356,7 +354,7 @@ msgstr "ورود دستی"
 #: ../partman-basicfilesystems.templates:13001
 #: ../partman-basicfilesystems.templates:14001
 msgid "Do not mount it"
-msgstr "متصل نکن"
+msgstr "سوار نشدن"
 
 #. Type: select
 #. Description
@@ -369,56 +367,56 @@ msgstr "متصل نکن"
 #: ../partman-basicfilesystems.templates:14002
 #: ../partman-basicfilesystems.templates:15001
 msgid "Mount point for this partition:"
-msgstr "نقطهٔ اتصال برای این پارتیشن:"
+msgstr "نقطهٔ اتّصال برای این افراز:"
 
 #. Type: select
 #. Choices
 #. :sl2:
 #: ../partman-basicfilesystems.templates:14001
 msgid "/dos"
-msgstr "/dos"
+msgstr "‪/dos‬"
 
 #. Type: select
 #. Choices
 #. :sl2:
 #: ../partman-basicfilesystems.templates:14001
 msgid "/windows"
-msgstr "/windows"
+msgstr "‪/windows‬"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Invalid mount point"
-msgstr "نقطه اتصال نا معتبر است"
+msgstr "نقطهٔ اتّصال نامعتبر"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "The mount point you entered is invalid."
-msgstr "نقطه اتصالی که وارد کرده اید نامعتبر است."
+msgstr "نقطهٔ اتّصالی که وارد کرده‌اید نامعتبر است."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Mount points must start with \"/\". They cannot contain spaces."
-msgstr "نقاط ماونت باید با «/» شروع شوند. نمی‌توانند حاوی فاصله باشند."
+msgstr "نقطه‌های اتّصال باید با «/» شروع شوند. نباید فاصله داشته باشند."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:17001
 msgid "Label for the file system in this partition:"
-msgstr "برچسب برای فایل سیستم در این پارتیشن:"
+msgstr "برچسب سامانه پرونده در این افراز:"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:18001
 msgid "Format the swap area:"
-msgstr "فرمت کردن swap:"
+msgstr "قالب‌بندی ناحیهٔ تبادل:"
 
 #. Type: text
 #. Description
@@ -453,7 +451,7 @@ msgid ""
 "none[ Do not translate what's inside the brackets and just put the "
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" relates to \"Label:\" ]"
-msgstr "هیچکدام"
+msgstr "هیچ"
 
 #. Type: text
 #. Description
@@ -461,14 +459,14 @@ msgstr "هیچکدام"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:23001
 msgid "Reserved blocks:"
-msgstr "بلاک‌های رزو شده:"
+msgstr "بلوک‌های رزرو شده:"
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:24001
 msgid "Percentage of the file system blocks reserved for the super-user:"
-msgstr "درصد بلوک‌های سیستم‌فایل اختصاص‌داده شده به super-user."
+msgstr "درصد بلوک‌های رزرو شدهٔ سامانه پرونده برای ابر کاربر:"
 
 #. Type: text
 #. Description
@@ -768,7 +766,7 @@ msgstr "notail - بسته‌بندی پرونده‌ها در درون درخت 
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:57001
 msgid "discard - trim freed blocks from underlying block device"
-msgstr ""
+msgstr "دور انداختن - اصلاح بلوک‌های آزاد شده از افزارهٔ بلوکی زیرین"
 
 #. Type: text
 #. Description
