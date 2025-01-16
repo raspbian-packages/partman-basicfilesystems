@@ -4,7 +4,8 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # Italian messages for debian-installer.
-# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2103, 2014 Software in the Public Interest, Inc.
+# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2017 Software in the Public Interest, Inc.
+# Copyright (C) 2018 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 # The translation team (for all four levels):
 # Cristian Rigamonti <cri@linux.it>
@@ -19,6 +20,7 @@
 # Samuele Giovanni Tonon <samu@linuxasylum.net>
 # Stefano Canepa <sc@linux.it>
 # Stefano Melchior <stefano.melchior@openlabs.it>
+# Luca Monducci <luca.mo@tiscali.it>
 #
 #
 # Translations from iso-codes:
@@ -32,15 +34,15 @@
 # Marcello Raffa <mrooth@tiscalinet.it>, 2001
 # Tobias Toedter <t.toedter@gmx.net>, 2007.
 # Translations taken from ICU SVN on 2007-09-09
-# Milo Casagrande <milo@milo.name>, 2008, 2009, 2010, 2011, 2012, 2013, 2014.
+# Milo Casagrande <milo@milo.name>, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2017, 2018, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2014-11-12 22:36+0100\n"
-"Last-Translator: Milo Casagrande <milo@milo.name>\n"
+"PO-Revision-Date: 2025-01-03 17:52+0100\n"
+"Last-Translator: Giuseppe Sacco <eppesuig@debian.org>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -244,7 +246,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:12001
 msgid "Invalid file system for this mount point"
-msgstr "File system non valido per questo punto di mount:"
+msgstr "File system non valido per questo punto di mount"
 
 #. Type: error
 #. Description
@@ -296,10 +298,8 @@ msgstr "/home - home directory degli utenti"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - file temporanei"
+msgstr "/tmp - file temporanei (predefinito: tmpfs)"
 
 #. Type: select
 #. Choices
