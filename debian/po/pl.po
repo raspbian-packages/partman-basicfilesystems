@@ -37,7 +37,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2024-05-31 05:09+0000\n"
+"PO-Revision-Date: 2025-01-31 14:41+0000\n"
 "Last-Translator: Matthaiks <kitynska@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -165,11 +165,11 @@ msgid ""
 "scarce. You may experience installation problems if you do not have enough "
 "physical memory."
 msgstr ""
-"Nie wybrano żadnej partycji jako partycji wymiany. Zalecane jest wybranie "
-"takiej partycji, tak by system mógł lepiej używać pamięci fizycznej oraz by "
-"lepiej zachowywał się w przypadku wyczerpania zasobów. Jeśli nie posiadasz "
-"wystarczającej ilości pamięci fizycznej, możesz doświadczyć problemów "
-"podczas instalacji."
+"Nie wybrano żadnych partycji do wykorzystania jako przestrzeń wymiany. "
+"Zaleca się włączenie przestrzeni wymiany, aby system mógł lepiej wykorzystać "
+"dostępną pamięć fizyczną i aby zachowywał się lepiej, gdy pamięć fizyczna "
+"jest ograniczona. Mogą wystąpić problemy z instalacją, jeśli nie masz "
+"wystarczającej ilości pamięci fizycznej."
 
 #. Type: boolean
 #. Description
@@ -488,7 +488,7 @@ msgstr "Bloki zarezerwowane:"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:24001
 msgid "Percentage of the file system blocks reserved for the super-user:"
-msgstr "Procentowa ilość systemu plików zarezerwowana dla super użytkownika:"
+msgstr "Procent bloków systemu plików zarezerwowanych dla superużytkownika:"
 
 #. Type: text
 #. Description
@@ -504,7 +504,7 @@ msgstr "Typowe zastosowanie:"
 #. In the following context: "Typical usage: standard"
 #: ../partman-basicfilesystems.templates:26001
 msgid "standard"
-msgstr "standard"
+msgstr "standardowe"
 
 #. Type: select
 #. Description
@@ -527,8 +527,8 @@ msgid ""
 "Please specify how the file system is going to be used, so that optimal file "
 "system parameters can be chosen for that use."
 msgstr ""
-"Proszę określić w jaki sposób będzie wykorzystywany system plików, tak by "
-"można wybrać optymalne parametry do tych zastosowań."
+"Proszę określić, w jaki sposób będzie używany system plików, tak aby można "
+"było wybrać optymalne dla niego parametry systemu plików."
 
 #. Type: select
 #. Description
@@ -541,7 +541,7 @@ msgid ""
 "standard = standard parameters, news = one inode per 4KB block, largefile = "
 "one inode per megabyte, largefile4 = one inode per 4 megabytes."
 msgstr ""
-"standard = standardowe parametry, news = jeden i-węzeł na 4KB blok, "
+"standardowe = standardowe parametry, news = jeden i-węzeł na 4KB blok, "
 "largefile = jeden i-węzeł na megabajt, largefile4 = jeden i-węzeł na 4 "
 "megabajty."
 
@@ -689,7 +689,7 @@ msgstr "nodiratime - nie aktualizuje czasów dostępu do i-węzła katalogu"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:46001
 msgid "relatime - update inode access times relative to modify time"
-msgstr "relatime - aktualizuj czasy dostępu względem czasu modyfikacji"
+msgstr "relatime - aktualizuje czasy dostępu względem czasu modyfikacji"
 
 #. Type: text
 #. Description
@@ -698,7 +698,7 @@ msgstr "relatime - aktualizuj czasy dostępu względem czasu modyfikacji"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:47001
 msgid "nodev - do not support character or block special devices"
-msgstr "nodev - nie obsługuj znakowych lub blokowych urządzeń specjalnych"
+msgstr "nodev - nie obsługuje znakowych lub blokowych urządzeń specjalnych"
 
 #. Type: text
 #. Description
@@ -707,7 +707,7 @@ msgstr "nodev - nie obsługuj znakowych lub blokowych urządzeń specjalnych"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:48001
 msgid "nosuid - ignore set-user-identifier or set-group-identifier bits"
-msgstr "nosuid -- ignoruj bity suid i sgid"
+msgstr "nosuid - ignoruje bity „setuid” i „setgid”"
 
 #. Type: text
 #. Description
@@ -716,7 +716,7 @@ msgstr "nosuid -- ignoruj bity suid i sgid"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:49001
 msgid "noexec - do not allow execution of any binaries"
-msgstr "noexec - nie pozwalaj na wykonywanie żadnych binariów"
+msgstr "noexec - nie pozwala na wykonywanie żadnych binariów"
 
 #. Type: text
 #. Description
@@ -725,7 +725,7 @@ msgstr "noexec - nie pozwalaj na wykonywanie żadnych binariów"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:50001
 msgid "ro - mount the file system read-only"
-msgstr "ro - zamontuj system plików tylko do odczytu"
+msgstr "ro - montuje system plików tylko do odczytu"
 
 #. Type: text
 #. Description
@@ -779,7 +779,7 @@ msgstr "quiet - zmiana właściciela i uprawnień nie zwraca błędów"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:56001
 msgid "notail - disable packing of files into the file system tree"
-msgstr "notail - wyłącz pakowanie plików do drzewa systemu plików"
+msgstr "notail - wyłączenie pakowanie plików do drzewa systemu plików"
 
 #. Type: text
 #. Description
@@ -829,8 +829,8 @@ msgid ""
 "file system."
 msgstr ""
 "Obecna partycja rozruchowa nie została skonfigurowana do użycia systemu "
-"plików ext2. Jest to wymagane by system mógł się uruchomić. Proszę wrócić i "
-"użyć systemu plików ext2."
+"plików ext2. Jest to wymagane, aby system mógł się uruchomić. Proszę wrócić "
+"i użyć systemu plików ext2."
 
 #. Type: boolean
 #. Description
@@ -845,10 +845,9 @@ msgid ""
 "partition will be used as is. This means that you may not be able to boot "
 "from your hard disk."
 msgstr ""
-"Jeśli nie wrócisz do menu partycjonowania i nie poprawisz tego błędu, "
-"partycja zostanie użyta w takim stanie w jakim się obecnie znajduje. To "
-"oznacza, że prawdopodobnie nie będzie możliwości uruchamiania systemu z "
-"dysku twardego."
+"Jeśli nie wrócisz do menu partycjonowania i nie naprawisz tego błędu, "
+"partycja zostanie użyta w obecnej postaci. Oznacza to, że możesz nie być w "
+"stanie uruchomić komputera z dysku twardego."
 
 #. Type: boolean
 #. Description
@@ -860,5 +859,5 @@ msgid ""
 "your first partition as a boot partition."
 msgstr ""
 "Obecna partycja rozruchowa nie jest pierwszą partycją na dysku twardym. To "
-"jest wymagane by uruchomić komputer. Proszę wrócić i użyć pierwszej partycji "
-"jako partycji rozruchowej."
+"jest wymagane, aby uruchomić komputer. Proszę wrócić i użyć pierwszej "
+"partycji jako partycji rozruchowej."
