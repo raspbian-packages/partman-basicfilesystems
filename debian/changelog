@@ -1,10 +1,20 @@
-partman-basicfilesystems (172+rpi1) trixie-staging; urgency=medium
+partman-basicfilesystems (173+rpi1) trixie-staging; urgency=medium
 
   [changes brought forward from 97+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Thu, 31 Jul 2014 21:59:02 +0000]
   * Remove fat-modules and ext2-modules dependencies as Raspbian
     kernels have the support built in.
 
- -- Raspbian forward porter <root@raspbian.org>  Tue, 08 Apr 2025 23:45:22 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Fri, 04 Jul 2025 14:56:53 +0000
+
+partman-basicfilesystems (173) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Belarusian (be.po) by Joe
+  * Greek (el.po) by galaxico
+  * Kabyle (kab.po) by Azwaw
+  * Uyghur (ug.po) by Abduqadir Abliz
+
+ -- Cyril Brulebois <kibi@debian.org>  Sun, 29 Jun 2025 14:58:02 +0200
 
 partman-basicfilesystems (172) unstable; urgency=medium
 

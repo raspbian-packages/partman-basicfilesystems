@@ -14,14 +14,14 @@
 #   Panayotis Pakos <aeikineton@yahoo.com>
 #
 # George Papamichelakis <george@step.gr>, 2004.
-# Emmanuel Galatoulas <galas@tee.gr>, 2004.
+# SPDX-FileCopyrightText: 2004, 2025 Emmanuel Galatoulas <galas@tee.gr>
 # Konstantinos Margaritis <markos@debian.org>, 2004, 2006.
 # Greek Translation Team <debian-l10n-greek@lists.debian.org>, 2004, 2005.
 # quad-nrg.net <galaxico@quad-nrg.net>, 2005, 2006, 2007.
 # quad-nrg.net <yodesy@quad-nrg.net>, 2006, 2008.
 # QUAD-nrg.net <yodesy@quad-nrg.net>, 2006.
 # galaxico@quad-nrg.net <galaxico@quad-nrg.net>, 2009, 2011.
-# Emmanuel Galatoulas <galaxico@quad-nrg.net>, 2009, 2010, 2013, 2014, 2018, 2020.
+# Emmanuel Galatoulas <galaxico@quad-nrg.net>, 2009, 2010, 2013, 2014, 2018, 2020, 2023.
 #   Tobias Quathamer <toddy@debian.org>, 2007.
 #   Free Software Foundation, Inc., 2004.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
@@ -36,9 +36,9 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2020-11-29 17:29+0000\n"
-"Last-Translator: george k <norhorn@gmail.com>\n"
-"Language-Team: Greek <debian-l10n-greek@lists.debian.org>\n"
+"PO-Revision-Date: 2025-05-18 17:12+0300\n"
+"Last-Translator: galaxico <galas@tee.gr>\n"
+"Language-Team: debian-l10n-greek@lists.debian.org\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -294,10 +294,8 @@ msgstr "/home - προσωπικοί κατάλογοι χρηστών"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - προσωρινά αρχεία"
+msgstr "/tmp - προσωρινά αρχεία (εξ ορισμού: tmpfs)"
 
 #. Type: select
 #. Choices

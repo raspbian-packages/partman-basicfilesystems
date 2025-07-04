@@ -3,7 +3,8 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-#
+# Abdusalam <1810010207@s.upc.edu.cn>, 2020.
+# Abduqadir Abliz <sahran.ug@gmail.com>, 2017.
 #
 # Debian Installer master translation for Uyghur
 # Don't forget to properly fill-in the header of PO files
@@ -19,13 +20,14 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2018-08-22 12:42+0000\n"
-"Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
+"PO-Revision-Date: 2025-06-22 09:21+0000\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: text
 #. Description
@@ -43,8 +45,7 @@ msgstr ""
 #: ../partman-basicfilesystems.templates:2001
 msgid "Checking the swap space in partition #${PARTITION} of ${DEVICE}..."
 msgstr ""
-"${DEVICE} ئۈسكۈنىسىدىكى #${PARTITION} رايوندىكى ${TYPE} swap بوشلۇقىنى "
-"تەكشۈرۈۋاتىدۇ…"
+"${DEVICE} ئۈسكۈنىسىدىكى #${PARTITION} رايوندىكى swap بوشلۇقىنى تەكشۈرۈۋاتىدۇ…"
 
 #. Type: text
 #. Description
@@ -238,7 +239,7 @@ msgid ""
 msgstr ""
 "${FILESYSTEM} تىپلىق ھۆججەت سىستېمىسى ئىقتىدارى مۇكەممەل بولغان Unix ھۆججەت "
 "سىستېمىسى ئەمەس، شۇڭا ${MOUNTPOINT} غا ئېگەرلىيەلمەيدۇ. باشقا بىر ھۆججەت "
-"سىستېمىسىنى تاللاڭ، مەسىلەن: ${EXT2}"
+"سىستېمىسىنى تاللاڭ، مەسىلەن: ${EXT2}."
 
 #. Type: select
 #. Choices
@@ -277,10 +278,8 @@ msgstr "/home - ئىشلەتكۈچى ماكان مۇندەرىجىسى"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - ۋاقىتلىق ھۆججەت"
+msgstr "/tmp - ۋاقىتلىق ھۆججەت (كۆڭۈلدىكى: tmpfs)"
 
 #. Type: select
 #. Choices
@@ -520,13 +519,12 @@ msgstr ""
 #. partman-basicfilesystems/text/typical_usage template.  Do not
 #. translate "news", "largefile" and "largefile4".
 #: ../partman-basicfilesystems.templates:27001
-#, fuzzy
 msgid ""
 "standard = standard parameters, news = one inode per 4KB block, largefile = "
 "one inode per megabyte, largefile4 = one inode per 4 megabytes."
 msgstr ""
-"ئۆلچەملىك= ئۆلچەملىك پارامېتىر، news=ھەر بىر inode چوڭلۇقى4KB block، چوڭ "
-"ھۆججەت= ھەر بىر inode چوڭلۇقى M1، چوڭ ھۆججەت4= ھەر بىر inode چوڭلۇقى M4"
+"standard= ئۆلچەملىك پارامېتىر، news=ھەر بىر inode چوڭلۇقى4KB block، "
+"largefile= ھەر بىر inode چوڭلۇقى M1، largefile4= ھەر بىر inode چوڭلۇقى M4."
 
 #. Type: text
 #. Description
@@ -596,9 +594,8 @@ msgstr "fat32"
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:36001
-#, fuzzy
 msgid "NTFS journaling file system"
-msgstr "jfs journaling ھۆججەت سىستېمىسى"
+msgstr "NTFS خاتىرە ھۆججەت سىستېمىسى"
 
 #. Type: text
 #. Description
@@ -606,7 +603,7 @@ msgstr "jfs journaling ھۆججەت سىستېمىسى"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:37001
 msgid "ntfs"
-msgstr ""
+msgstr "ntfs"
 
 #. Type: text
 #. Description
@@ -695,7 +692,7 @@ msgstr "nodev - ھەرپ ياكى بۆلەكنى قوللىمايدىغان ئا
 #: ../partman-basicfilesystems.templates:48001
 msgid "nosuid - ignore set-user-identifier or set-group-identifier bits"
 msgstr ""
-"nosuid -  set-user-identifier ياكى set-group-identifier bits غا پەرۋا قىلما"
+"nosuid - set-user-identifier ياكى set-group-identifier bits غا پەرۋا قىلما"
 
 #. Type: text
 #. Description
@@ -836,7 +833,7 @@ msgid ""
 "from your hard disk."
 msgstr ""
 "رايونغا ئايرىش تىزىملىكىگە قايتىپ بۇ خاتالىقنى تۈزەتمىسىڭىز، رايون شۇ پېتى "
-"قېلىۋېرىدۇ. بۇنىڭ بىلەن سىستېما قاتتىق دىسكىدىن قوزغىلالماسلىقى مۇمكىن"
+"قېلىۋېرىدۇ. بۇنىڭ بىلەن سىستېما قاتتىق دىسكىدىن قوزغىلالماسلىقى مۇمكىن."
 
 #. Type: boolean
 #. Description

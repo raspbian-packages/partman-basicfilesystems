@@ -205,13 +205,14 @@ msgstr " ລະບົບແຟັມບໍ່ຖືກຕອ້ງສຳລັ�
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:12001
+#, fuzzy
 msgid ""
 "The file system type ${FILESYSTEM} cannot be mounted on ${MOUNTPOINT}, "
 "because it is not a fully-functional Unix file system. Please choose a "
 "different file system, such as ${EXT2}."
 msgstr ""
 "ບໍ່ສາມ່ດເມົາລະບົບແຟັມ ${FILESYSTEM} ທີ່ ${MOUNTPOINT}ໄດ້ເນື່ອງຈາກບໍ່ໃຊ້ລະບົບແຟັມຢູ່ນິກເຕັມຮູບແບບ "
-"ກະລຸນາເລືອກລະບົບແຟັມອື່ນໆເຊັ່ນ."
+"ກະລຸນາເລືອກລະບົບແຟັມອື່ນໆເຊັ່ນ ${EXT2}."
 
 #. Type: select
 #. Choices
@@ -251,7 +252,6 @@ msgstr "/home - ແຫຼ່ງໄດເຮດທໍຮີສ່ວນຕົວ�
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 #, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
 msgstr "/tmp - ທີ່ເກັບແຟ້ມຊົວຄາວ"
 
