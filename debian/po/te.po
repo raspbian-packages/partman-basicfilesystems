@@ -15,14 +15,15 @@
 # Y Giridhar Appaji Nag <appaji@debian.org>, 2008, 2009.
 # Krishna Babu K <kkrothap@redhat.com>, 2009.
 # Arjuna Rao Chavala <arjunaraoc@googlemail.com>, 2011, 2012.
-# Praveen Illa <mail2ipn@gmail.com>, 2018.
+# Praveen Illa <mail2ipn@gmail.com>, 2018, 2020.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: te\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2018-07-23 06:44+0000\n"
-"Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
+"PO-Revision-Date: 2025-07-10 12:01+0000\n"
+"Last-Translator: Divakar <divakar.galaxys9@gmail.com>\n"
 "Language-Team: d-i <kde-i18n-doc@kde.org>\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
@@ -263,7 +264,6 @@ msgstr "/home - వాడుకరి నివాస  డైరెక్టర�
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 #, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
 msgstr "/tmp - అశాశ్వతమయిన దస్త్రా"
 
@@ -796,7 +796,7 @@ msgid ""
 "is needed by your machine in order to boot. Please go back and use the ext2 "
 "file system."
 msgstr ""
-" మీ బూట్ విభజన  ext2 లేక  ext3 ఫైల్ సిస్టమ్ గా అమరిక చేయలేదు. మీ మెషీన్ బూట్ కావాలంటే ఇది కావాలి.  "
+"మీ బూట్ విభజన  ext2 లేక  ext3 ఫైల్ సిస్టమ్ గా అమరిక చేయలేదు. మీ మెషీన్ బూట్ కావాలంటే ఇది కావాలి.  "
 "దయచేసి వెనక్కి వెళ్లి, ext2 లేక  ext3 ఫైల్ సిస్టమ్  వాడండి."
 
 #. Type: boolean
@@ -825,5 +825,5 @@ msgid ""
 "This is needed by your machine in order to boot.  Please go back and use "
 "your first partition as a boot partition."
 msgstr ""
-" మీ హార్డ్ డిస్క్ యొక్క మొదటి ప్రధాన విభజన లో బూట్ విభజన  లేదు.  మీ మెషీన్ బూట్ కావాలంటే ఇది కావాలి.  దయచేసి "
+"మీ హార్డ్ డిస్క్ యొక్క మొదటి ప్రధాన విభజన లో బూట్ విభజన  లేదు.  మీ మెషీన్ బూట్ కావాలంటే ఇది కావాలి.  దయచేసి "
 "వెనక్కి వెళ్లి, మొదటి ప్రధాన విభజన ని బూట్ విభజన  గా వాడండి."
