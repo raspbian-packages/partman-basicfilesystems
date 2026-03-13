@@ -13,14 +13,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lo\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
-"POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2012-04-25 09:05+0700\n"
-"Last-Translator: Anousak Souphavanh <anousak@gmail.com>\n"
+"POT-Creation-Date: 2025-08-22 20:02+0000\n"
+"PO-Revision-Date: 2025-11-28 05:02+0000\n"
+"Last-Translator: BoneNI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <lo@li.org>\n"
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Type: text
 #. Description
@@ -81,8 +82,8 @@ msgid ""
 "The test of the file system with type ${TYPE} in partition #${PARTITION} of "
 "${DEVICE} found uncorrected errors."
 msgstr ""
-"ການທົດສອບລະບົບແຟັມຊະນິດ ${TYPE} ໃນພາທິຊັນ #${PARTITION} ຂອງ ${DEVICE} "
-"ພົບເຫັນຂໍ້ມູນຜິດພາດທີ່ຍັງບໍ່ໄດ້ຮັບການແກ້ໄຂ"
+"ການທົດສອບລະບົບແຟ້ມຊະນິດ ${TYPE} ໃນພາທິຊັນ #${PARTITION} ຂອງ ${DEVICE} "
+"ພົບເຫັນຂໍ້ມູນຜິດພາດທີ່ຍັງບໍ່ໄດ້ຮັບການແກ້ໄຂ."
 
 #. Type: boolean
 #. Description
@@ -96,7 +97,7 @@ msgid ""
 "If you do not go back to the partitioning menu and correct these errors, the "
 "partition will be used as is."
 msgstr ""
-"ຖ້າເຈົ້າບໍ່ກັບໄປທີ່ເມນູແບ່ງພາທິຊັນເພື່ອແກ້ໄຂຂໍ້ຜິດພາດເຫຼົ່ານີ້ ລະບົບຈະໃຊ້ພາທິຊັນດັງກ່າວຕາມສະພາບທີ່ເປັນຢູ່."
+"ຖ້າເຈົ້າບໍ່ກັບໄປທີ່ເມນູແບ່ງພາທິຊັນເພື່ອແກ້ໄຂຂໍ້ຜິດພາດເຫຼົ່ານີ້ ລະບົບຈະໃຊ້ພາທິຊັນດັ່ງກ່າວຕາມສະພາບທີ່ເປັນຢູ່."
 
 #. Type: boolean
 #. Description
@@ -106,8 +107,8 @@ msgid ""
 "The test of the swap space in partition #${PARTITION} of ${DEVICE} found "
 "uncorrected errors."
 msgstr ""
-"ການທົດສອບພື້ນທີ່ສະລັບ ໃນພາທີຊັ້ນທ໌ #${PARTITION} ຂອງ ${DEVICE} "
-"ພົບຂໍ້ຜິດພາດທີ່ຍັງບໍ່ໄດ້ຮັບການເເກ້ໄຂ."
+"ການທົດສອບພື້ນທີ່ສະຫຼັບ (swap) ໃນພາທິຊັນ #${PARTITION} ຂອງ ${DEVICE} "
+"ພົບຂໍ້ຜິດພາດທີ່ຍັງບໍ່ໄດ້ຮັບການແກ້ໄຂ."
 
 #. Type: boolean
 #. Description
@@ -118,7 +119,7 @@ msgstr ""
 #: ../partman-basicfilesystems.templates:8001
 #: ../partman-basicfilesystems.templates:11001
 msgid "Do you want to return to the partitioning menu?"
-msgstr " ເຈົ້າຕອ້ງການກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນຫຼືບໍ່?"
+msgstr "ເຈົ້າຕ້ອງການກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນຫຼືບໍ່?"
 
 #. Type: boolean
 #. Description
@@ -131,8 +132,10 @@ msgid ""
 "scarce. You may experience installation problems if you do not have enough "
 "physical memory."
 msgstr ""
-"ເຈົ້າຍັງບໍ່ໄດ້ເລືອກພາທິຊັ້ນໃດເພື່ອໃຊ້ເປັນພື້ນທີ່ສະຫຼັບ "
-"ຂໍແນະນຳໃຫ້ເປີດໃຊ້ພື້ນທີ່ສະຫຼັບເພື່ອລະບົບຈະສາມາດຫຼຸດໃຊ້ໜວ່ຍຄວາມຈຳຈິງຂອງເຄື່ອງໄດ້ຢ່າງມີປະສິດທິພາບແລະເພື່ອທີ່ລະບົບຈະທຳງານໄດ້ດີຂື້ນໃນສະພາບທີ່ໜວ່ຍຄວາມຈຳເຫຼືອໜອ້ຍເຈົ້າອາດຈະພົບປັນຫາການຕິດຕັ້ງຖ້າເຈົ້າມີໜວ່ຍຄວາມຈຳຈິງບໍ່ພໍ."
+"ເຈົ້າຍັງບໍ່ໄດ້ເລືອກພາທິຊັນໃດເພື່ອໃຊ້ເປັນພື້ນທີ່ສະຫຼັບ (swap). "
+"ຂໍແນະນຳໃຫ້ເປີດໃຊ້ພື້ນທີ່ສະຫຼັບເພື່ອລະບົບຈະສາມາດໃຊ້ໜ່ວຍຄວາມຈຳຈິງຂອງເຄື່ອງໄດ້ຢ່າງມີປະສິດທິພາບ "
+"ແລະເພື່ອທີ່ລະບົບຈະທຳງານໄດ້ດີຂື້ນໃນສະພາບທີ່ໜ່ວຍຄວາມຈຳເຫຼືອໜ້ອຍ. "
+"ເຈົ້າອາດຈະພົບບັນຫາການຕິດຕັ້ງຖ້າເຈົ້າມີໜ່ວຍຄວາມຈຳຈິງບໍ່ພໍ."
 
 #. Type: boolean
 #. Description
@@ -142,14 +145,14 @@ msgid ""
 "If you do not go back to the partitioning menu and assign a swap partition, "
 "the installation will continue without swap space."
 msgstr ""
-"  ຖ້າເຈົ້າບໍ່ກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນເພື່ອກຳນົດພາທິຊັ້ນສະຫຼັບ ການຕິດຕັ້ງຈະດຳເນີນຕໍ່ໄປໂດຍບໍ່ອາໃສພື້ນທີ່ສະຫຼັບ"
+"ຖ້າເຈົ້າບໍ່ກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນເພື່ອກຳນົດພາທິຊັນສະຫຼັບ ການຕິດຕັ້ງຈະດຳເນີນຕໍ່ໄປໂດຍບໍ່ອາໄສພື້ນທີ່ສະຫຼັບ."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:9001
 msgid "Failed to create a file system"
-msgstr "ສ້າງລະບົບແຟັມບໍ່ສຳເລັດ"
+msgstr "ສ້າງລະບົບແຟ້ມບໍ່ສຳເລັດ"
 
 #. Type: error
 #. Description
@@ -158,7 +161,7 @@ msgstr "ສ້າງລະບົບແຟັມບໍ່ສຳເລັດ"
 msgid ""
 "The ${TYPE} file system creation in partition #${PARTITION} of ${DEVICE} "
 "failed."
-msgstr "ສ້າງລະບົບແຟັມ ${TYPE}ໃນພາທິຊັນ #${PARTITION} ຂອງ${DEVICE} ບໍ່ສຳເລັດ."
+msgstr "ສ້າງລະບົບແຟ້ມ ${TYPE} ໃນພາທິຊັນ #${PARTITION} ຂອງ ${DEVICE} ບໍ່ສຳເລັດ."
 
 #. Type: error
 #. Description
@@ -173,17 +176,18 @@ msgstr "ສ້າງພື້ນທີ່ສະຫຼັບບໍ່ສຳເລ
 #: ../partman-basicfilesystems.templates:10001
 msgid ""
 "The creation of swap space in partition #${PARTITION} of ${DEVICE} failed."
-msgstr "ສ້າງພື້ນທີ່ສະຫຼັບໃນພາທິຊັນ #${PARTITION} ຂອງ ${DEVICE} ບໍ່ສຳເລັດ"
+msgstr "ສ້າງພື້ນທີ່ສະຫຼັບໃນພາທິຊັນ #${PARTITION} ຂອງ ${DEVICE} ບໍ່ສຳເລັດ."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:11001
 msgid ""
-"No mount point is assigned for the ${FILESYSTEM} file system in partition #"
-"${PARTITION} of ${DEVICE}."
+"No mount point is assigned for the ${FILESYSTEM} file system in partition "
+"#${PARTITION} of ${DEVICE}."
 msgstr ""
-"ບໍ່ມີການກຳນົດຕຳແໜ່ງໄວ້ສຳລັບລະບົບແຟັມ ${FILESYSTEM} ໃນພາທິຊັນ #${PARTITION} ຂອງ ${DEVICE}"
+"ບໍ່ມີການກຳນົດຈຸດເມົາ (mount point) ໄວ້ສຳລັບລະບົບແຟ້ມ ${FILESYSTEM} ໃນພາທິຊັນ "
+"#${PARTITION} ຂອງ ${DEVICE}."
 
 #. Type: boolean
 #. Description
@@ -192,27 +196,26 @@ msgstr ""
 msgid ""
 "If you do not go back to the partitioning menu and assign a mount point from "
 "there, this partition will not be used at all."
-msgstr "ຖ້າເຈົ້າບໍ່ກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນທ໌ເພື່ອກຳນົດຈຸດຕຳແໜ່ງເມົ້າຈາກນັ້ນ, ລະບົບບໍ່ໃຊ້ພາທິຊັ້ນນີ້ເລີຍ."
+msgstr "ຖ້າເຈົ້າບໍ່ກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນເພື່ອກຳນົດຈຸດເມົາຈາກນັ້ນ, ລະບົບຈະບໍ່ໃຊ້ພາທິຊັນນີ້ເລີຍ."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:12001
 msgid "Invalid file system for this mount point"
-msgstr " ລະບົບແຟັມບໍ່ຖືກຕອ້ງສຳລັບຕຳແໜ່ງເມົານີ້"
+msgstr "ລະບົບແຟ້ມບໍ່ຖືກຕ້ອງສຳລັບຈຸດເມົານີ້"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:12001
-#, fuzzy
 msgid ""
 "The file system type ${FILESYSTEM} cannot be mounted on ${MOUNTPOINT}, "
 "because it is not a fully-functional Unix file system. Please choose a "
 "different file system, such as ${EXT2}."
 msgstr ""
-"ບໍ່ສາມ່ດເມົາລະບົບແຟັມ ${FILESYSTEM} ທີ່ ${MOUNTPOINT}ໄດ້ເນື່ອງຈາກບໍ່ໃຊ້ລະບົບແຟັມຢູ່ນິກເຕັມຮູບແບບ "
-"ກະລຸນາເລືອກລະບົບແຟັມອື່ນໆເຊັ່ນ ${EXT2}."
+"ບໍ່ສາມາດເມົາລະບົບແຟ້ມ ${FILESYSTEM} ທີ່ ${MOUNTPOINT} ໄດ້ ເນື່ອງຈາກບໍ່ແມ່ນລະບົບແຟ້ມ Unix "
+"ເຕັມຮູບແບບ. ກະລຸນາເລືອກລະບົບແຟ້ມອື່ນໆ ເຊັ່ນ ${EXT2}."
 
 #. Type: select
 #. Choices
@@ -222,7 +225,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/ - the root file system"
-msgstr "/ - ລະບົບແຟັມຮາກ"
+msgstr "/ - ລະບົບແຟ້ມຮາກ (root)"
 
 #. Type: select
 #. Choices
@@ -232,7 +235,7 @@ msgstr "/ - ລະບົບແຟັມຮາກ"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/boot - static files of the boot loader"
-msgstr "/boot -ແຫຼ່ງແຟ້ມຕາຍຕົວສຳຫຼັບບຣູດໂຫຼດເດີ"
+msgstr "/boot - ແຟ້ມຄົງທີ່ສຳລັບບູດໂຫຼດເດີ"
 
 #. Type: select
 #. Choices
@@ -242,7 +245,7 @@ msgstr "/boot -ແຫຼ່ງແຟ້ມຕາຍຕົວສຳຫຼັບ�
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/home - user home directories"
-msgstr "/home - ແຫຼ່ງໄດເຮດທໍຮີສ່ວນຕົວຂອງຜູ້ໃຊ້"
+msgstr "/home - ໄດເຣັກທໍຣີສ່ວນຕົວຂອງຜູ້ໃຊ້"
 
 #. Type: select
 #. Choices
@@ -251,9 +254,8 @@ msgstr "/home - ແຫຼ່ງໄດເຮດທໍຮີສ່ວນຕົວ�
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - ທີ່ເກັບແຟ້ມຊົວຄາວ"
+msgstr "/tmp - ແຟ້ມຊົ່ວຄາວ (ຄ່າເລີ່ມຕົ້ນ: tmpfs)"
 
 #. Type: select
 #. Choices
@@ -263,7 +265,7 @@ msgstr "/tmp - ທີ່ເກັບແຟ້ມຊົວຄາວ"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/usr - static data"
-msgstr "/usr -ແຫຼ່ງຂໍ້ມູນຕາຍຕົວ"
+msgstr "/usr - ຂໍ້ມູນຄົງທີ່"
 
 #. Type: select
 #. Choices
@@ -273,7 +275,7 @@ msgstr "/usr -ແຫຼ່ງຂໍ້ມູນຕາຍຕົວ"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/var - variable data"
-msgstr "/var - ແຫຼ່ງຂໍ້ມູນປ່ຽນແປງ"
+msgstr "/var - ຂໍ້ມູນທີ່ມີການປ່ຽນແປງ"
 
 #. Type: select
 #. Choices
@@ -283,7 +285,7 @@ msgstr "/var - ແຫຼ່ງຂໍ້ມູນປ່ຽນແປງ"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/srv - data for services provided by this system"
-msgstr "/srv -  ແຫຼ່ງຂໍ້ມູນສຳລັບບໍລິການຂອງລະບົບ"
+msgstr "/srv - ຂໍ້ມູນສຳລັບບໍລິການຂອງລະບົບ"
 
 #. Type: select
 #. Choices
@@ -293,7 +295,7 @@ msgstr "/srv -  ແຫຼ່ງຂໍ້ມູນສຳລັບບໍລິກ�
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/opt - add-on application software packages"
-msgstr "/opt -  ແຫຼ່ງຊອບແວເພີ້ມຂະຫຍາຍ"
+msgstr "/opt - ຊອບແວແພັກເກັດເສີມ"
 
 #. Type: select
 #. Choices
@@ -303,7 +305,7 @@ msgstr "/opt -  ແຫຼ່ງຊອບແວເພີ້ມຂະຫຍາຍ"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/usr/local - local hierarchy"
-msgstr "/usr/local -  ໂຄງສ້າງລະບົບແຟັມໃຊ້ເປັນການພາຍໃນ"
+msgstr "/usr/local - ໂຄງສ້າງລະບົບແຟ້ມໃຊ້ເປັນການພາຍໃນ"
 
 #. Type: select
 #. Choices
@@ -317,7 +319,7 @@ msgstr "/usr/local -  ໂຄງສ້າງລະບົບແຟັມໃຊ້�
 #: ../partman-basicfilesystems.templates:13001
 #: ../partman-basicfilesystems.templates:14001
 msgid "Enter manually"
-msgstr "ປ້ອນຊື່ເອງ"
+msgstr "ປ້ອນເອງ"
 
 #. Type: select
 #. Choices
@@ -331,7 +333,7 @@ msgstr "ປ້ອນຊື່ເອງ"
 #: ../partman-basicfilesystems.templates:13001
 #: ../partman-basicfilesystems.templates:14001
 msgid "Do not mount it"
-msgstr "ບໍ່ຕອ້ງເມົ້າ"
+msgstr "ບໍ່ຕ້ອງເມົາ"
 
 #. Type: select
 #. Description
@@ -344,7 +346,7 @@ msgstr "ບໍ່ຕອ້ງເມົ້າ"
 #: ../partman-basicfilesystems.templates:14002
 #: ../partman-basicfilesystems.templates:15001
 msgid "Mount point for this partition:"
-msgstr " ຕຳແໜ່ງເມົາສຳລັບພາທິຊັນນີ້:"
+msgstr "ຈຸດເມົາ (Mount point) ສຳລັບພາທິຊັນນີ້:"
 
 #. Type: select
 #. Choices
@@ -365,35 +367,35 @@ msgstr "/windows"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Invalid mount point"
-msgstr "ຕຳແໜ່ງເມົາບໍ່ຖືກຕອ້ງ"
+msgstr "ຈຸດເມົາບໍ່ຖືກຕ້ອງ"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "The mount point you entered is invalid."
-msgstr "ຕຳແໜ່ງເມົາທີ່ເຈົ້າປອ້ນບໍ່ຖືກຕອ້ງ"
+msgstr "ຈຸດເມົາທີ່ເຈົ້າປ້ອນບໍ່ຖືກຕ້ອງ."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Mount points must start with \"/\". They cannot contain spaces."
-msgstr "ຕຳແໜ່ງເມົາຕອ້ງເລີ່ມຕົ້ນດວ້ຍ \"/\"ແລະມີຊອ່ງວ່າງບໍ່ໄດ້ "
+msgstr "ຈຸດເມົາຕ້ອງເລີ່ມຕົ້ນດ້ວຍ \"/\". ແລະ ຫ້າມມີຍະຫວ່າງ."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:17001
 msgid "Label for the file system in this partition:"
-msgstr "ປ້າຍຊື່ສຳລັບລະບົບແຟັມໃນພາທິຊັນນີ້:"
+msgstr "ປ້າຍຊື່ສຳລັບລະບົບແຟ້ມໃນພາທິຊັນນີ້:"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:18001
 msgid "Format the swap area:"
-msgstr "ຟໍ່ແມັດພື້ນທີ່ສະຫຼັບ:"
+msgstr "ຟໍແມັດພື້ນທີ່ສະຫຼັບ:"
 
 #. Type: text
 #. Description
@@ -436,14 +438,14 @@ msgstr "ບໍ່ມີ"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:23001
 msgid "Reserved blocks:"
-msgstr "ບອ໋ດສະຫງວນ:"
+msgstr "ບລັອກສະຫງວນ:"
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:24001
 msgid "Percentage of the file system blocks reserved for the super-user:"
-msgstr "ເປີເຊັນຂອງບອ໋ດໃນລະບົບແຟັມທີ່ສະຫງວນໄວ້ສຳລັບຜູ້ເບີ່ງລະບົບ :"
+msgstr "ເປີເຊັນຂອງບລັອກໃນລະບົບແຟ້ມທີ່ສະຫງວນໄວ້ສຳລັບ super-user:"
 
 #. Type: text
 #. Description
@@ -481,7 +483,7 @@ msgstr "ການໃຊ້ງານປົກກະຕິຂອງພາທິຊ
 msgid ""
 "Please specify how the file system is going to be used, so that optimal file "
 "system parameters can be chosen for that use."
-msgstr "ກະລຸນາຊີ້ແຈ້ງວ່າແຟ້ມນີ້ຈະໃຊ້ງານແບບໃດ ເພື່ອຈະໄດ້ເລືອກພາຣາມິເຕີທີ່ເໝາະສົມກັບການໃຊ້ງານ."
+msgstr "ກະລຸນາລະບຸວ່າແຟ້ມນີ້ຈະໃຊ້ງານແບບໃດ ເພື່ອຈະໄດ້ເລືອກພາຣາມິເຕີທີ່ເໝາະສົມກັບການໃຊ້ງານ."
 
 #. Type: select
 #. Description
@@ -494,8 +496,8 @@ msgid ""
 "standard = standard parameters, news = one inode per 4KB block, largefile = "
 "one inode per megabyte, largefile4 = one inode per 4 megabytes."
 msgstr ""
-"ມາດຕະຖານ= ພາຮາມິເຕີມາດຕະຖານ , news = ໜື່ງ inode ຕໍ່ບຣອກ 4KB, largefile = ໜື່ງ inode "
-"ຕໍ່ເມກາໄບ້ທ໌, largefile4 = ໜື່ງ inode ຕໍ່ 4 ເມກາໄບ້ທ໌."
+"ມາດຕະຖານ = ພາຣາມິເຕີມາດຕະຖານ, news = ໜຶ່ງ inode ຕໍ່ 4KB ບລັອກ, largefile = ໜຶ່ງ inode "
+"ຕໍ່ເມກາໄບ, largefile4 = ໜຶ່ງ inode ຕໍ່ 4 ເມກາໄບ."
 
 #. Type: text
 #. Description
@@ -503,7 +505,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:28001
 msgid "Mount point:"
-msgstr "ຕຳແໜ່ງເມົາ:"
+msgstr "ຈຸດເມົາ:"
 
 #. Type: text
 #. Description
@@ -521,7 +523,7 @@ msgstr "ບໍ່ມີ"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:30001
 msgid "Ext2 file system"
-msgstr "ລະບົບແຟັມ ext2"
+msgstr "ລະບົບແຟ້ມ ext2"
 
 #. Type: text
 #. Description
@@ -536,7 +538,7 @@ msgstr "ext2"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:32001
 msgid "FAT16 file system"
-msgstr "ລະບົບແຟັມ FAT16"
+msgstr "ລະບົບແຟ້ມ FAT16"
 
 #. Type: text
 #. Description
@@ -551,7 +553,7 @@ msgstr "fat16"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:34001
 msgid "FAT32 file system"
-msgstr "ລະບົບແຟັມ FAT32"
+msgstr "ລະບົບແຟ້ມ FAT32"
 
 #. Type: text
 #. Description
@@ -565,9 +567,8 @@ msgstr "fat32"
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:36001
-#, fuzzy
 msgid "NTFS journaling file system"
-msgstr "ລະບົບແຟັມ journaling JFS"
+msgstr "ລະບົບແຟ້ມ journaling NTFS"
 
 #. Type: text
 #. Description
@@ -575,7 +576,7 @@ msgstr "ລະບົບແຟັມ journaling JFS"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:37001
 msgid "ntfs"
-msgstr ""
+msgstr "ntfs"
 
 #. Type: text
 #. Description
@@ -615,7 +616,7 @@ msgstr "ຕົວເລືອກການເມົາ:"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:43001
 msgid "Mount options can tune the behavior of the file system."
-msgstr " ຕົວເລືອກການເມົາສາມາດໃຊ້ປັບແຕ່ງການທຳງານຂອງລະບົບແຟັມ"
+msgstr "ຕົວເລືອກການເມົາສາມາດໃຊ້ປັບແຕ່ງການທຳງານຂອງລະບົບແຟ້ມ."
 
 #. Type: text
 #. Description
@@ -624,7 +625,7 @@ msgstr " ຕົວເລືອກການເມົາສາມາດໃຊ້�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:44001
 msgid "noatime - do not update inode access times at each access"
-msgstr "noatime - ບໍຕອ້ງປັບຄ່າເວລາເຂົ້າໃຊ້ inodeທຸກຄັ້ງທີ່ເຂົ້າໃຊ້"
+msgstr "noatime - ບໍ່ຕ້ອງອັບເດດເວລາເຂົ້າໃຊ້ inode ທຸກຄັ້ງທີ່ເຂົ້າໃຊ້"
 
 #. Type: text
 #. Description
@@ -632,9 +633,8 @@ msgstr "noatime - ບໍຕອ້ງປັບຄ່າເວລາເຂົ້�
 #. Note to translators: Please keep your translations of this string below
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:45001
-#, fuzzy
 msgid "nodiratime - do not update directory inode access times"
-msgstr "noatime - ບໍຕອ້ງປັບຄ່າເວລາເຂົ້າໃຊ້ inodeທຸກຄັ້ງທີ່ເຂົ້າໃຊ້"
+msgstr "nodiratime - ບໍ່ຕ້ອງອັບເດດເວລາເຂົ້າໃຊ້ inode ຂອງໄດເຣັກທໍຣີ"
 
 #. Type: text
 #. Description
@@ -643,7 +643,7 @@ msgstr "noatime - ບໍຕອ້ງປັບຄ່າເວລາເຂົ້�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:46001
 msgid "relatime - update inode access times relative to modify time"
-msgstr "relatime - ປັບຄ່າເວລາເຂົ້າໃຊ້ inodeໂດຍທຽບກັບເວລາທີ່ແກ້ໄຂ"
+msgstr "relatime - ປັບຄ່າເວລາເຂົ້າໃຊ້ inode ໂດຍທຽບກັບເວລາທີ່ແກ້ໄຂ"
 
 #. Type: text
 #. Description
@@ -652,7 +652,7 @@ msgstr "relatime - ປັບຄ່າເວລາເຂົ້າໃຊ້ inode�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:47001
 msgid "nodev - do not support character or block special devices"
-msgstr "nodev -  ບໍ່ຕອ້ງຮອງຮັບອຸປະກອນອັກຂະລະຫຼືອຸປະກອນບອ໋ດແບບພິເສດ"
+msgstr "nodev - ບໍ່ຕ້ອງຮອງຮັບອຸປະກອນອັກຂະລະ ຫຼື ອຸປະກອນບລັອກແບບພິເສດ"
 
 #. Type: text
 #. Description
@@ -661,7 +661,7 @@ msgstr "nodev -  ບໍ່ຕອ້ງຮອງຮັບອຸປະກອນອ
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:48001
 msgid "nosuid - ignore set-user-identifier or set-group-identifier bits"
-msgstr "nosuid - ບໍ່ໄຊ້ບິດ set-user-identifier ຫຼື set-group-identifier"
+msgstr "nosuid - ບໍ່ໃຊ້ບິດ set-user-identifier ຫຼື set-group-identifier"
 
 #. Type: text
 #. Description
@@ -670,7 +670,7 @@ msgstr "nosuid - ບໍ່ໄຊ້ບິດ set-user-identifier ຫຼື set-g
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:49001
 msgid "noexec - do not allow execution of any binaries"
-msgstr "noexec -   ບໍ່ອະນຸຍາດໃຫ້ເຂົ້າໃຊ້ໂປແກັຣມໃດໆ"
+msgstr "noexec - ບໍ່ອະນຸຍາດໃຫ້ເອີ້ນໃຊ້ໂປຣແກຣມໃດໆ"
 
 #. Type: text
 #. Description
@@ -679,7 +679,7 @@ msgstr "noexec -   ບໍ່ອະນຸຍາດໃຫ້ເຂົ້າໃຊ�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:50001
 msgid "ro - mount the file system read-only"
-msgstr "ro - ເມົາລະບົບແຟັມແບບອ່ານຢ່າງດຽວ"
+msgstr "ro - ເມົາລະບົບແຟ້ມແບບອ່ານໄດ້ຢ່າງດຽວ"
 
 #. Type: text
 #. Description
@@ -688,7 +688,7 @@ msgstr "ro - ເມົາລະບົບແຟັມແບບອ່ານຢ່�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:51001
 msgid "sync - all input/output activities occur synchronously"
-msgstr "sync - ການອ່ານ/ຂຽນເກີດພອ້ມກັບການປ່ຽນແປງໃນດິດສະເໝີ"
+msgstr "sync - ການອ່ານ/ຂຽນ ເກີດພ້ອມກັບການປ່ຽນແປງໃນດິສສະເໝີ"
 
 #. Type: text
 #. Description
@@ -697,7 +697,7 @@ msgstr "sync - ການອ່ານ/ຂຽນເກີດພອ້ມກັບ�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:52001
 msgid "usrquota - user disk quota accounting enabled"
-msgstr "usrquota -  ເປີດໃຊ້ການກຳນົດໂຄຕ້າສຳລັບບັນຊີຜູ້ໃຊ້"
+msgstr "usrquota - ເປີດໃຊ້ການກຳນົດໂຄຕ້າສຳລັບບັນຊີຜູ້ໃຊ້"
 
 #. Type: text
 #. Description
@@ -706,7 +706,7 @@ msgstr "usrquota -  ເປີດໃຊ້ການກຳນົດໂຄຕ້າ
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:53001
 msgid "grpquota - group disk quota accounting enabled"
-msgstr "grpquota -  ເປີດໃຊ້ການກຳນົດໂຄຕ້າສຳລັບກຸ່ມຜູ້ໃຊ້"
+msgstr "grpquota - ເປີດໃຊ້ການກຳນົດໂຄຕ້າສຳລັບກຸ່ມຜູ້ໃຊ້"
 
 #. Type: text
 #. Description
@@ -715,7 +715,7 @@ msgstr "grpquota -  ເປີດໃຊ້ການກຳນົດໂຄຕ້າ
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:54001
 msgid "user_xattr - support user extended attributes"
-msgstr "user_xattr -   ຮອງຮັບແອດທິບິວສວ່ນຂະຫຍາຍສຳລັບຜູ້ໃຊ້"
+msgstr "user_xattr - ຮອງຮັບແອດທິບິວສ່ວນຂະຫຍາຍສຳລັບຜູ້ໃຊ້"
 
 #. Type: text
 #. Description
@@ -724,7 +724,7 @@ msgstr "user_xattr -   ຮອງຮັບແອດທິບິວສວ່ນຂ
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:55001
 msgid "quiet - changing owner and permissions does not return errors"
-msgstr "quiet -  ການປ່ຽນການອະນຸຍາດສິດທິຫຼືເຈົ້າຂອງບໍ່ຄືນຄ່າຂໍ້ຜິດພາດ"
+msgstr "quiet - ການປ່ຽນການອະນຸຍາດສິດທິ ຫຼື ເຈົ້າຂອງ ບໍ່ສົ່ງຄືນຄ່າຂໍ້ຜິດພາດ"
 
 #. Type: text
 #. Description
@@ -733,7 +733,7 @@ msgstr "quiet -  ການປ່ຽນການອະນຸຍາດສິດທ
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:56001
 msgid "notail - disable packing of files into the file system tree"
-msgstr "notail -   ປິດການອັດແຟັມເຂົ້າໄປໃນໂຄງສ່າງລະບົບແຟັມ"
+msgstr "notail - ປິດການອັດແຟ້ມເຂົ້າໄປໃນໂຄງສ້າງລະບົບແຟ້ມ"
 
 #. Type: text
 #. Description
@@ -742,7 +742,7 @@ msgstr "notail -   ປິດການອັດແຟັມເຂົ້າໄປ�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:57001
 msgid "discard - trim freed blocks from underlying block device"
-msgstr ""
+msgstr "discard - ຕັດບລັອກທີ່ຫວ່າງອອກຈາກອຸປະກອນບລັອກພື້ນຖານ"
 
 #. Type: text
 #. Description
@@ -760,7 +760,7 @@ msgstr "acls - ຮອງຮັບ Access Control List ຕາມ POSIX.1e"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:59001
 msgid "shortnames - only use the old MS-DOS 8.3 style filenames"
-msgstr "shortnames -ໃຊ້ຊື່ແຟ້ມໃນແບບ 8.3 ແບບເກົ່າຂອງ MS-DOS ເທົ່ານັ້ນ"
+msgstr "shortnames - ໃຊ້ສະເພາະຊື່ໄຟລ໌ແບບເກົ່າ MS-DOS 8.3"
 
 #. Type: boolean
 #. Description
@@ -771,20 +771,19 @@ msgstr "shortnames -ໃຊ້ຊື່ແຟ້ມໃນແບບ 8.3 ແບບ�
 #: ../partman-basicfilesystems.templates:60001
 #: ../partman-basicfilesystems.templates:61001
 msgid "Go back to the menu and correct this problem?"
-msgstr "  ຍອ້ນກັບໄປທີ່ລາຍການເພື່ອແກ້ໄຂປັນຫານີ້ຫຼືບໍ່?"
+msgstr "ຍ້ອນກັບໄປທີ່ລາຍການເພື່ອແກ້ໄຂບັນຫານີ້ຫຼືບໍ່?"
 
 #. Type: boolean
 #. Description
 #. :sl5:
 #: ../partman-basicfilesystems.templates:60001
-#, fuzzy
 msgid ""
 "Your boot partition has not been configured with the ext2 file system. This "
 "is needed by your machine in order to boot. Please go back and use the ext2 "
 "file system."
 msgstr ""
-"ພາທິຊັນບູດຂອງເຈົ້າບໍ່ໄດ້ກຳນົດໄວ້ໃຫ້ເປັນລະບົບແຟັມ ext2ຫຼື ext3ຊື່ງຈຳເປັນສຳລັບການບູດເຄື່ອງຂອງ  "
-"ກະລຸນາຍອ້ນກັບໄປກຳນົດພາທິຊັນບູດໃຫ້ເປັນລະບົບແຟັມ  ext2 ຫຼື ext3"
+"ພາທິຊັນບູດຂອງທ່ານບໍ່ໄດ້ຖືກກຳນົດໃຫ້ເປັນລະບົບແຟ້ມ ext2. ເຄື່ອງຂອງທ່ານຕ້ອງການສິ່ງນີ້ເພື່ອບູດ. "
+"ກະລຸນາກັບຄືນໄປ ແລະ ໃຊ້ລະບົບແຟ້ມ ext2."
 
 #. Type: boolean
 #. Description
@@ -799,15 +798,17 @@ msgid ""
 "partition will be used as is. This means that you may not be able to boot "
 "from your hard disk."
 msgstr ""
-" ຖ້າເຈົ້າບໍ່ຍອ້ນກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນເພື່ອແກ້ໄຂຂໍ້ຜິດພາດນີ້ ລະບົບຈະໃຊ້ພາທິຊັນຕາມສະພາບທີ່ມັນເປັນ "
+"ຖ້າເຈົ້າບໍ່ຍ້ອນກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນເພື່ອແກ້ໄຂຂໍ້ຜິດພາດນີ້ ລະບົບຈະໃຊ້ພາທິຊັນຕາມສະພາບທີ່ມັນເປັນ. "
+"ນີ້ໝາຍຄວາມວ່າເຈົ້າອາດຈະບໍ່ສາມາດບູດຈາກຮາດດິສຂອງເຈົ້າໄດ້."
 
 #. Type: boolean
 #. Description
 #. :sl5:
 #: ../partman-basicfilesystems.templates:61001
-#, fuzzy
 msgid ""
 "Your boot partition is not located on the first partition of your hard disk. "
 "This is needed by your machine in order to boot.  Please go back and use "
 "your first partition as a boot partition."
-msgstr "ພາທິຊັນມາລີອັນແລກໃຫ້ເປັນພາທິຊັນບູດ"
+msgstr ""
+"ພາທິຊັນບູດຂອງທ່ານບໍ່ໄດ້ຕັ້ງຢູ່ໃນພາທິຊັນທຳອິດຂອງຮາດດິດ. ເຄື່ອງຂອງທ່ານຕ້ອງການສິ່ງນີ້ເພື່ອບູດ.  "
+"ກະລຸນາກັບຄືນໄປ ແລະ ໃຊ້ພາທິຊັນທຳອິດຂອງທ່ານເປັນພາທິຊັນບູດ."

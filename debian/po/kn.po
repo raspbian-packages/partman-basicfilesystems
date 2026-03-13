@@ -21,9 +21,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
-"POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2020-07-21 17:24+0000\n"
-"Last-Translator: Yogesh <yogesh@karnatakaeducation.org.in>\n"
+"POT-Creation-Date: 2025-08-22 20:02+0000\n"
+"PO-Revision-Date: 2026-01-13 12:12+0000\n"
+"Last-Translator: Prasannakumar T Bhat <pbhat99@gmail.com>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
 "MIME-Version: 1.0\n"
@@ -200,8 +200,8 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:11001
 msgid ""
-"No mount point is assigned for the ${FILESYSTEM} file system in partition #"
-"${PARTITION} of ${DEVICE}."
+"No mount point is assigned for the ${FILESYSTEM} file system in partition "
+"#${PARTITION} of ${DEVICE}."
 msgstr ""
 "${DEVICE}ನ #${PARTITION}ನೆ ವಿಭಜನೆಯಲ್ಲಿನ ${FILESYSTEM} ಕಡತ ವ್ಯವಸ್ಥೆಗೆ ಯಾವುದೇ "
 "ಏರುಬಿಂದುವನ್ನು ನೇಮಿಸಲಾಗಿಲ್ಲ."
@@ -275,7 +275,6 @@ msgstr "/home - ಬಳಕೆದಾರರ ಗೃಹ ಕಡತಕೋಶಗಳು"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 #, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
 msgstr "/tmp - ತಾತ್ಕಾಲಿಕ ಕಡತಗಳು"
 
@@ -455,6 +454,9 @@ msgid ""
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" relates to \"Label:\" ]"
 msgstr ""
+"ಯಾವುದೂ ಇಲ್ಲ[ ಬ್ರಾಕೆಟ್‌ಗಳ ಒಳಗೆ ಏನಿದೆ ಎಂಬುದನ್ನು ಅನುವಾದಿಸಬೇಡಿ ಮತ್ತು ಯಾವುದೇ "
+"ಬ್ರಾಕೆಟ್‌ಗಳಿಲ್ಲದೆ ನಿಮ್ಮ ಭಾಷೆಯಲ್ಲಿ \"ಯಾವುದೂ ಇಲ್ಲ\" ಪದದ ಅನುವಾದವನ್ನು ಇರಿಸಿ. ಈ \"ಯಾವುದೂ "
+"ಇಲ್ಲ\" \"ಲೇಬಲ್:\" ] ಗೆ ಸಂಬಂಧಿಸಿದೆ"
 
 #. Type: text
 #. Description
@@ -543,6 +545,9 @@ msgid ""
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" relates to \"Mount point:\" ]"
 msgstr ""
+"ಯಾವುದೂ ಇಲ್ಲ[ ಬ್ರಾಕೆಟ್‌ಗಳ ಒಳಗೆ ಏನಿದೆ ಎಂಬುದನ್ನು ಅನುವಾದಿಸಬೇಡಿ ಮತ್ತು ಯಾವುದೇ "
+"ಬ್ರಾಕೆಟ್‌ಗಳಿಲ್ಲದೆ ನಿಮ್ಮ ಭಾಷೆಯಲ್ಲಿ \"ಯಾವುದೂ ಇಲ್ಲ\" ಪದದ ಅನುವಾದವನ್ನು ಇರಿಸಿ. ಈ \"ಯಾವುದೂ "
+"ಇಲ್ಲ\" \"ಮೌಂಟ್ ಪಾಯಿಂಟ್:\" ಗೆ ಸಂಬಂಧಿಸಿದೆ"
 
 #. Type: text
 #. Description
@@ -771,7 +776,7 @@ msgstr "notail - ಕಡತಗಳನ್ನು ಕಡತ ವ್ಯವಸ್ಥೆ 
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:57001
 msgid "discard - trim freed blocks from underlying block device"
-msgstr ""
+msgstr "ತ್ಯಜಿಸಿ - ಆಧಾರವಾಗಿರುವ ಬ್ಲಾಕ್ ಸಾಧನದಿಂದ ಮುಕ್ತವಾದ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಟ್ರಿಮ್ ಮಾಡಿ"
 
 #. Type: text
 #. Description
