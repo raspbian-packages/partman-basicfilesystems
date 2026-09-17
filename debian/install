@@ -1,0 +1,6 @@
+fstab.d usr/lib/partman
+parted_names usr/lib/partman
+mountoptions usr/lib/partman
+select_mountpoint usr/bin
+select_mountoptions usr/bin
+get_mountoptions usr/bin
