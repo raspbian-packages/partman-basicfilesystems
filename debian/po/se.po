@@ -3,21 +3,22 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of se.po to Northern Saami
+# translation of se.po to Northern Saami - sublevel 1.
 #
 # Debian Installer master translation file template
 # Don't forget to properly fill-in the header of PO files#
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt#
 #
-# Børre Gaup <boerre@skolelinux.no>, 2006, 2010.
+# Børre Gaup <boerre@skolelinux.no>, 2002–2004, 2006, 2010.
+# Christopher Forster <aslakforster@gmail.com>, 2012–2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: se\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
-"POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2018-01-22 15:14+0000\n"
-"Last-Translator: Trond Trosterud <trond.trosterud@gmail.com>\n"
+"POT-Creation-Date: 2025-08-22 20:02+0000\n"
+"PO-Revision-Date: 2026-05-16 14:26+0200\n"
+"Last-Translator: Børre Gaup <boerre@skolelinux.no>\n"
 "Language-Team: Northern Sami <i18n-sme@lister.ping.uio.no>\n"
 "Language: se\n"
 "MIME-Version: 1.0\n"
@@ -156,9 +157,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:9001
-#, fuzzy
 msgid "Failed to create a file system"
-msgstr "Filtii sajáiduhttit vuođđovuogádaga"
+msgstr "Filtii ráhkadit fiilavuogádaga"
 
 #. Type: error
 #. Description
@@ -197,8 +197,8 @@ msgstr ""
 #: ../partman-basicfilesystems.templates:11001
 #, fuzzy
 msgid ""
-"No mount point is assigned for the ${FILESYSTEM} file system in partition #"
-"${PARTITION} of ${DEVICE}."
+"No mount point is assigned for the ${FILESYSTEM} file system in partition "
+"#${PARTITION} of ${DEVICE}."
 msgstr ""
 "Ii gávdno čadnanbáikki ext3-fiilavuogádahkii partišuvdnanr. ${PARTITION}:s "
 "${DEVICE}:s."
@@ -219,9 +219,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:12001
-#, fuzzy
 msgid "Invalid file system for this mount point"
-msgstr "Ođđa partišuvnna fiilavuogádat:"
+msgstr "Gustohis fiilavuogádat dán čatnanbáikái"
 
 #. Type: error
 #. Description
@@ -261,7 +260,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/home - user home directories"
-msgstr ""
+msgstr "/home - geavaheaddjiid ruoktoozut"
 
 #. Type: select
 #. Choices
@@ -281,7 +280,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/usr - static data"
-msgstr ""
+msgstr "/usr - statalaš dáhtat"
 
 #. Type: select
 #. Choices
@@ -291,7 +290,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/var - variable data"
-msgstr ""
+msgstr "/var - rievdadahtti dáhtat"
 
 #. Type: select
 #. Choices
@@ -311,7 +310,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/opt - add-on application software packages"
-msgstr ""
+msgstr "/opt - dáhtat liigeprográmmaide"
 
 #. Type: select
 #. Choices
@@ -321,7 +320,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/usr/local - local hierarchy"
-msgstr ""
+msgstr "/usr/local - báikkálaš hierarkiija"
 
 #. Type: select
 #. Choices
@@ -369,14 +368,14 @@ msgstr "Dán partišuvnna čatnanbáiki:"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:14001
 msgid "/dos"
-msgstr ""
+msgstr "/dos"
 
 #. Type: select
 #. Choices
 #. :sl2:
 #: ../partman-basicfilesystems.templates:14001
 msgid "/windows"
-msgstr ""
+msgstr "/windows"
 
 #. Type: error
 #. Description
@@ -389,9 +388,8 @@ msgstr "Gustohis čatnanbáiki"
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
-#, fuzzy
 msgid "The mount point you entered is invalid."
-msgstr "Ii ožžon oktavuođa gateway-čuhussii maid easka čállet."
+msgstr "Čatnanbáikki maid čállet ii gustto."
 
 #. Type: error
 #. Description
@@ -430,7 +428,7 @@ msgstr "juo"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:20001
 msgid "no"
-msgstr ""
+msgstr "ii"
 
 #. Type: text
 #. Description
@@ -438,7 +436,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:21001
 msgid "Label:"
-msgstr ""
+msgstr "Namma:"
 
 #. Type: text
 #. Description
@@ -472,9 +470,8 @@ msgstr ""
 #. :sl2:
 #. Up to 25 character positions
 #: ../partman-basicfilesystems.templates:25001
-#, fuzzy
 msgid "Typical usage:"
-msgstr "Mo dát partišuvdna dábálaččat geavahuvvo:"
+msgstr "Typalaš geavahus:"
 
 #. Type: text
 #. Description
@@ -547,9 +544,8 @@ msgstr "ii makkárge"
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:30001
-#, fuzzy
 msgid "Ext2 file system"
-msgstr "Galgamin fiilavuogádagaid ..."
+msgstr "Ext2-fiilavuogádat"
 
 #. Type: text
 #. Description
@@ -563,9 +559,8 @@ msgstr "ext2"
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:32001
-#, fuzzy
 msgid "FAT16 file system"
-msgstr "Galgamin fiilavuogádagaid ..."
+msgstr "FAT16-fiilavuogádat"
 
 #. Type: text
 #. Description
@@ -579,9 +574,8 @@ msgstr "fat16"
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:34001
-#, fuzzy
 msgid "FAT32 file system"
-msgstr "Galgamin fiilavuogádagaid ..."
+msgstr "FAT32-fiilavuogádat"
 
 #. Type: text
 #. Description
@@ -615,7 +609,7 @@ msgstr ""
 #: ../partman-basicfilesystems.templates:38001
 #: ../partman-basicfilesystems.templates:40001
 msgid "swap area"
-msgstr ""
+msgstr "swap oasi"
 
 #. Type: text
 #. Description
@@ -637,9 +631,8 @@ msgstr "swap"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:42001
 #: ../partman-basicfilesystems.templates:43001
-#, fuzzy
 msgid "Mount options:"
-msgstr "Čadnanbáiki:"
+msgstr "Čatnanmolssaeavttut:"
 
 #. Type: multiselect
 #. Description

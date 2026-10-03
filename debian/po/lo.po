@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: lo\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
 "POT-Creation-Date: 2025-08-22 20:02+0000\n"
-"PO-Revision-Date: 2025-11-28 05:02+0000\n"
+"PO-Revision-Date: 2026-03-30 21:09+0000\n"
 "Last-Translator: BoneNI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <lo@li.org>\n"
 "Language: lo\n"
@@ -599,7 +599,7 @@ msgstr "ພື້ນທີ່ສະຫຼັບ"
 #: ../partman-basicfilesystems.templates:39001
 #: ../partman-basicfilesystems.templates:41001
 msgid "swap"
-msgstr "swap"
+msgstr "ສະວັອບ"
 
 #. Type: text
 #. Description

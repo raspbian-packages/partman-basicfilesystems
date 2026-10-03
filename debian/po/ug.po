@@ -19,8 +19,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-basicfilesystems@packages.debian.org\n"
-"POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2025-06-22 09:21+0000\n"
+"POT-Creation-Date: 2025-08-22 20:02+0000\n"
+"PO-Revision-Date: 2026-05-11 08:46+0000\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: ug\n"
@@ -204,8 +204,8 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:11001
 msgid ""
-"No mount point is assigned for the ${FILESYSTEM} file system in partition #"
-"${PARTITION} of ${DEVICE}."
+"No mount point is assigned for the ${FILESYSTEM} file system in partition "
+"#${PARTITION} of ${DEVICE}."
 msgstr ""
 "${DEVICE} ئۈسكۈنىسىدىكى #${PARTITION} رايوندىكى ${FILESYSTEM} ھۆججەت "
 "سىستېمىسىغا ئېگەرلەش نۇقتىسى بېكىتمىدى."
@@ -626,7 +626,7 @@ msgstr "swap رايونى"
 #: ../partman-basicfilesystems.templates:39001
 #: ../partman-basicfilesystems.templates:41001
 msgid "swap"
-msgstr "swap"
+msgstr "ئالماشتۇرۇش"
 
 #. Type: text
 #. Description
